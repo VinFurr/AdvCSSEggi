@@ -1,4 +1,6 @@
 # AdvCSSEggi
+Our friendly group name: Eggi (a norwegian mountain fitting for our poem!)
+
 Text chosen: Egg Poem
 
 Separation of Concerns: 
