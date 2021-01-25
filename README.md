@@ -13,3 +13,4 @@ Separation of Concerns:
 
 
 Implementing BEM in our project
+- Use this cheatsheet: https://9elements.com/bem-cheat-sheet/#standard-blocks
