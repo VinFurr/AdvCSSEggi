@@ -17,20 +17,20 @@ p {
 footer{
   background-color: black;
   opacity: 0.8;
-  color: white;
 }
-.flexbox{
+.content__div--flexbox{
   display: flex;
   justify-content: flex-start;
 }
-.egg_box {
+.egg__box {
   width: 50%;
 }
 
-.poem_box {
+.poem__box {
   width: 50%;
 }
-.footer_text{
+.footer__text--style{
+  color: white;
   padding: 50px 0;
   font-size: 1.2em;
   margin: 0;
