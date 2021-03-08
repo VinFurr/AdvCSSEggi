@@ -37,6 +37,11 @@ footer{
   text-align: center;
 }
 
+.paragraph_span_block{
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+}
 @keyframes V2L1{/*Vincent*/
   0%     {transform: translate(0px,1000px);}
   50%    {transform: translate(0px,0px);}
@@ -48,6 +53,4 @@ footer{
 #v2l1{/*Vincent*/
   animation-duration: 5s;
   animation-name: V2L1;
-  margin-top: 5px;
-  margin-bottom: 0;
 }
