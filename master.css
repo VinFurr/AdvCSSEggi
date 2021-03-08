@@ -42,67 +42,95 @@ span{
   padding: 0 auto;
   display: inline-block;
 }
-@keyframes V2L1{/*Vincent*/
-  0%     {transform: translate(0px,0px);}
-  100%   {transform: translate(500px,0px);}
-}
-#verse2__line1--push{/*Vincent*/
-  animation-duration: 3s;
-  animation-name: V2L1;
-}
-@keyframes V2L3{/*Vincent*/
-  0%    {transform: translate(0px,0px);}
-  5%    {transform: translate(15px,10px);}
-  10%   {transform: translate(30px,0px);}
-  15%   {transform: translate(45px,10px);}
-  20%   {transform: translate(60px,0px);}
-  25%   {transform: translate(75px,10px);}
-  30%   {transform: translate(90px,0px);}
-  35%   {transform: translate(105px,10px);}
-  40%   {transform: translate(120px,0px);}
-  45%   {transform: translate(135px,10px);}
-  50%   {transform: translate(150px,0px);}
-  55%   {transform: translate(0px,0px);}
-  60%   {transform: translate(15px,10px);}
-  65%   {transform: translate(30px,0px);}
-  70%   {transform: translate(45px,10px);}
-  75%   {transform: translate(60px,0px);}
-  80%   {transform: translate(75px,10px);}
-  85%   {transform: translate(90px,0px);}
-  90%   {transform: translate(105px,10px);}
-  95%   {transform: translate(120px,0px);}
-  100%  {transform: translate(150px,0px);}
-}
-#verse2__line3--sneak{/*Vincent*/
-  animation-duration: 10s;
-  animation-name: V2L3;
-}
 
-/*verse 2 - animation "time"*/
-.verse2__word--right {
-    position: relative;
-    left: 30px;
-}
 
-.verse2__word--time {
-    animation-name: animate;
-    animation-duration: 0.8s;
-    transform-origin: 50% 50%;
-    animation-iteration-count: infinite;
-    -o-animation-timing-function: linear;
-    position: absolute;
-}
+/*ID or Classes for the animations.
+Please have a proper order to keep things organized. example: animation for
+verse 1 line 1 on top and verse 1 line 2 on second. do not have
+cerse 3 line 2 (ot something else) over...*/
 
-@keyframes animate {
-    0%   {transform: translate(2px, 1px)   rotate(0deg);}
-    10%  {transform: translate(-1px, -2px) rotate(-1deg);}
-    20%  {transform: translate(-3px, 0px)  rotate(1deg);}
-    30%  {transform: translate(0px, 2px)   rotate(0deg);}
-    40%  {transform: translate(1px, -1px)  rotate(1deg);}
-    50%  {transform: translate(-1px, -2px) rotate(-1deg);}
-    60%  {transform: translate(-3px, 1px)  rotate(0deg);}
-    70%  {transform: translate(2px, 1px)   rotate(-1deg);}
-    80%  {transform: translate(-1px, -1px) rotate(1deg);}
-    90%  {transform: translate(2px, 2px)   rotate(0deg);}
-    100% {transform: translate(1px, -2px)  rotate(0deg);}
-  }
+
+/*class or id for verse 1 under here*/
+/*keyframe or other animations for verse 1 under here*/
+/*end of Verse 1*/
+
+/*class or id for verse 2 under here*/
+    #verse2__line1--push{/*Vincent*/
+      animation-duration: 3s;
+      animation-name: V2L1;
+    }
+    .verse2__word--right {
+        position: relative;
+        left: 30px;
+    }
+    .verse2__word--time {
+        animation-name: animate;
+        animation-duration: 0.8s;
+        transform-origin: 50% 50%;
+        animation-iteration-count: infinite;
+        -o-animation-timing-function: linear;
+        position: absolute;
+    }
+    #verse2__line3--sneak{/*Vincent*/
+      animation-duration: 7s;
+      animation-name: V2L3;
+    }
+/*keyframe or other animations for verse 2 under here*/
+    @keyframes V2L1{/*Vincent*/
+      0%     {transform: translate(0px,0px);}
+      100%   {transform: translate(500px,0px);}
+    }
+    /*verse 2 - animation "time"*/
+    @keyframes animate {/*V2L2*/
+        0%   {transform: translate(2px, 1px)   rotate(0deg);}
+        10%  {transform: translate(-1px, -2px) rotate(-1deg);}
+        20%  {transform: translate(-3px, 0px)  rotate(1deg);}
+        30%  {transform: translate(0px, 2px)   rotate(0deg);}
+        40%  {transform: translate(1px, -1px)  rotate(1deg);}
+        50%  {transform: translate(-1px, -2px) rotate(-1deg);}
+        60%  {transform: translate(-3px, 1px)  rotate(0deg);}
+        70%  {transform: translate(2px, 1px)   rotate(-1deg);}
+        80%  {transform: translate(-1px, -1px) rotate(1deg);}
+        90%  {transform: translate(2px, 2px)   rotate(0deg);}
+        100% {transform: translate(1px, -2px)  rotate(0deg);}
+      }
+    @keyframes V2L3{/*Vincent*/
+      0%    {transform: translate(0px,0px);}
+      5%    {transform: translate(20px,10px);}
+      10%   {transform: translate(40px,0px);}
+      15%   {transform: translate(60px,10px);}
+      20%   {transform: translate(80px,0px);}
+      25%   {transform: translate(100px,10px);}
+      30%   {transform: translate(120px,0px);}
+      35%   {transform: translate(140px,10px);}
+      40%   {transform: translate(160px,0px);}
+      45%   {transform: translate(180px,10px);}
+      50%   {transform: translate(200px,0px);}
+      55%   {transform: translate(220px,10px);}
+      60%   {transform: translate(240px,0px);}
+      65%   {transform: translate(260px,10px);}
+      70%   {transform: translate(280px,0px);}
+      75%   {transform: translate(300px,10px);}
+      80%   {transform: translate(320px,0px);}
+      85%   {transform: translate(340px,10px);}
+      90%   {transform: translate(360px,0px);}
+      95%   {transform: translate(380px,10px);}
+      100%  {transform: translate(400px,0px);}
+    }
+/*end of Verse 2*/
+
+/*class or id for verse 3 under here*/
+/*keyframe or other animations for verse 3 under here*/
+/*end of Verse 3*/
+
+/*class or id for verse 4 under here*/
+/*keyframe or other animations for verse 4 under here*/
+/*end of Verse 4*/
+
+/*class or id for verse 5 under here*/
+/*keyframe or other animations for verse 5 under here*/
+/*end of Verse 5*/
+
+/*class or id for verse 6 under here*/
+/*keyframe or other animations for verse 6 under here*/
+/*end of Verse 6*/
