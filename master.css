@@ -37,10 +37,10 @@ footer{
   text-align: center;
 }
 
-.paragraph_span_block{
+.paragraph__span--inlineBlock{
   margin: 0 auto;
   padding: 0 auto;
-  display: block;
+  display: inline-block;
 }
 @keyframes V2L1{/*Vincent*/
   0%     {transform: translate(0px,1000px);}
