@@ -124,7 +124,59 @@ cerse 3 line 2 (ot something else) over...*/
 /*end of Verse 3*/
 
 /*class or id for verse 4 under here*/
+    /* eyes entering */
+    .verse__word--eyes2 {
+
+      animation: eyes-entering 1s step-end ;}
+    .verse__word--eyes3 {
+      animation: eyes-entering 2s step-end ;
+    }
+    /* verse 4 glowing */
+    .verse__4--p {
+      color: #fffaae;
+      text-shadow: 0 0 3px #fff023, 0 0 7px #fff238, 0 0 13px #ffbb00, 0 0 16px #ffbb00, 0 0 22px #ffbb00, 0 0 27px #ffbb00, 0 0 35px #ffbb00;
+    }
+    /* bending line animation */
+    .verse__line--bending {
+      position: absolute;
+      animation: bending 5s linear 3s ;
+    }
+    /* Growing line animation  */
+    .verse__word--growing {
+        position: relative;
+        animation: growing 5s ease-in 2s ;
+    }
+    .left-growing {
+          position: relative;
+          animation: left-growing 6s ease-in 2s;
+      }
+    .right-growing {
+          position: relative;
+          animation: right-growing 6s ease-in 2s;
+      }
+
 /*keyframe or other animations for verse 4 under here*/
+    @keyframes growing {
+      0%   { left:0px; top:0px; }
+      100% { left:-20px; top:0px; font-size: 250%;}
+    }
+    @keyframes left-growing {
+      0%   { left:0px; top:0px; }
+      100% { left:-20px; top:0px; }
+    }
+    @keyframes right-growing {
+      0%   { left:0; top:0px; }
+      100% { left:-20px; top:0px;  }
+    }
+    @keyframes bending {
+      0%   { transform: rotate(0deg); }
+
+      100% { transform: rotate(-5deg);}
+    }
+    @keyframes eyes-entering {
+      0%  { visibility: hidden; }
+      100% { visibility: visible; }
+    }
 /*end of Verse 4*/
 
 /*class or id for verse 5 under here*/
