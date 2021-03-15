@@ -120,62 +120,142 @@ cerse 3 line 2 (ot something else) over...*/
 /*end of Verse 2*/
 
 /*class or id for verse 3 under here*/
+/* O animation entering  */
+.verse__letter--o1 { 
+    animation: o-entering 2s step-end forwards ;
+}
+.verse__letter--o2 { 
+    animation: o-entering 2.4s step-end forwards;
+}
+.verse__letter--o3 { 
+    animation: o-entering 2.8s step-end forwards;
+}
+.verse__letter--o4 { 
+    animation: o-entering 3.2s step-end forwards;
+}
+.verse__letter--o5 { 
+    animation: o-entering 3.6s step-end forwards;
+}
+.verse__letter--o6 { 
+    animation: o-entering 4s step-end forwards;
+}
+.verse__letter--o7 { 
+    animation: o-entering 4.4s step-end forwards;
+}
+.verse__letter--o8 { 
+    animation: o-entering 4.8s step-end forwards;
+}
+.verse__letter--o9 { 
+    animation: o-entering 5.2s step-end forwards;
+}
+.verse__letter--o10 { 
+    animation: o-entering 5.6s step-end forwards;
+}
+.verse__letter--o11 { 
+    animation: o-entering 6s step-end forwards;
+}
+.verse__letter--o12 { 
+    animation: o-entering 6.4s step-end forwards;
+}
+.verse__letter--o13 { 
+    animation: o-entering 6.8s step-end forwards;
+}
+.verse__letter--o14 { 
+    animation: o-entering 7.2s step-end forwards;
+}
+.verse__letter--o15 { 
+    animation: o-entering 7.6s step-end forwards;
+}
+.verse__letter--o16 { 
+    animation: o-entering 8.0s step-end forwards;
+}
+
+/* words on the right of long moving to the right */
+.verse_letter--oright {
+    position: relative;
+    animation: words-right-of-o 6.5s linear 1.6s forwards;
+    left: -515px;
+}
+
+
 /*keyframe or other animations for verse 3 under here*/
+
+@keyframes o-entering {
+    0%  { visibility: hidden; }
+    100% { visibility: visible; }
+}
+
+@keyframes words-right-of-o { 
+    0%  { left: -515px; }
+    100% { left: 0px }
+}
 /*end of Verse 3*/
 
 /*class or id for verse 4 under here*/
     /* eyes entering */
-    .verse__word--eyes2 {
+/* eyes entering */
+.verse__word--eyes2 { 
+    
+  animation: eyes-entering 1s step-end ;}
 
-      animation: eyes-entering 1s step-end ;}
-    .verse__word--eyes3 {
-      animation: eyes-entering 2s step-end ;
-    }
-    /* verse 4 glowing */
-    .verse__4--p {
-      color: #fffaae;
-      text-shadow: 0 0 3px #fff023, 0 0 7px #fff238, 0 0 13px #ffbb00, 0 0 16px #ffbb00, 0 0 22px #ffbb00, 0 0 27px #ffbb00, 0 0 35px #ffbb00;
-    }
-    /* bending line animation */
-    .verse__line--bending {
-      position: absolute;
-      animation: bending 5s linear 3s ;
-    }
-    /* Growing line animation  */
-    .verse__word--growing {
-        position: relative;
-        animation: growing 5s ease-in 2s ;
-    }
-    .left-growing {
-          position: relative;
-          animation: left-growing 6s ease-in 2s;
-      }
-    .right-growing {
-          position: relative;
-          animation: right-growing 6s ease-in 2s;
-      }
+.verse__word--eyes3 {
+  
+  animation: eyes-entering 2s step-end ;
+}
+/* verse 4 glowing */
+
+.verse__4--p { 
+  color: #fffaae;
+  text-shadow: 0 0 3px #fff023, 0 0 7px #fff238, 0 0 13px #ffbb00, 0 0 16px #ffbb00, 0 0 22px #ffbb00, 0 0 27px #ffbb00, 0 0 35px #ffbb00;
+}
+
+/* bending line animation */
+.verse__line--bending {
+  position: absolute;
+  animation: bending 4s linear 3s forwards;
+}
+
+/* Growing line animation  */
+
+ .verse__word--growing {
+    position: relative;
+    animation: growing 5s ease-in 2s forwards;
+  }
+
+  .left-growing { 
+      position: relative;
+      animation: left-growing 5s ease-in 2s forwards;
+  }
+
+  .right-growing { 
+      position: relative;
+      animation: right-growing 5s ease-in 2s forwards;
+  }
 
 /*keyframe or other animations for verse 4 under here*/
     @keyframes growing {
-      0%   { left:0px; top:0px; }
-      100% { left:-20px; top:0px; font-size: 250%;}
+    0%   { left:0px; top:0px; }
+    100% { left:-20px; top:0px; font-size: 250%;}
     }
-    @keyframes left-growing {
-      0%   { left:0px; top:0px; }
-      100% { left:-20px; top:0px; }
-    }
-    @keyframes right-growing {
-      0%   { left:0; top:0px; }
-      100% { left:-20px; top:0px;  }
-    }
-    @keyframes bending {
-      0%   { transform: rotate(0deg); }
 
-      100% { transform: rotate(-5deg);}
+  @keyframes left-growing {
+    0%   { left:0px; top:0px; }
+    100% { left:-20px; top:0px; }
     }
-    @keyframes eyes-entering {
-      0%  { visibility: hidden; }
-      100% { visibility: visible; }
+
+  @keyframes right-growing {
+    0%   { left:0; top:0px; }
+    100% { left:-20px; top:0px;  }
+     }
+
+  @keyframes bending {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(-5deg);}
+     }
+
+  @keyframes eyes-entering {
+    0%  { visibility: hidden; }
+    100% { visibility: visible; }
     }
 /*end of Verse 4*/
 
@@ -184,5 +264,53 @@ cerse 3 line 2 (ot something else) over...*/
 /*end of Verse 5*/
 
 /*class or id for verse 6 under here*/
+.verse__6--p {
+  font-size: 4em;
+  animation: hidden 1s step-end forwards;
+}
+
+.verse__word--scary {
+  animation: scary 2s linear forwards 1s;
+}
+
+
 /*keyframe or other animations for verse 6 under here*/
+@keyframes scary {
+  0% {visibility: visible; color: black;}
+  100% {visibility: visible; color: red;}
+}
+
+@keyframes hidden {
+  0% { visibility: inherit;}
+  100% {visibility: hidden;}
+}
+
+@keyframes flickering {
+  0% {background-color: white;}
+  20.1% {background-color: rgb(0, 0, 0);}
+  20.6% {background-color: white;}
+  30% {background-color: white;}
+  30.1% {background-color: rgb(0, 0, 0);}
+  30.5% {background-color: rgb(0, 0, 0);}
+  30.6% {background-color: white;}
+  45% {background-color: white;}
+  45.1% {background-color: rgb(0, 0, 0);}
+  55% {background-color: rgb(0, 0, 0);}
+  55.1% {background-color: white;}
+  57% {background-color: white;} 
+  57.1% { background-color: rgb(0, 0, 0);}
+  60% {background-color: rgb(0, 0, 0);}
+  60.1% { background-color: white;}
+  65% {background-color: white;}
+  65.1% {background-color: rgb(0, 0, 0);}
+  75% {background-color: rgb(0, 0, 0);}
+  75.1% {background-color: white;}
+  77% {background-color: white;}
+  77.1% {background-color: rgb(0, 0, 0);}
+  85% {background-color: rgb(0, 0, 0);}
+  85.1% { background-color: white;}
+  86% {background-color: white;}
+  86.1% {background-color: rgb(0, 0, 0);}
+  100% {background-color: rgb(0, 0, 0);}
+}
 /*end of Verse 6*/
