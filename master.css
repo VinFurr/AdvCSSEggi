@@ -260,8 +260,35 @@ cerse 3 line 2 (ot something else) over...*/
 /*end of Verse 4*/
 
 /*class or id for verse 5 under here*/
+.verse__5--upside-down{
+  animation-name: rotation;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
 /*keyframe or other animations for verse 5 under here*/
+@keyframes rotation{
+  0%{
+  transform: rotate(0deg); 
+   }
+
+  20%{
+     transform: rotate(180deg)
+  }
+  40%{
+  transform: rotate(180deg)
+  }
+  60%{
+      transform: rotate(180deg)
+  }
+  80%{
+  transform: rotate(180deg)
+  }
+  100 %{
+      transform: rotate(180deg)
+  }
+}
 /*end of Verse 5*/
+
 
 /*class or id for verse 6 under here*/
 .verse__6--p {
