@@ -51,7 +51,33 @@ cerse 3 line 2 (ot something else) over...*/
 
 
 /*class or id for verse 1 under here*/
+#verse1__line1--up{
+  animation-duration: 3s;
+  animation-name: V1L1;
+}
+#verse1__line2--up{
+  animation-delay: 3s;
+  animation-duration: 3s;
+  animation-name: V1L2;
+}
+#verse1__line3--up{
+  animation-delay: 6s;
+  animation-duration: 3s;
+  animation-name: V1L3;
+}
 /*keyframe or other animations for verse 1 under here*/
+@keyframes V1L1 {
+  0%     {transform: translate(0px,500px);}
+  100%   {transform: translate(0px,0px);}
+}
+@keyframes V1L2 {
+  0%     {transform: translate(0px,500px);}
+  100%   {transform: translate(0px,0px);}
+}
+@keyframes V1L3 {
+  0%     {transform: translate(0px,500px);}
+  100%   {transform: translate(0px,0px);}
+}
 /*end of Verse 1*/
 
 /*class or id for verse 2 under here*/
@@ -121,52 +147,52 @@ cerse 3 line 2 (ot something else) over...*/
 
 /*class or id for verse 3 under here*/
 /* O animation entering  */
-.verse__letter--o1 { 
+.verse__letter--o1 {
     animation: o-entering 2s step-end forwards ;
 }
-.verse__letter--o2 { 
+.verse__letter--o2 {
     animation: o-entering 2.4s step-end forwards;
 }
-.verse__letter--o3 { 
+.verse__letter--o3 {
     animation: o-entering 2.8s step-end forwards;
 }
-.verse__letter--o4 { 
+.verse__letter--o4 {
     animation: o-entering 3.2s step-end forwards;
 }
-.verse__letter--o5 { 
+.verse__letter--o5 {
     animation: o-entering 3.6s step-end forwards;
 }
-.verse__letter--o6 { 
+.verse__letter--o6 {
     animation: o-entering 4s step-end forwards;
 }
-.verse__letter--o7 { 
+.verse__letter--o7 {
     animation: o-entering 4.4s step-end forwards;
 }
-.verse__letter--o8 { 
+.verse__letter--o8 {
     animation: o-entering 4.8s step-end forwards;
 }
-.verse__letter--o9 { 
+.verse__letter--o9 {
     animation: o-entering 5.2s step-end forwards;
 }
-.verse__letter--o10 { 
+.verse__letter--o10 {
     animation: o-entering 5.6s step-end forwards;
 }
-.verse__letter--o11 { 
+.verse__letter--o11 {
     animation: o-entering 6s step-end forwards;
 }
-.verse__letter--o12 { 
+.verse__letter--o12 {
     animation: o-entering 6.4s step-end forwards;
 }
-.verse__letter--o13 { 
+.verse__letter--o13 {
     animation: o-entering 6.8s step-end forwards;
 }
-.verse__letter--o14 { 
+.verse__letter--o14 {
     animation: o-entering 7.2s step-end forwards;
 }
-.verse__letter--o15 { 
+.verse__letter--o15 {
     animation: o-entering 7.6s step-end forwards;
 }
-.verse__letter--o16 { 
+.verse__letter--o16 {
     animation: o-entering 8.0s step-end forwards;
 }
 
@@ -185,7 +211,7 @@ cerse 3 line 2 (ot something else) over...*/
     100% { visibility: visible; }
 }
 
-@keyframes words-right-of-o { 
+@keyframes words-right-of-o {
     0%  { left: -515px; }
     100% { left: 0px }
 }
@@ -194,17 +220,17 @@ cerse 3 line 2 (ot something else) over...*/
 /*class or id for verse 4 under here*/
     /* eyes entering */
 /* eyes entering */
-.verse__word--eyes2 { 
-    
+.verse__word--eyes2 {
+
   animation: eyes-entering 1s step-end ;}
 
 .verse__word--eyes3 {
-  
+
   animation: eyes-entering 2s step-end ;
 }
 /* verse 4 glowing */
 
-.verse__4--p { 
+.verse__4--p {
   color: #fffaae;
   text-shadow: 0 0 3px #fff023, 0 0 7px #fff238, 0 0 13px #ffbb00, 0 0 16px #ffbb00, 0 0 22px #ffbb00, 0 0 27px #ffbb00, 0 0 35px #ffbb00;
 }
@@ -222,12 +248,12 @@ cerse 3 line 2 (ot something else) over...*/
     animation: growing 5s ease-in 2s forwards;
   }
 
-  .left-growing { 
+  .left-growing {
       position: relative;
       animation: left-growing 5s ease-in 2s forwards;
   }
 
-  .right-growing { 
+  .right-growing {
       position: relative;
       animation: right-growing 5s ease-in 2s forwards;
   }
@@ -324,7 +350,7 @@ cerse 3 line 2 (ot something else) over...*/
   45.1% {background-color: rgb(0, 0, 0);}
   55% {background-color: rgb(0, 0, 0);}
   55.1% {background-color: white;}
-  57% {background-color: white;} 
+  57% {background-color: white;}
   57.1% { background-color: rgb(0, 0, 0);}
   60% {background-color: rgb(0, 0, 0);}
   60.1% { background-color: white;}
