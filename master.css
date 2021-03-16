@@ -52,18 +52,21 @@ cerse 3 line 2 (ot something else) over...*/
 
 /*class or id for verse 1 under here*/
 #verse1__line1--up{
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-name: V1L1;
+  animation-fill-mode: backwards;
 }
 #verse1__line2--up{
-  animation-delay: 3s;
-  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-duration: 1s;
   animation-name: V1L2;
+  animation-fill-mode: backwards;
 }
 #verse1__line3--up{
-  animation-delay: 6s;
-  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-duration: 1s;
   animation-name: V1L3;
+  animation-fill-mode: backwards;
 }
 /*keyframe or other animations for verse 1 under here*/
 @keyframes V1L1 {
@@ -294,7 +297,7 @@ cerse 3 line 2 (ot something else) over...*/
 /*keyframe or other animations for verse 5 under here*/
 @keyframes rotation{
   0%{
-  transform: rotate(0deg); 
+  transform: rotate(0deg);
    }
 
   20%{
