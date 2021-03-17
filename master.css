@@ -106,8 +106,15 @@ cerse 3 line 2 (ot something else) over...*/
         animation-delay: 5s;
         animation-fill-mode: forwards;
     }
+   .verse2__svg{
+      position: relative;
+      left: 65%;
+      top:-1em;
+    }
     
-   
+   #our-text{
+      z-index: -100;
+    }
 /*keyframe or other animations for verse 2 under here*/
     @keyframes V2L1{/*Vincent*/
       0%     {transform: translate(0px,0px);}
@@ -127,10 +134,12 @@ cerse 3 line 2 (ot something else) over...*/
         90%  {transform: translate(2px, 2px)   rotate(0deg);}
         100% {transform: translate(1px, -2px)  rotate(0deg);}
       }
- @keyframes fadeIn {
+     @keyframes fadeIn {
         from { opacity: 1; }
         to { opacity: 0; }
-    }
+      }
+
+
 /*end of Verse 2*/
 
 /*class or id for verse 3 under here*/
