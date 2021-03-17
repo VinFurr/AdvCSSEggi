@@ -214,10 +214,19 @@ cerse 3 line 2 (ot something else) over...*/
   animation-iteration-count: infinite;
   animation
 }
-#verse3__snakeTailImage--size{
+#verse3__snakeTailImage--sizeAndEnterance{
   height: 200px;
   width: 200px;
+  position: absolute;
+  right: 0;
+  margin: 100px 0 100px 100px;
+
+    animation-duration: 1s;
+    animation-name: V3Img;
+    animation-fill-mode: backwards;
+
 }
+
 
 
 /*keyframe or other animations for verse 3 under here*/
@@ -230,6 +239,10 @@ cerse 3 line 2 (ot something else) over...*/
 @keyframes words-right-of-o {
     0%  { left: -515px; }
     100% { left: 0px }
+}
+@keyframes V3Img {
+  0%     {transform: translate(100px,0px);}
+  100%   {transform: translate(0px,0px);}
 }
 @keyframes shake {
   0% { transform: translate(25px, 0px) rotate(1deg); }
