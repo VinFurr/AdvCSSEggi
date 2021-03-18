@@ -84,7 +84,7 @@ cerse 3 line 2 (ot something else) over...*/
 /*end of Verse 1*/
 
 /*class or id for verse 2 under here*/
-    #verse2__line1--push{/*Vincent*/
+    .verse2__line1--push{/*Vincent*/
       animation-duration: 3s;
       animation-name: V2L1;
     }
