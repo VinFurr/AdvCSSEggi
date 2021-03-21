@@ -111,7 +111,7 @@ cerse 3 line 2 (ot something else) over...*/
       left: 65%;
       top:-1em;
     }
-    
+
    #our-text{
       z-index: -100;
     }
@@ -403,3 +403,9 @@ cerse 3 line 2 (ot something else) over...*/
   100% {background-color: rgb(0, 0, 0);}
 }
 /*end of Verse 6*/
+
+/*css endirng for mobil*/
+@media screen and (max-width:720px){
+
+  
+}
