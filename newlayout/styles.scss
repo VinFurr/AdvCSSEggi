@@ -102,7 +102,7 @@
 
 /* Dråpe animasjon */
 .verse__5--drop {
-    animation: move 1.5s cubic-bezier(.1, .04, .74, .2) infinite;
+    animation: move 1.5s linear infinite;
     position: absolute;
     transform: translate(100%, 800%);
 }
