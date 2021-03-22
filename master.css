@@ -24,6 +24,7 @@ footer{
 }
 .egg__box {
   width: 50%;
+  background-color: yellow;
 }
 
 .poem__box {
@@ -406,6 +407,21 @@ cerse 3 line 2 (ot something else) over...*/
 
 /*css endirng for mobil*/
 @media screen and (max-width:720px){
+  .content__div--flexbox{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .egg__box {
+    width: 100%;
+    background-color: yellow;
+    position: fixed;
+    z-index: 1;
+  }
 
-  
+  .poem__box {
+    width: 100%;
+    z-index: 0;
+  }
+
 }
