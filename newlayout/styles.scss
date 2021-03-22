@@ -1,0 +1,24 @@
+.egg-poem {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 0px 0px;
+    grid-template-areas:
+      "intro-egg intro-egg"
+      "egg-cracking verse__1"
+      "egg-cracking verse__2"
+      "egg-cracking verse__3"
+      "egg-cracking verse__4"
+      "egg-cracking verse__5"
+      "egg-cracking verse__6"
+      "credits credits";
+  }
+  .intro-egg { grid-area: intro-egg; }
+  .verse__1 { grid-area: verse__1; }
+  .verse__2 { grid-area: verse__2; }
+  .verse__3 { grid-area: verse__3; }
+  .verse__4 { grid-area: verse__4; }
+  .verse__5 { grid-area: verse__5; }
+  .verse__6 { grid-area: verse__6; }
+  .egg-cracking { grid-area: egg-cracking; }
+  .credits { grid-area: credits; }
