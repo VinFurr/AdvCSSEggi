@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <title>Eggi</title>
-  <link rel="stylesheet" href="./master.css">
+  <link rel="stylesheet" href="./styles.scss">
 </head>
 <body>
     <div class="egg-poem">
-        <div class="Intro-egg"></div>
+        <div class="intro-egg"></div>
         <div class="verse__1">
           <p>
             <span id="verse1__line1--up">I won't always be</span><br>
@@ -16,40 +16,42 @@
             <span id="verse1__line3--up">I've hatched a brilliant plan.</span>
           </p>
         </div>
-        <div class="verse__2">
+      
+      <div class="verse__2">
        <p>
-            <span>I'll </span> <span class="verse2__line1--push">push my way out</span><br>
-            <span>when the <span class="verse2__word--time">time</span><span class="verse2__word--right"> is just right,</span></span><br>
-            <span>and see what sort of </span>
-                <svg class="verse2__creature--svg" width="199.8" height="50.2" viewBox="0 0 199.8 50.2" overflow="visible">
-                    <path id="our-text" d="M0 1l11-1c5 0 7 1 8 2 6 4 4 16 10 29 1 2 6 14 13 15 11 3 15-25 27-28 14-4 19 30 36 32s21-31 39-31c19 0 27 34 41 27 8-3 12-16 15-25"
-                    fill="none" stroke="none" stroke-width=".3" stroke-miterlimit="10"/>
-                    <text>
-                        <textpath  xlink:href="#our-text">
+          <span>I'll </span> <span class="verse2__line1--push">push my way out</span><br>
+          <span>when the <span class="verse2__word--time">time</span><span class="verse2__word--right"> is just right,</span></span><br>
+          <span>and see what sort of </span>
+          <svg class="verse2__creature--svg" width="199.8" height="50.2" viewBox="0 0 199.8 50.2" overflow="visible">
+            <path id="our-text" d="M0 1l11-1c5 0 7 1 8 2 6 4 4 16 10 29 1 2 6 14 13 15 11 3 15-25 27-28 14-4 19 30 36 32s21-31 39-31c19 0 27 34 41 27 8-3 12-16 15-25"
+            fill="none" stroke="none" stroke-width=".3" stroke-miterlimit="10"/>
+                <text>
+                 <textpath  xlink:href="#our-text">
                             creature
 
-                            <animate attributeName="startOffset" from="0%" to ="100%" begin="5s"
-                            dur="14s" repeatCount="indefinite" keyTimes="0;1" calcMode="spline" keySplines="0.1 0.2 .22 1"/>
-                        </textpath>
-                    </text>
-
-
+                <animate attributeName="startOffset" from="0%" to ="100%" begin="5s"
+                 dur="14s" repeatCount="indefinite" keyTimes="0;1" calcMode="spline" keySplines="0.1 0.2 .22 1"/>
+                 </textpath>
+                 </text>
                 </svg>
-
-                <span> <span class="verse2__creature--hidden">creature</span> I am</span>
-            </p>
+           <span> <span class="verse2__creature--hidden">creature</span> I am</span>
+           </p>
         </div>
-        <div class="verse__3">
-          <p>
-            <span>I bet I'll have fangs</span><br>
-            <span class="verse__word--long">and a lo<span class="verse__letter--o1">o</span><span class="verse__letter--o2">o</span><span
-              class="verse__letter--o3">o</span><span class="verse__letter--o4">o</span><span class="verse__letter--o5">o</span><span
-              class="verse__letter--o6">o</span><span class="verse__letter--o7">o</span><span class="verse__letter--o8">o</span><span
-              class="verse__letter--o9">o</span><span class="verse__letter--o10">o</span><span class="verse__letter--o11">o</span><span
-              class="verse__letter--o12">o</span><span class="verse__letter--o13">o</span><span class="verse__letter--o14">o</span><span
-              class="verse__letter--o15">o</span><span class="verse__letter--o16">o</span><span class="verse_letter--oright">ng, slimy tail</span></span><br>
-           <span>that rattles when I get upset.</span>
-         </p>
+       <div class="verse__3"> 
+       <img class="fangs-top" src="/fangs-top.svg" alt="White top fangs">
+        <p>
+         <span class="verse__word--fangs">I bet I'll have fangs</span><br>
+         <span class="verse__word--long">and a lo<span class="verse__letter--o1">o</span><span class="verse__letter--o2">o</span>
+         <span class="verse__letter--o3">o</span><span class="verse__letter--o4">o</span><span class="verse__letter--o5">o</span>
+         <span class="verse__letter--o6">o</span><span class="verse__letter--o7">o</span><span class="verse__letter--o8">o</span>
+         <span class="verse__letter--o9">o</span><span class="verse__letter--o10">o</span><span class="verse__letter--o11">o</span>
+         <span class="verse__letter--o12">o</span><span class="verse__letter--o13">o</span><span class="verse__letter--o14">o</span>
+         <span class="verse__letter--o15">o</span><span class="verse__letter--o16">o</span><span class="verse_letter--oright">ng, slimy tail</span></span><br>
+         <span class ="verse__word--rattels">that rattles when I get upset.</span>
+        </p> 
+        <img class="fangs-bottom"src="/fangs-bottom.svg" alt="White fangs bottom">
+    </div>
+          
          <svg xmlns="http://www.w3.org/2000/svg" id="verse3__snakeTailImage--sizeAndEnterance" width="1927.7" height="1846.7" viewBox="0 0 1445.8 1385">
            <defs>
              <style>
@@ -524,20 +526,23 @@
              transform="translate(-205 -377)"/></g>
          </svg>
        </div>
-        <div class="verse__4">
-          <p class=verse__4--p>
-            <span class="verse__line--bending">My three glowing <span class="verse__word--eyes1">eyes</span> <span class="verse__word--eyes2">eyes</span> <span class="verse__word--eyes3">eyes</span> <br>
-            <span class="verse__line--bending">will sit nicely beside</span><br>
-            <span class="verse__line--growing"><span class="left-growing">the horn</span>
-            <span class="verse__word--growing">growing</span> <span class="right-growing">of my head</span></span>
-         </p>
-       </div>
-        <div class="verse__5">
+      
+       <div class="verse__4">
+         <p class=verse__4--p>
+          <span class="verse__line--bending">My three glowing <span class="verse__word--eyes1">eyes</span> <span class="verse__word--eyes2">eyes</span> <span class="verse__word--eyes3">eyes</span> <br>
+          <span class="verse__line--bending">will sit nicely beside</span><br>
+          <span class="verse__line--growing"><span class="left-growing">the horn</span>
+           <span class="verse__word--growing">growing</span> <span class="right-growing">of my head</span></span>
+        </p>
+     </div>
+      
+       <div class="verse__5">
           <p class="verse__5--upside-down">
             <span>I'll hang upside-down</span><br>
             <span>dripping poisonous goo</span><br>
             <span>from the tips of my eight, hairy legs.</span>
           </p>
+         
           <div class="verse__5--drop">
                     <svg width="5%" viewbox="0 0 30 42">
                         <path fill="#000" stroke="transparent" d="M15 3
@@ -545,17 +550,37 @@
                                 A12.8 12.8 0 1 1 5 18
                                 Q13.5 6.8 15 3z" />
                     </svg>
-                </div>
+            </div>
         </div>
+      
+      
         <div class="verse__6">
-          <p class="verse__6--p">
-            <span>I can't wait to see</span><br>
-            <span>just how <span class="verse__word--scary">scary</span> I'll be</span><br>
-            <span>when I finally get out of this egg!</span>
-          </p>
+        <p class="verse__6--p">
+          <span>I can't wait to see</span><br>
+          <span>just how <span class="verse__word--scary">scary</span> I'll be</span><br>
+          <span>when I finally get out of this egg!</span>
+        </p>
+      </div>
+      
+      
+       <div class="egg-cracking">
+        <div class="egg">
+        <svg class="egg-cracks" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 123.57 173.74">
+          <path class="cracking--1" d="M62.31.36L46.79 15.38l18.84 10.1-18.84 20.14"/>
+          <path class="cracking--2" d="M58.48 3.36l21.21 9.94 6.8 23.11" id="crack-2"/>
+          <path class="cracking--3" d="M290.08 316.67l10.07-21.25s10.49 5.15 9.12 5.38 6.15-24.34 6.15-24.34" transform="translate(-217.3 -143.15)"/>
+          <path class="cracking--4" d="M80.48 157.54l-33.29-7.59 5.83-16.81-21.37-11.92" />
+          <path class="cracking--5" d="M71.34 155.41l-2.36-31.17 18.1-11.97 1.34-16.3M57.48 34.15l17.25 19.09-12.9 15.56 11.73 14.94"/>
+          <path class="cracking--5-2" d="M79.63 116.69l-8.76-11.38" />
+          <path class="cracking--6" d="M48.74 172.3l11.61-11.61-2.76-8.23M117.54 145.98l-19.41-12.66M123.3 135.53l-12.81-8.2-5.19-20.05 11.17-8.67-7.3-12.89M18.04 155.41l1.52-21.64 27.63 16.18M.11 101.01l24.73 5.65-13.8 17.98L.9 122.22M7.19 69.68l12 10.31-3.54 9.5 19.27 11.57 14.37-6.44 21.64 10.51M10.89 59.37l16.9-8.02 7.53 17.03 26.51.42M30.87 21.88l3.63 12.27 12.29 11.47"/>
+          <path class="cracking--6" d="M118.95 62.75l-17.97 8.44-7.42 12.91-7.42-9.61-12.58 9.25-24.27 10.88"/>
+          <path class="cracking--6" d="M110.39 42.6l-1.71 1.82-14.27 15.24 6.57 11.53M86.49 36.41l22.19 8.01M94.41 17.61l-11.5 5.38"/>
+          <path class="cracking--6-2" d="M94.79 39.08L74.73 53.24M112.23 66.38l10.03 15.28-9.34 10.67M109.17 85.72L88.42 95.97M95.07 145.29l-12.66-10.68-12.34 8.65M19.56 133.77l1.01-7.67-9.51-1.54M31.65 121.22l3.27-20.16M.71 101.15L11.7 97.2l3.95-7.71M27.78 51.35l9.26-14.27"/>
+        </svg>
         </div>
-        <div class="egg-cracking"></div>
-        <div class="Credits"></div>
+     </div>
+  
+      <div class="Credits"></div>
       </div>
 </body>
 </html>
