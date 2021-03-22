@@ -15,20 +15,11 @@
   }
   .intro-egg { grid-area: intro-egg; }
   .verse__1 { grid-area: verse__1; }
-  .verse__2 { grid-area: verse__2; }
+  .verse__2 { 
+    grid-area: verse__2; 
+    position: relative;
+  }
 
-    .verse2__creature--svg{
-     display: block;
-     position: absolute;
-     left: 53%;
-     z-index: -1;
-
-}
-
-.verse2__creature--hidden{
-    animation:hideCreature 5s forwards;
-   
-}
 
 // Verse 2 line 1
 .verse2__line1--push{
@@ -53,16 +44,17 @@
 
 // Verse 2 line 3
 .verse2__creature--svg{
-    display: block;
-    position: absolute;
-    left: 53%;
-    z-index: -1;
-
+  display: block;
+  position: absolute;
+  left: 20%;
+  z-index: -1;
 }
 
 .verse2__creature--hidden{
-   animation:hideCreature 5s forwards;
+  animation:hideCreature 5s forwards;
+ 
 }
+
 
 //Keyframes 
 
@@ -90,6 +82,13 @@
     from{visibility: visible;}
     to{visibility: hidden;}
 }
+
+  .verse__3 { grid-area: verse__3; }
+  .verse__4 { grid-area: verse__4; }
+  .verse__5 { grid-area: verse__5; }
+  .verse__6 { grid-area: verse__6; }
+  .egg-cracking { grid-area: egg-cracking; }
+  .credits { grid-area: credits; }
 
   .verse__3 { grid-area: verse__3; }
   .verse__4 { grid-area: verse__4; }
