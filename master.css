@@ -4,7 +4,6 @@ body {
 
 div {
   margin: 20px 0;
-
 }
 
 h1 {
@@ -13,6 +12,7 @@ h1 {
 
 p {
   padding-left: 30%;
+  height: 100px;
 }
 footer{
   background-color: black;
