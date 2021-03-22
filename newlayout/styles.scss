@@ -21,6 +21,8 @@
   }
 
 
+// ------------------ End of verse 1  ------------------
+
 // Verse 2 line 1
 .verse2__line1--push{
     
@@ -56,7 +58,7 @@
 }
 
 
-//Keyframes 
+//Keyframes verse 2
 
 @keyframes push{
     from  {transform: translate(0px,0px);}
@@ -82,6 +84,8 @@
     from{visibility: visible;}
     to{visibility: hidden;}
 }
+
+// ------------------ End of verse 2  ------------------
 
   .verse__3 { grid-area: verse__3; }
   .verse__4 { grid-area: verse__4; }
