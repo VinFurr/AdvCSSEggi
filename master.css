@@ -17,18 +17,22 @@ p {
 footer{
   background-color: black;
   opacity: 0.8;
+  height: 400px
 }
 .content__div--flexbox{
   display: flex;
   justify-content: flex-start;
+  margin: 0;
 }
 .egg__box {
   width: 50%;
   background-color: yellow;
+  margin: 0;
 }
 
 .poem__box {
   width: 50%;
+  margin: 0;
 }
 .footer__text--style{
   color: white;
