@@ -15,13 +15,54 @@
   }
   .intro-egg { grid-area: intro-egg; }
   .verse__1 { grid-area: verse__1; }
-  .verse__2 {
-    grid-area: verse__2;
-    position: relative;
+  #verse1__line1--up {
+    animation-duration: 1s;
+    animation-name: V1L1;
+    animation-fill-mode: backwards;
+  }
+  #verse1__line2--up {
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-name: V1L2;
+    animation-fill-mode: backwards;
+  }
+  #verse1__line3--up {
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-name: V1L3;
+    animation-fill-mode: backwards;
+  }
+  @keyframes "V1L1" {
+  	0% {
+  		transform: translate(0px,500px);
+  	}
+  	100% {
+  		transform: translate(0px,0px);
+  	}
+  }
+  @keyframes "V1L2" {
+  	0% {
+  		transform: translate(0px,500px);
+  	}
+  	100% {
+  		transform: translate(0px,0px);
+  	}
+  }
+  @keyframes "V1L3" {
+  	0% {
+  		transform: translate(0px,500px);
+  	}
+  	100% {
+  		transform: translate(0px,0px);
+  	}
   }
 
 
 // ------------------ End of verse 1  ------------------
+.verse__2 {
+  grid-area: verse__2;
+  position: relative;
+}
 
 // Verse 2 line 1
 .verse2__line1--push{
@@ -35,6 +76,10 @@
 
 
 // Verse 2 line 2
+.verse2__line1--push{
+  animation-duration: 3s;
+  animation-name: V2L1;
+}
 .verse2__word--time {
     animation-name: animateTime;
     animation-duration: 0.8s;
