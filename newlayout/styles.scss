@@ -49,13 +49,15 @@
   display: block;
   position: absolute;
   left: 20%;
-  z-index: -1;
 }
 
 .verse2__creature--hidden{
   animation:hideCreature 5s forwards;
  
 }
+ #our-text{
+      z-index: -100;
+    }
 
 
 //Keyframes verse 2
