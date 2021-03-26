@@ -1,0 +1,239 @@
+//animasjon, og styles direkte relevant til det?? 
+
+//Generelt
+
+
+//text entering, husk å legge til hvert vers
+firt line entering animation {
+ animation: entering 1s backwards;}
+
+second line entering animation {
+ animation: entering 1s 1s backwards;}
+
+third line entering animation {
+  animation: entering 1s 2s backwards;}
+
+
+  .cracking--1 {
+    stroke-dasharray: 320;
+    stroke-dashoffset: 0;
+    animation: crack 3s ease-in 1s both;
+    }
+.cracking--2 {
+    stroke-dasharray: 320;
+    stroke-dashoffset: 0;
+    animation: crack 3s ease-in 2s both;
+    }
+.cracking--3 {
+    stroke-dasharray: 320;
+    stroke-dashoffset: 0;
+    animation: crack 3s ease-in 3s both;
+    }
+.cracking--4 {
+    stroke-dasharray: 320;
+    stroke-dashoffset: 0;
+    animation: crack 3s ease-in 4s both;
+    } 
+.cracking--5 {
+    stroke-dasharray: 320;
+    stroke-dashoffset: 0;
+    animation: crack 3s ease-in 5s both;
+    }
+.cracking--5-2 {
+        stroke-dasharray: 320;
+        stroke-dashoffset: 0;
+        animation: crack 3s ease-in 6s both;
+        }
+.cracking--6 {
+    stroke-dasharray: 320;
+    stroke-dashoffset: 0;
+    animation: crack 3s ease-in 7s both;
+    }
+.cracking--6-2 {
+    stroke-dasharray: 320;
+    stroke-dashoffset: 0;
+    animation: crack 3s ease-in 8s both;
+    } 
+
+//vers 1
+
+ .shattering-text path {
+     animation: shaking linear both, fade 1.4s ease-out forwards ;
+    animation-delay: 3s;
+     transform-origin:center;
+     transform-box:fill-box;
+  
+     @for $i from 0 to 213 {
+       $t: (1.3 + .0004*random(200))*1s;
+   
+           &:nth-child(#{$i + 1}) {
+              transform: translate(random(1500) - 750 + px, random(1500) - 750 + px) 
+                         rotate(random(720)-360 +deg);
+                 animation-duration: $t;
+              	}
+     }
+   }
+
+
+//vers 2
+
+.verse2__line1--push{
+    animation: push 3s
+   }
+.verse2__word--time {
+    animation-name: animateTime;
+    animation-duration: 0.8s;
+    transform-origin: 50% 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+  }
+
+
+.verse2__creature--hidden{
+    animation:hideCreature 5s forwards;
+  }
+
+//vers 3
+
+.verse__3--snakehead {
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;}
+
+ 
+.verse__3--snake {
+    animation-duration: 1s;
+    animation-name: enter-from-side;
+    animation-fill-mode: backwards;
+}
+
+.verse__3--line1 {
+    position: absolute;
+    animation: move-up 1.6s linear 0.4s forwards;
+  }
+.verse__3--line3 { 
+position: absolute;
+animation: move-down 1.4s linear 0.6s forwards
+
+}
+
+.fangs-top {
+    position: relative;
+    top: 145px;
+    left: 100px;
+    animation: slide-down 2s linear both;
+    z-index: -1}
+
+.fangs-bottom {
+    position: relative;
+    top: -70px;
+    left: 100px;
+    animation: slide-up 2s linear both;
+    z-index: -1}
+
+    .verse__letter--o1 { 
+        animation: o-entering 2s step-end forwards ;
+    }
+    .verse__letter--o2 { 
+        animation: o-entering 2.4s step-end forwards;
+    }
+    .verse__letter--o3 { 
+        animation: o-entering 2.8s step-end forwards;
+    }
+    .verse__letter--o4 { 
+        animation: o-entering 3.2s step-end forwards;
+    }
+    .verse__letter--o5 { 
+        animation: o-entering 3.6s step-end forwards;
+    }
+    .verse__letter--o6 { 
+        animation: o-entering 4s step-end forwards;
+    }
+    .verse__letter--o7 { 
+        animation: o-entering 4.4s step-end forwards;
+    }
+    .verse__letter--o8 { 
+        animation: o-entering 4.8s step-end forwards;
+    }
+    .verse__letter--o9 { 
+        animation: o-entering 5.2s step-end forwards;
+    }
+    .verse__letter--o10 { 
+        animation: o-entering 5.6s step-end forwards;
+    }
+    .verse__letter--o11 { 
+        animation: o-entering 6s step-end forwards;
+    }
+    .verse__letter--o12 { 
+        animation: o-entering 6.4s step-end forwards;
+    }
+    .verse__letter--o13 { 
+        animation: o-entering 6.8s step-end forwards;
+    }
+    .verse__letter--o14 { 
+        animation: o-entering 7.2s step-end forwards;
+    }
+    .verse__letter--o15 { 
+        animation: o-entering 7.6s step-end forwards;
+    }
+    .verse__letter--o16 { 
+        animation: o-entering 8.0s step-end forwards;
+    }
+
+    .verse_letter--oright {
+        position: relative;
+        animation: words-right-of-o 6.5s linear 1.6s forwards;
+        left: -515px;
+    }
+
+
+//vers 4
+.verse__word--eyes2 { 
+    
+    animation: eyes-entering 1s step-end ;}
+  
+  .verse__word--eyes3 {
+    
+    animation: eyes-entering 2s step-end ;}
+
+.verse__line--bending {
+        position: relative;
+        animation: bending 4s linear 3s forwards;
+      }
+
+.verse__word--growing {
+        position: relative;
+        animation: growing 5s ease-in 2s forwards;
+      }
+    
+.left-growing { 
+          position: relative;
+          animation: left-growing 5s ease-in 2s forwards;
+      }
+    
+.right-growing { 
+          position: relative;
+          animation: right-growing 5s ease-in 2s forwards;
+      }
+    
+//Vers 5
+
+.verse__5--drop {
+    animation: drop 1.5s linear infinite;
+    position: absolute;
+    transform: translate(100%, 800%);
+}
+
+//Vers 6
+
+.verse__6--p {
+    animation: hidden 1s step-end forwards;
+  }
+  
+  .verse__word--scary {
+    animation: scary 2s linear forwards 1s;
+  }
+
+  body {
+    animation: flickering 1s linear 5 alternate forwards;
+    animation-play-state: paused;}
