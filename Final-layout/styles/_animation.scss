@@ -14,48 +14,34 @@ third line entering animation {
   animation: entering 1s 2s backwards;}
 
 
-  .cracking--1 {
-    stroke-dasharray: 320;
-    stroke-dashoffset: 0;
-    animation: crack 3s ease-in 1s both;
+.cracking--1.TriggerOnScroll {
+   animation: crack 3s ease-in both;
     }
-.cracking--2 {
-    stroke-dasharray: 320;
-    stroke-dashoffset: 0;
-    animation: crack 3s ease-in 2s both;
+.cracking--2.TriggerOnScroll {
+    animation: crack 3s ease-in both;
     }
-.cracking--3 {
-    stroke-dasharray: 320;
-    stroke-dashoffset: 0;
-    animation: crack 3s ease-in 3s both;
+.cracking--3.TriggerOnScroll {
+    animation: crack 3s ease-in both;
     }
-.cracking--4 {
-    stroke-dasharray: 320;
-    stroke-dashoffset: 0;
-    animation: crack 3s ease-in 4s both;
+.cracking--4.TriggerOnScroll {
+   animation: crack 3s ease-in both;
     } 
-.cracking--5 {
-    stroke-dasharray: 320;
-    stroke-dashoffset: 0;
-    animation: crack 3s ease-in 5s both;
+.cracking--5.TriggerOnScroll {
+    animation: crack 3s ease-in both;
     }
-.cracking--5-2 {
-        stroke-dasharray: 320;
-        stroke-dashoffset: 0;
-        animation: crack 3s ease-in 6s both;
+.cracking--5-2.TriggerOnScroll {
+    animation: crack 3s ease-in both;
         }
-.cracking--6 {
-    stroke-dasharray: 320;
-    stroke-dashoffset: 0;
-    animation: crack 3s ease-in 7s both;
+.cracking--6.TriggerOnScroll {
+    animation: crack 3s ease-in both;
     }
-.cracking--6-2 {
-    stroke-dasharray: 320;
-    stroke-dashoffset: 0;
-    animation: crack 3s ease-in 8s both;
+.cracking--6-2.TriggerOnScroll {
+   animation: crack 3s ease-in both;
     } 
 
 //vers 1
+
+.verse__1.TriggerOnScroll {
 
  .shattering-text path {
      animation: shaking linear both, fade 1.4s ease-out forwards ;
@@ -74,28 +60,33 @@ third line entering animation {
      }
    }
 
-
+}
 //vers 2
 
-.verse2__line1--push{
+.verse__2.TriggerOnScroll {
+
+    .verse2__line1--push{
     animation: push 3s
    }
-.verse2__word--time {
+    .verse2__word--time {
     animation-name: animateTime;
     animation-duration: 0.8s;
     transform-origin: 50% 50%;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     position: absolute;
-  }
+    }
 
 
-.verse2__creature--hidden{
+    .verse2__creature--hidden{
     animation:hideCreature 5s forwards;
   }
 
+}
+
 //vers 3
 
+.verse__3.TriggerOnScroll {
 .verse__3--snakehead {
 	animation: shake 0.5s;
 	animation-iteration-count: infinite;}
@@ -116,6 +107,7 @@ position: absolute;
 animation: move-down 1.4s linear 0.6s forwards
 
 }
+
 
 .fangs-top {
     position: relative;
@@ -186,8 +178,10 @@ animation: move-down 1.4s linear 0.6s forwards
         left: -515px;
     }
 
-
+}
 //vers 4
+
+.verse__4.TriggerOnScroll {
 .verse__word--eyes2 { 
     
     animation: eyes-entering 1s step-end ;}
@@ -216,7 +210,10 @@ animation: move-down 1.4s linear 0.6s forwards
           animation: right-growing 5s ease-in 2s forwards;
       }
     
+}
 //Vers 5
+
+.verse5__4.TriggerOnScroll {
 
 .verse__5--drop {
     animation: drop 1.5s linear infinite;
@@ -224,8 +221,11 @@ animation: move-down 1.4s linear 0.6s forwards
     transform: translate(100%, 800%);
 }
 
+}
+
 //Vers 6
 
+.verse__6.TriggerOnScroll {
 .verse__6--p {
     animation: hidden 1s step-end forwards;
   }
@@ -233,7 +233,8 @@ animation: move-down 1.4s linear 0.6s forwards
   .verse__word--scary {
     animation: scary 2s linear forwards 1s;
   }
+}
 
-  body {
+.body.TriggerOnScroll {
     animation: flickering 1s linear 5 alternate forwards;
-    animation-play-state: paused;}
+}

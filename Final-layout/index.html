@@ -5,8 +5,10 @@
   <meta charset="utf-8">
   <title>Eggi</title>
   <link rel="stylesheet" href="./styles/main.css">
+  
+  
 </head>
-<body>
+<body class="body">
     <div class="egg-poem">
         <div class="intro-egg"></div>
         <div class="verse__1">
@@ -119,7 +121,7 @@
            </p>
         </div>
        <div class="verse__3"> 
-       <img class="fangs-top" src="/fangs-top.svg" alt="White top fangs">
+       <img class="fangs-top" src="./images/fangs-top.svg" alt="White top fangs">
         <p>
          <span class="verse__3--line1">I bet I'll have fangs</span><br>
          <span class="verse__word--long">and a lo<span class="verse__letter--o1">o</span><span class="verse__letter--o2">o</span>
@@ -130,7 +132,7 @@
          <span class="verse__letter--o15">o</span><span class="verse__letter--o16">o</span><span class="verse_letter--oright">ng, slimy tail</span></span><br>
          <span class ="verse__3--line3">that rattles when I get upset.</span>
         </p> 
-        <img class="fangs-bottom"src="/fangs-bottom.svg" alt="White fangs bottom">
+        <img class="fangs-bottom"src="./images/fangs-bottom.svg" alt="White fangs bottom">
     
           
          <svg xmlns="http://www.w3.org/2000/svg" class ="verse__3--snake"  viewBox="0 0 1445.8 1385">
@@ -665,5 +667,86 @@
       </div>
     </div>
 </div>
+
 </body>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
+<script> 
+ 
+
+
+
+  //verse 1  
+  var controller = new ScrollMagic.Controller();
+  var scene = new ScrollMagic.Scene ({
+   triggerElement: '.verse__1',
+   triggerHook: 0.3
+ })
+ 
+ .setClassToggle('.verse__1, .cracking--1','TriggerOnScroll')
+ .reverse(false)
+ .addTo(controller)
+ 
+ //verse 2
+ var controller = new ScrollMagic.Controller();
+ var scene = new ScrollMagic.Scene ({
+     triggerElement: '.verse__2',
+     triggerHook: 0.3
+   })
+   
+   .setClassToggle('.verse__2, .cracking--2','TriggerOnScroll')
+   .reverse(false)
+   .addTo(controller)
+ 
+ //verse 3
+ var controller = new ScrollMagic.Controller();
+ var scene = new ScrollMagic.Scene ({
+     triggerElement: '.verse__3',
+     triggerHook: 0.3
+   })
+   
+   .setClassToggle('.verse__3, .cracking--3','TriggerOnScroll')
+   .reverse(false)
+   .addTo(controller)
+ 
+ //verse 4
+ var controller = new ScrollMagic.Controller();
+ var scene = new ScrollMagic.Scene ({
+     triggerElement: '.verse__4',
+     triggerHook: 0.3
+   })
+   
+   .setClassToggle('.verse__4, .cracking--4','TriggerOnScroll')
+   .reverse(false)
+   .addTo(controller)
+ 
+ //verse 5
+ var controller = new ScrollMagic.Controller();
+ var scene = new ScrollMagic.Scene ({
+     triggerElement: '.verse__5',
+     triggerHook: 0.3
+   })
+   
+   .setClassToggle('.verse__5, .cracking--5, .cracking--5-2','TriggerOnScroll')
+   .reverse(false)
+   .addTo(controller)
+ 
+ //verse 6 
+ var controller = new ScrollMagic.Controller();
+ var scene = new ScrollMagic.Scene ({
+     triggerElement: '.verse__6',
+     triggerHook: 0.3
+   })
+   
+   .setClassToggle('.verse__6, .cracking--6, .cracking--6-2, .body','TriggerOnScroll')
+   .reverse(false)
+   .addTo(controller)
+ 
+ //credits
+ 
+ //egg
+ 
+ 
+ </script>
 </html>

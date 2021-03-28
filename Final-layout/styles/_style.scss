@@ -3,6 +3,12 @@
 // Source Sans Pro
 @import url("https://use.typekit.net/qrj2cyn.css");
 
+body {font-size: 3em;}
+div { padding: 20% 0 20% 0;}
+
+
+.egg-cracking {min-width:400px;}
+
 .egg-cracks {
     display: block;
     position: absolute;
@@ -12,6 +18,13 @@
     stroke-miterlimit:10
     }
 
+    .cracking--1, .cracking--2, .cracking--3,
+    .cracking--4, .cracking--5, .cracking--5-2,
+    .cracking--6, .cracking--6-2 {
+        stroke-dasharray: 320;
+        stroke-dashoffset: 320;
+       }
+    
 .verse__4--p { 
     color: #fffaae;
     text-shadow: 0 0 3px #fff023, 0 0 7px #fff238, 0 0 13px #ffbb00, 0 0 16px #ffbb00, 0 0 22px #ffbb00, 0 0 27px #ffbb00, 0 0 35px #ffbb00;
