@@ -66,8 +66,9 @@ third line entering animation {
 .verse__2.TriggerOnScroll {
 
     .verse2__line1--push{
-    animation: push 3s
+    animation: V2L1 4s;
    }
+   
     .verse2__word--time {
     animation-name: animateTime;
     animation-duration: 0.8s;
@@ -79,7 +80,12 @@ third line entering animation {
 
 
     .verse2__creature--hidden{
-    animation:hideCreature 5s forwards;
+    animation: hideCreature 3s forwards;
+  }
+
+  .verse2__creature--svg{
+    animation:showCreature 6s;
+      
   }
 
 }
