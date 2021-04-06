@@ -31,17 +31,23 @@
 
   #our-text{
     z-index: -100;
+    
   }
+  .verse2__line1--push{
+    display: inline-block;
+    overflow: none;
+   }
 
   .verse2__creature--svg{
     display: block;
     position: absolute;
-    left: 20%;
+    left: 400px;
+    top: 200px;
   }
 
   .verse2__word--right {
     position: relative;
-    left: 30px;
+    left: 100px;
 }
 
   .verse__3 { grid-area: verse__3; }
