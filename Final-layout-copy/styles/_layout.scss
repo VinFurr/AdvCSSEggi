@@ -82,7 +82,7 @@
     top: 0;
   }
   .egg-cracks {
-    margin-top: 10px;
+    margin: 10px auto 10px auto;
     padding-top: 10px;
   }
 
@@ -90,7 +90,7 @@
       display: grid;
       grid-template-columns: 10% 80% 10%;
       grid-template-areas:
-        ". egg-cracking ."
+        "egg-cracking egg-cracking egg-cracking"
         ". intro-egg ."
         ". verse__1 ."
         ". verse__2 ."
