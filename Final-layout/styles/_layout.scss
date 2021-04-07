@@ -1,7 +1,7 @@
 .egg-poem {
     display: grid;
     grid-template-columns: repeat(1fr, 1fr);
-   
+
     grid-template-areas:
       "intro-egg intro-egg"
       "egg-cracking verse__1"
@@ -18,11 +18,11 @@
 
 .egg-cracking { grid-area: egg-cracking; }
 
-.verse__1 { grid-area: verse__1; 
+.verse__1 { grid-area: verse__1;
 }
 
 .shattering-text {overflow:visible;
-} 
+}
 
 .verse__2 {
     grid-area: verse__2;
@@ -31,7 +31,7 @@
 
   #our-text{
     z-index: -100;
-    
+
   }
   .verse2__line1--push{
     display: inline-block;
@@ -59,7 +59,7 @@
     margin: -125px 0 100px 100px;}
 
 .fangs-top, .fangs-bottom {
-        width:300px; 
+        width:300px;
         display: flex;
         align-self: center;
         }
@@ -72,3 +72,21 @@
 .verse__6 { grid-area: verse__6; }
 
 .credits { grid-area: credits; }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .egg-poem {
+      display: grid;
+      grid-template-columns: repeat( 1fr);
+
+      grid-template-areas:
+        "intro-egg intro-egg"
+        "egg-cracking verse__1"
+        "egg-cracking verse__2"
+        "egg-cracking verse__3"
+        "egg-cracking verse__4"
+        "egg-cracking verse__5"
+        "egg-cracking verse__6"
+        "credits credits";
+    }
+}
