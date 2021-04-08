@@ -64,7 +64,7 @@ third line entering animation {
 //vers 2
 
 .verse__2.TriggerOnScroll {
-
+    
     .verse2__line1--push{
     animation: V2L1 4s;
    }
@@ -80,11 +80,11 @@ third line entering animation {
 
 
     .verse2__creature--hidden{
-    animation: hideCreature 3s forwards;
+    animation: hideCreature 4s forwards;
   }
 
   .verse2__creature--svg{
-    animation:showCreature 6s;
+    animation:showCreature 4s forwards;
       
   }
 
@@ -219,7 +219,12 @@ animation: move-down 1.4s linear 0.6s forwards
 }
 //Vers 5
 
-.verse5__4.TriggerOnScroll {
+.verse__5.TriggerOnScroll {
+
+.verse__5--upside-down{
+    animation: rotation 15s linear infinite;
+   
+}
 
 .verse__5--drop {
     animation: drop 1.5s linear infinite;
