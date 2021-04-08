@@ -1,7 +1,7 @@
 .egg-poem {
     display: grid;
-    grid-template-columns: repeat(1fr, 1fr);
-
+    gap: 2em 2em;
+    align-items: center;
     grid-template-areas:
       "intro-egg intro-egg"
       "egg-cracking verse__1"
@@ -11,10 +11,10 @@
       "egg-cracking verse__5"
       "egg-cracking verse__6"
       "credits credits";
+      grid-template-rows: 20vh 100vh 100vh 100vh 100vh 100vh 100vh 20vh;
   }
 
-
-.intro-egg { grid-area: intro-egg; }
+.intro-egg { grid-area: intro-egg;}
 
 .egg-cracking { grid-area: egg-cracking; }
 
