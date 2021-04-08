@@ -29,3 +29,24 @@ div { padding: 20% 0 20% 0;}
     color: #fffaae;
     text-shadow: 0 0 3px #fff023, 0 0 7px #fff238, 0 0 13px #ffbb00, 0 0 16px #ffbb00, 0 0 22px #ffbb00, 0 0 27px #ffbb00, 0 0 35px #ffbb00;
   }
+
+  @media screen and (max-width:720px) {
+    /* For mobile phones: */
+    body {
+        font-size: 2em;
+        margin: 0;
+    }
+    .egg-cracking {
+        min-width:100%; /*100% wil only set the width to 10% of the screen*/
+    }
+    .egg-cracks {
+        position: sticky;
+        }
+
+    .egg{
+        padding: 10px 0 10px 0;
+        width: 100%;
+    }
+
+  }
+  

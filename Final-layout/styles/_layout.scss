@@ -73,20 +73,31 @@
 
 .credits { grid-area: credits; }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width:720px) {
   /* For mobile phones: */
+  .egg-cracking .egg{ 
+    grid-area: egg-cracking;
+    position: fixed;
+    background-color: beige;
+    top: 0;
+  }
+  .egg-cracks {
+    margin: 10px auto 10px auto;
+    padding-top: 10px;
+  }
+
   .egg-poem {
       display: grid;
-      grid-template-columns: repeat( 1fr);
-
+      grid-template-columns: 10% 80% 10%;
       grid-template-areas:
-        "intro-egg intro-egg"
-        "egg-cracking verse__1"
-        "egg-cracking verse__2"
-        "egg-cracking verse__3"
-        "egg-cracking verse__4"
-        "egg-cracking verse__5"
-        "egg-cracking verse__6"
-        "credits credits";
+        "egg-cracking egg-cracking egg-cracking"
+        ". intro-egg ."
+        ". verse__1 ."
+        ". verse__2 ."
+        ". verse__3 ."
+        ". verse__4 ."
+        ". verse__5 ."
+        ". verse__6 ."
+        ". credits .";
     }
 }
