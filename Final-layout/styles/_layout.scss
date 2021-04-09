@@ -56,7 +56,7 @@
     height: 150px;
     width: 150px;
     position: absolute;
-    margin: -125px 0 100px 100px;}
+    margin: 0 0 100px 100px;}
 
 .fangs-top, .fangs-bottom {
         width:300px;
@@ -89,15 +89,27 @@
   .egg-poem {
       display: grid;
       grid-template-columns: 10% 80% 10%;
+      gap: 0 0;
       grid-template-areas:
         "egg-cracking egg-cracking egg-cracking"
-        ". intro-egg ."
+        "intro-egg intro-egg intro-egg"
         ". verse__1 ."
         ". verse__2 ."
         ". verse__3 ."
         ". verse__4 ."
         ". verse__5 ."
         ". verse__6 ."
-        ". credits .";
+        "credits credits credits";
+    }
+
+  .credits {
+    min-height: 200px; /*height: 200px; dosent work so i "forced" it with min-height*/
+   }
+
+   .fangs-top{
+    margin-bottom: 85px;
+   } 
+   .fangs-bottom {
+    margin-top: 45px;
     }
 }
