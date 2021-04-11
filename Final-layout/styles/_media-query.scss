@@ -9,19 +9,37 @@
             min-width:100%; //100% wil only set the width to 10% of the screen
         }
         .egg-cracks {
-            position: absolute;
-            margin: 0 auto;
             z-index: 2;
+            margin: auto ;
+            position: fixed;
+            top: 0; 
+            padding: 0 ;
+            width: 30.5%;
+            transform: translate(2px)
             }
   
         .egg{
-            margin: 0;
-            width: 100px;
             z-index: 1;
-            margin: 0 auto;
-            animation: none;
-  
+            margin: auto ;
+            position: fixed;
+            top: 50px; 
+            padding: 0 25% 0 25%;
+            width: 32%;
         }
+
+        .egg.TriggerOnScroll {
+            position: fixed;
+            top: 50px; 
+            padding: 0 25% 0 25%;
+            width: 32%;
+            animation-play-state: paused;
+            margin: 0;
+        }
+        
+        @keyframes egg {
+            0% {}
+            100% {}
+          }
   
         .verse__1, .verse__2, .verse__3, .verse__4, .verse__5, .verse__6{
             padding: 0 0 0 0;
@@ -131,10 +149,9 @@
                 0%  { left: -253px; }
                 100% { left: 0px }
             }
-
-
-
         }
+        
+
           .verse__5.TriggerOnScroll {
             .drop1 {
                 left: 250px;
