@@ -9,11 +9,13 @@
             min-width:100%; /*100% wil only set the width to 10% of the screen*/
         }
         .egg-cracks {
-            position: sticky;
+            position: absolute;
+            margin: 0 auto;
+            
             }
   
         .egg{
-            margin: 10%;
+            margin: 0;
             width: 100px;
         }
   
@@ -24,19 +26,11 @@
             height: 200px;
             }
   
-      }
-
-      @media screen and (max-width:720px) {
-        /* For mobile phones: */
         .egg-cracking .egg{ 
           grid-area: egg-cracking;
           position: fixed;
-          background-color: beige;
+  
           top: 0;
-        }
-        .egg-cracks {
-          margin: 10px auto 10px auto;
-          padding-top: 10px;
         }
     
         .egg-poem {
@@ -56,7 +50,7 @@
           }
     
         .credits {
-          min-height: 500px; /*height: 200px; dosent work so i "forced" it with min-height*/
+          min-height: 500px; /*height: 500px; dosent work so i "forced" it with min-height*/
          }
     
          .fangs-top{
