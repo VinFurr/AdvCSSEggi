@@ -1,6 +1,6 @@
 // farge, font, 
 $bck-color: #8091a8;
-$introAndcredits-color: #304e5a;
+$introAndcredits-color:#304e5a;
 
 // Source Sans Pro
 @import url("https://use.typekit.net/qrj2cyn.css");
@@ -21,7 +21,7 @@ body {
 
 .credits{
     font-size: .2em;
-    color: $credit-txt;
+    color: white;
     text-align: center;
 }
 
