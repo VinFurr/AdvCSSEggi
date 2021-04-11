@@ -310,31 +310,31 @@
     100% {visibility: hidden;}
   }
   
-  @keyframes flickering {
-    0% {background-color:white;}
+   @keyframes flickering {
+    0% {background-color:$bck-color;}
     20.1% {background-color: #000000;}
-    20.6% {background-color: white;}
-    30% {background-color: white;}
+    20.6% {background-color:$bck-color;}
+    30% {background-color: $bck-color;}
     30.1% {background-color: #000000;}
     30.5% {background-color: #000000;}
-    30.6% {background-color: white;}
-    45% {background-color: white;}
+    30.6% {background-color: $bck-color;}
+    45% {background-color: $bck-color;}
     45.1% {background-color: #000000;}
     55% {background-color: #000000;}
-    55.1% {background-color: white;}
-    57% {background-color: white;} 
+    55.1% {background-color: $bck-color;}
+    57% {background-color: $bck-color;} 
     57.1% { background-color: #000000;}
     60% {background-color: #000000;}
-    60.1% { background-color: white;}
-    65% {background-color: white;}
+    60.1% { background-color: $bck-color;}
+    65% {background-color: $bck-color;}
     65.1% {background-color: #000000;}
     75% {background-color: #000000;}
-    75.1% {background-color: white;}
-    77% {background-color:white;}
+    75.1% {background-color: $bck-color;}
+    77% {background-color:$bck-color;}
     77.1% {background-color: #000000;}
     85% {background-color: #000000;}
-    85.1% { background-color: white;}
-    86% {background-color: white;}
+    85.1% { background-color: $bck-color;}
+    86% {background-color: $bck-color;}
     86.1% {background-color: #000000;}
     100% {background-color: #000000;}
   }
