@@ -99,39 +99,33 @@ third line entering animation {
 //vers 3
 
 .verse__3.TriggerOnScroll {
-
     .verse__3--snakehead {
-	animation: shake1 0.7s infinite 0.5s;
-    transform-origin: center;
-}
- .verse__3--snakebody {
-    animation: snakemoving 3s linear infinite;
-    transform-origin: left;
- }
- 
-    .verse__3--snake {
-    animation: enter-from-side 1.5s, ;
- 
-}
-
-    .verse__3--line1 {
-    position: absolute;
-    animation: move-up 1.7s linear 0.4s both;
-  }
-    .verse__3--line3 { 
-position: absolute;
-animation: move-down 1.4s linear 0.6s both;}
-
-
-.fangs-top {
-    visibility:initial;
-    animation: slide-down 2s linear both;}
-
-.fangs-bottom {
-    visibility:initial;
-    animation: slide-up 2s linear both;
+        animation: shake1 0.7s infinite 0.5s;
+        transform-origin: center;
     }
-
+    .verse__3--snakebody {
+        animation: snakemoving 3s linear infinite;
+        transform-origin: left;
+    }
+    .verse__3--snake {
+        animation: enter-from-side 1.5s, ;
+    }
+    .verse__3--line1 {
+        position: absolute;
+        animation: move-up 1.7s linear 0.4s both;
+    }
+    .verse__3--line3 { 
+        position: absolute;
+        animation: move-down 1.4s linear 0.6s both;
+    }
+    .fangs-top {
+        visibility:initial;
+        animation: slide-down 2s linear both;
+    }
+    .fangs-bottom {
+        visibility:initial;
+        animation: slide-up 2s linear both;
+    }
     .verse__letter--o1 { 
         animation: o-entering 2s step-end both ;
     }
@@ -180,13 +174,9 @@ animation: move-down 1.4s linear 0.6s both;}
     .verse__letter--o16 { 
         animation: o-entering 8.0s step-end both;
     }
-
-    .verse_letter--oright {
-       
+    .verse_letter--oright {  
         animation: words-right-of-o 6.5s linear 1.6s both;
-       
     }
-
 }
 //vers 4
 
@@ -239,55 +229,74 @@ animation: move-down 1.4s linear 0.6s both;}
 
 .verse__5.TriggerOnScroll {
 
-.verse__5--upside-down{
+    .verse__5--upside-down{
 
-    animation: rotation 2s linear forwards;
-     transform-origin:center;
-     transform-box:fill-box;
-}
-
-.verse__5--drop {position: absolute;
-}
-
-.drop1 {
-    animation: drop 1.9s linear 1.8s both;
-    position: relative;
-    left: 300px;
-    top: -345px;
-    height: 60px;
-    overflow: visible;
-    
-    
-}
-
-.drop2 {
-    animation: drop 1.4s linear 2.4s both;
-    position: relative;
-    left: 70px;
-    top: -355px;
-    height: 60px;
-    overflow: visible;
-   }
-
-.drop3 { 
-    animation: drop 1.7s linear 2s both;
-    position: relative;
-    left: 565px;
-    top: -565px;
-    height: 60px;
-    overflow: visible;
+        animation: rotation 2s linear forwards;
+        transform-origin:center;
+        transform-box:fill-box;
     }
 
-.drop4 { 
-    animation: drop 1.5s linear 2.1s both;
-    position: relative;
-    left: -40px;
-    top: -655px;
-    height: 60px;
-    overflow: visible;
-   }
+    .verse__5--drop {position: absolute;
+    }
 
-}
+    .drop1 {
+        animation: drop 1.9s linear 1.8s both;
+        position: relative;
+        left: 300px;
+        top: -345px;
+        height: 60px;
+        overflow: visible;
+    }
+
+    .drop2 {
+        animation: drop 1.4s linear 2.4s both;
+        position: relative;
+        left: 70px;
+        top: -355px;
+        height: 60px;
+        overflow: visible;
+    }
+
+    .drop3 { 
+        animation: drop 1.7s linear 2s both;
+        position: relative;
+        left: 565px;
+        top: -565px;
+        height: 60px;
+        overflow: visible;
+        }
+
+    .drop4 { 
+        animation: drop 1.5s linear 2.1s both;
+        position: relative;
+        left: -40px;
+        top: -655px;
+        height: 60px;
+        overflow: visible;
+    }
+
+}/*
+@media screen and (max-width:720px) {
+    .drop1 {
+        left: 300px;
+        top: -425px; 
+        }
+        
+        .drop2 {
+            left: 70px;
+            top: -455px;
+        }
+        
+        .drop3 { 
+            left: 365px;
+            top: -565px;
+            }
+        
+        .drop4 { 
+            left: -40px;
+            top: -655px;
+        }
+}*/
 
 //Vers 6
 

@@ -2,7 +2,7 @@
     @media screen and (max-width:720px) {
         //For mobile phones: 
         body {
-            font-size: 2em;
+            font-size: 1.8em;
             margin: 0;
         }
         .egg-cracking {
@@ -11,13 +11,16 @@
         .egg-cracks {
             position: absolute;
             margin: 0 auto;
-           // z-index: 2;
+            z-index: 2;
             }
   
         .egg{
             margin: 0;
             width: 100px;
-            //z-index: 1;
+            z-index: 1;
+            margin: 0 auto;
+            animation: none;
+  
         }
   
         .verse__1, .verse__2, .verse__3, .verse__4, .verse__5, .verse__6{
@@ -30,13 +33,12 @@
         .egg-cracking .egg{ 
           grid-area: egg-cracking;
           position: fixed;
-  
           top: 0;
         }
     
         .egg-poem {
             display: grid;
-            grid-template-columns: 10% 80% 10%;
+            grid-template-columns: 4% 92% 4%;
             gap: 0 0;
             grid-template-areas:
               ". egg-cracking ."
@@ -60,9 +62,99 @@
          .fangs-bottom {
           margin-top: 45px;
           }
-          p {
+          /*p {
             overflow: visible;
             white-space: normal;
+          }*/
+        
+          .verse__3.TriggerOnScroll {
+            .verse__3--snakehead {
+                animation: shake1 0.7s infinite 0.5s;
+                transform-origin: center;
+            }
+            .verse__3--snakebody {
+                animation: snakemoving 3s linear infinite;
+                transform-origin: left;
+            }
+            .verse__3--snake {
+                animation: enter-from-side 1.5s, ;
+            }
+            .verse__3--line1 {
+                position: absolute;
+                animation: move-up 1.7s linear 0.4s both;
+            }
+            .verse__3--line3 { 
+                position: absolute;
+                animation: move-down 1.4s linear 0.6s both;
+            }
+            .fangs-top {
+                visibility:initial;
+                animation: slide-down 2s linear both;
+            }
+            .fangs-bottom {
+                visibility:initial;
+                animation: slide-up 2s linear both;
+            }
+            @keyframes enter-from-side {
+                0% {
+                    transform: translate(100px,0px);
+                }
+                100% {
+                    transform: translate(0px,0px);
+                }
+            }
+            .verse__3--snake {
+                height: 200px;
+                width: 200px;
+                top: -50px;
+                right: -60%;
+                position: relative;
+                margin: 0 0 100px 100px;}
+            @keyframes move-up {
+                0% {
+                  transform: translatey(0);    
+                }
+                100% {
+                  transform: translatey(-103px);
+                }
+              }
+            
+            @keyframes move-down {
+                0% {
+                  transform: translatey(0);    
+                }
+                100% {
+                  transform: translatey(115px);
+                }
+              }
+              @keyframes words-right-of-o { 
+                0%  { left: -253px; }
+                100% { left: 0px }
+            }
+
+
+
+        }
+          .verse__5.TriggerOnScroll {
+            .drop1 {
+                left: 250px;
+                top: -405px; 
+            }
+                
+            .drop2 {
+                left: 70px;
+                top: -425px;
+            }
+            
+            .drop3 { 
+                left: 365px;
+                top: -580px;
+            }
+            
+            .drop4 { 
+                left: -30px;
+                top: -645px;
+            }
           }
      }
     
