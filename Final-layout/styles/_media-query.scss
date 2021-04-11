@@ -11,12 +11,13 @@
         .egg-cracks {
             position: absolute;
             margin: 0 auto;
-            
+            z-index: 2;
             }
   
         .egg{
             margin: 0;
             width: 100px;
+            z-index: 1;
         }
   
         .verse__1, .verse__2, .verse__3, .verse__4, .verse__5, .verse__6{
