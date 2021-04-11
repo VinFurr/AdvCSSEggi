@@ -12,7 +12,8 @@ The assignment
 
 The layout
 
-- To animate the text we have used CSS animations, transformations and transitions as well as some Javascript when it came to triggering the animation with the help of ScrollMagic. The layout features an egg that is constant to the page and cracks as you scroll through the poem, and the verses appear alongside the egg. We thought it would be fitting as we got the inspiration for the layout from classic poem layouts with illustration and text or from childrens books. The illustrations are created with SVGs from Adobe Illustrator, Adobe Fresco and ClipPaths. At the end we have included end credits to the author of the poems and ourselves. 
+- To animate the text we have used CSS animations, transformations and transitions as well as some Javascript when it came to triggering the animation with the help of ScrollMagic. The layout features an egg that is constant to the page and cracks as you scroll through the poem, and the verses appear alongside the egg. We thought it would be fitting as we got the inspiration for the layout from classic poem layouts with illustration and text or from childrens books. The illustrations are created with SVGs from Adobe Illustrator, Adobe Fresco and ClipPaths. At the end we have included end credits to the author of the poems and ourselves. We reflected over how the design would be responsive for both desktop and tablet and therefore we only needed to create a media query for mobile screens where the main change was the layout. 
+
 
 
 Our separation of concerns: 
