@@ -1,6 +1,7 @@
 # AdvCSSEggi
 
 Group name: Eggi (named after a norwegian mountain)
+
 Poem for the assignment: Egg poem from the book "Moosecklumps and other poems" by Ryan T. Bliss (2013)
 
 
@@ -23,6 +24,9 @@ Our separation of concerns:
 
 
 Vincent: @VinFurr
+
 Grete: @greteege
+
 Per Håvard: @phhustve
+
 Marthe: @Marthcal
