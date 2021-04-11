@@ -19,12 +19,11 @@ body {
      
      }
 
-.intro-egg, .credits{
-   
-    background:$introAndcredits-color;
+.credits{
+    font-size: .2em;
+    color: $credit-txt;
     text-align: center;
 }
-
 
 
 
