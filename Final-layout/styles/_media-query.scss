@@ -1,29 +1,30 @@
 
     @media screen and (max-width:720px) {
-        //For mobile phones: 
+      
         body {
             font-size: 1.8em;
             margin: 0;
+           
         }
         .egg-cracking {
-            min-width:100%; //100% wil only set the width to 10% of the screen
+            min-width:100%; 
         }
         .egg-cracks {
             z-index: 2;
             margin: auto ;
             position: fixed;
             top: 0; 
-            padding: 0 ;
+            padding: 5% 0 0 0 ;
             width: 30.5%;
             transform: translate(2px)
             }
   
         .egg{
             z-index: 1;
-            margin: auto ;
+            margin: auto;
             position: fixed;
             top: 50px; 
-            padding: 0 25% 0 25%;
+            padding: 5% 25% 0 25%;
             width: 32%;
         }
 
@@ -57,6 +58,7 @@
         .egg-poem {
             display: grid;
             grid-template-columns: 4% 92% 4%;
+            grid-template-rows: 90vh;
             gap: 0 0;
             grid-template-areas:
               ". egg-cracking ."
@@ -71,19 +73,20 @@
           }
     
         .credits {
-          min-height: 500px; //height: 500px; dosent work so i "forced" it with min-height
+            
+        padding: 10%;
+          min-height: 500px; 
          }
-    
+         .verse2__word--right {
+            left: 60px;}
+
          .fangs-top{
           margin-bottom: 85px;
          } 
          .fangs-bottom {
           margin-top: 45px;
           }
-          .credits p {
-            overflow: visible;
-            white-space: normal;
-          }
+         
         
           .verse__3.TriggerOnScroll {
             .verse__3--snakehead {

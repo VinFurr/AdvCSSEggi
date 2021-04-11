@@ -131,6 +131,13 @@ width: 96%;
           top: -70px;
         }
 
+.verse__letter--o1, .verse__letter--o2, .verse__letter--o3, .verse__letter--o4,
+ .verse__letter--o5, .verse__letter--o6, .verse__letter--o7, .verse__letter--o8,
+  .verse__letter--o9, .verse__letter--o10,.verse__letter--o11,.verse__letter--o12,
+  .verse__letter--o13, .verse__letter--o14, .verse__letter--o15, .verse__letter--o16
+   {  visibility: hidden;
+      }
+      
 .verse_letter--oright {
   position: relative;
   
@@ -160,6 +167,11 @@ width: 96%;
 
 .verse__6 { grid-area: verse__6; }
 
-.credits { grid-area: credits; }
+.credits { grid-area: credits;
+padding: 5% 5% 5% 50%;
+overflow: visible; }
 
-  
+.credits p {overflow: visible;
+  white-space: normal;}
+
+ 

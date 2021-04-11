@@ -11,15 +11,7 @@ $bck-color: #8091a8;
    }
 
 
-//legges til hvert vers
-@keyframes entering {
-    0% {
-        transform: translate(0px,500px);
-    }
-    100% {
-        transform: translate(0px,0px);
-    }
-}
+
 
 //egg
 
@@ -88,15 +80,6 @@ $bck-color: #8091a8;
   }
 
 
-@keyframes hideCreature{
-    from{visibility: visible;}
-    to{visibility: hidden;}
-}
-
-@keyframes showCreature{
- 0%{visibility: hidden;}
- 100%{visibility: visible;}
-}
 
 //verse 3
 @keyframes enter-from-side {
@@ -270,27 +253,7 @@ $bck-color: #8091a8;
   }
 }
 
-// @keyframes drop {
-//     0% {
-//         transform: translate(0, -200%) scaleX(0);
-//         height: 60px;
-//     }
 
-//     30% {
-//         transform: translate(0, -200%);
-//         height: 30px;
-//     }
-
-//     70% {
-//         transform: translate(0, 100%);
-//         height: 30px;
-//     }
-
-//     100% {
-//         transform: translate(0, 800%) scaleX(0.8);
-//         height: 60px;
-//     }
-// }
 
 @keyframes drop {
   0% {transform: scale(0.4);}
