@@ -14,6 +14,13 @@ third line entering animation {
           animation: entering 1s 2s backwards;
 }
 
+.egg {
+  -webkit-animation: egg 1s ease-in forwards;
+          animation: egg 1s ease-in forwards;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
 .cracking--1.TriggerOnScroll {
   -webkit-animation: crack 3s ease-in both;
           animation: crack 3s ease-in both;
@@ -65,1513 +72,1506 @@ third line entering animation {
 }
 
 .verse__1.TriggerOnScroll .shattering-text path:nth-child(1) {
-  -webkit-transform: translate(643px, 459px) rotate(121deg);
-          transform: translate(643px, 459px) rotate(121deg);
-  -webkit-animation-duration: 1.3108s;
-          animation-duration: 1.3108s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(2) {
-  -webkit-transform: translate(-680px, 188px) rotate(-42deg);
-          transform: translate(-680px, 188px) rotate(-42deg);
-  -webkit-animation-duration: 1.378s;
-          animation-duration: 1.378s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(3) {
-  -webkit-transform: translate(-411px, -255px) rotate(-91deg);
-          transform: translate(-411px, -255px) rotate(-91deg);
-  -webkit-animation-duration: 1.3204s;
-          animation-duration: 1.3204s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(4) {
-  -webkit-transform: translate(-14px, 336px) rotate(14deg);
-          transform: translate(-14px, 336px) rotate(14deg);
-  -webkit-animation-duration: 1.366s;
-          animation-duration: 1.366s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(5) {
-  -webkit-transform: translate(-189px, 616px) rotate(343deg);
-          transform: translate(-189px, 616px) rotate(343deg);
-  -webkit-animation-duration: 1.3424s;
-          animation-duration: 1.3424s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(6) {
-  -webkit-transform: translate(500px, 101px) rotate(63deg);
-          transform: translate(500px, 101px) rotate(63deg);
-  -webkit-animation-duration: 1.3552s;
-          animation-duration: 1.3552s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(7) {
-  -webkit-transform: translate(-324px, -379px) rotate(292deg);
-          transform: translate(-324px, -379px) rotate(292deg);
-  -webkit-animation-duration: 1.3476s;
-          animation-duration: 1.3476s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(8) {
-  -webkit-transform: translate(290px, -87px) rotate(-274deg);
-          transform: translate(290px, -87px) rotate(-274deg);
-  -webkit-animation-duration: 1.3516s;
-          animation-duration: 1.3516s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(9) {
-  -webkit-transform: translate(-694px, -290px) rotate(-259deg);
-          transform: translate(-694px, -290px) rotate(-259deg);
-  -webkit-animation-duration: 1.3516s;
-          animation-duration: 1.3516s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(10) {
-  -webkit-transform: translate(151px, 520px) rotate(282deg);
-          transform: translate(151px, 520px) rotate(282deg);
-  -webkit-animation-duration: 1.3196s;
-          animation-duration: 1.3196s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(11) {
-  -webkit-transform: translate(-602px, -246px) rotate(235deg);
-          transform: translate(-602px, -246px) rotate(235deg);
-  -webkit-animation-duration: 1.3324s;
-          animation-duration: 1.3324s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(12) {
-  -webkit-transform: translate(-628px, -236px) rotate(-41deg);
-          transform: translate(-628px, -236px) rotate(-41deg);
-  -webkit-animation-duration: 1.3516s;
-          animation-duration: 1.3516s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(13) {
-  -webkit-transform: translate(61px, 428px) rotate(56deg);
-          transform: translate(61px, 428px) rotate(56deg);
-  -webkit-animation-duration: 1.3424s;
-          animation-duration: 1.3424s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(14) {
-  -webkit-transform: translate(-273px, 224px) rotate(-223deg);
-          transform: translate(-273px, 224px) rotate(-223deg);
-  -webkit-animation-duration: 1.3616s;
-          animation-duration: 1.3616s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(15) {
-  -webkit-transform: translate(326px, 17px) rotate(236deg);
-          transform: translate(326px, 17px) rotate(236deg);
-  -webkit-animation-duration: 1.368s;
-          animation-duration: 1.368s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(16) {
-  -webkit-transform: translate(-21px, 628px) rotate(62deg);
-          transform: translate(-21px, 628px) rotate(62deg);
-  -webkit-animation-duration: 1.356s;
-          animation-duration: 1.356s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(17) {
-  -webkit-transform: translate(-190px, 129px) rotate(4deg);
-          transform: translate(-190px, 129px) rotate(4deg);
-  -webkit-animation-duration: 1.3308s;
-          animation-duration: 1.3308s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(18) {
-  -webkit-transform: translate(232px, -265px) rotate(-131deg);
-          transform: translate(232px, -265px) rotate(-131deg);
-  -webkit-animation-duration: 1.3344s;
-          animation-duration: 1.3344s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(19) {
-  -webkit-transform: translate(694px, 724px) rotate(-50deg);
-          transform: translate(694px, 724px) rotate(-50deg);
-  -webkit-animation-duration: 1.3228s;
-          animation-duration: 1.3228s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(20) {
-  -webkit-transform: translate(-617px, -535px) rotate(4deg);
-          transform: translate(-617px, -535px) rotate(4deg);
-  -webkit-animation-duration: 1.3304s;
-          animation-duration: 1.3304s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(21) {
-  -webkit-transform: translate(-666px, 659px) rotate(-54deg);
-          transform: translate(-666px, 659px) rotate(-54deg);
-  -webkit-animation-duration: 1.3728s;
-          animation-duration: 1.3728s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(22) {
-  -webkit-transform: translate(254px, 291px) rotate(8deg);
-          transform: translate(254px, 291px) rotate(8deg);
-  -webkit-animation-duration: 1.348s;
-          animation-duration: 1.348s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(23) {
-  -webkit-transform: translate(1px, -747px) rotate(266deg);
-          transform: translate(1px, -747px) rotate(266deg);
-  -webkit-animation-duration: 1.3384s;
-          animation-duration: 1.3384s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(24) {
-  -webkit-transform: translate(301px, -353px) rotate(-8deg);
-          transform: translate(301px, -353px) rotate(-8deg);
-  -webkit-animation-duration: 1.3284s;
-          animation-duration: 1.3284s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(25) {
-  -webkit-transform: translate(-147px, 525px) rotate(-242deg);
-          transform: translate(-147px, 525px) rotate(-242deg);
-  -webkit-animation-duration: 1.3208s;
-          animation-duration: 1.3208s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(26) {
-  -webkit-transform: translate(746px, -204px) rotate(-224deg);
-          transform: translate(746px, -204px) rotate(-224deg);
-  -webkit-animation-duration: 1.3088s;
-          animation-duration: 1.3088s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(27) {
-  -webkit-transform: translate(404px, 62px) rotate(150deg);
-          transform: translate(404px, 62px) rotate(150deg);
-  -webkit-animation-duration: 1.3736s;
-          animation-duration: 1.3736s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(28) {
-  -webkit-transform: translate(-512px, -644px) rotate(57deg);
-          transform: translate(-512px, -644px) rotate(57deg);
-  -webkit-animation-duration: 1.32s;
-          animation-duration: 1.32s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(29) {
-  -webkit-transform: translate(744px, 554px) rotate(94deg);
-          transform: translate(744px, 554px) rotate(94deg);
-  -webkit-animation-duration: 1.35s;
-          animation-duration: 1.35s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(30) {
-  -webkit-transform: translate(22px, -174px) rotate(234deg);
-          transform: translate(22px, -174px) rotate(234deg);
-  -webkit-animation-duration: 1.3452s;
-          animation-duration: 1.3452s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(31) {
-  -webkit-transform: translate(-2px, 345px) rotate(-358deg);
-          transform: translate(-2px, 345px) rotate(-358deg);
-  -webkit-animation-duration: 1.3224s;
-          animation-duration: 1.3224s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(32) {
-  -webkit-transform: translate(518px, -290px) rotate(143deg);
-          transform: translate(518px, -290px) rotate(143deg);
-  -webkit-animation-duration: 1.3064s;
-          animation-duration: 1.3064s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(33) {
-  -webkit-transform: translate(-177px, 186px) rotate(-208deg);
-          transform: translate(-177px, 186px) rotate(-208deg);
-  -webkit-animation-duration: 1.3476s;
-          animation-duration: 1.3476s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(34) {
-  -webkit-transform: translate(-121px, 119px) rotate(-76deg);
-          transform: translate(-121px, 119px) rotate(-76deg);
-  -webkit-animation-duration: 1.3004s;
-          animation-duration: 1.3004s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(35) {
-  -webkit-transform: translate(12px, -681px) rotate(161deg);
-          transform: translate(12px, -681px) rotate(161deg);
-  -webkit-animation-duration: 1.346s;
-          animation-duration: 1.346s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(36) {
-  -webkit-transform: translate(-696px, 683px) rotate(-182deg);
-          transform: translate(-696px, 683px) rotate(-182deg);
-  -webkit-animation-duration: 1.3388s;
-          animation-duration: 1.3388s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(37) {
-  -webkit-transform: translate(-263px, 581px) rotate(240deg);
-          transform: translate(-263px, 581px) rotate(240deg);
-  -webkit-animation-duration: 1.3284s;
-          animation-duration: 1.3284s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(38) {
-  -webkit-transform: translate(-309px, -28px) rotate(116deg);
-          transform: translate(-309px, -28px) rotate(116deg);
-  -webkit-animation-duration: 1.3796s;
-          animation-duration: 1.3796s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(39) {
-  -webkit-transform: translate(84px, 254px) rotate(-320deg);
-          transform: translate(84px, 254px) rotate(-320deg);
-  -webkit-animation-duration: 1.3296s;
-          animation-duration: 1.3296s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(40) {
-  -webkit-transform: translate(150px, 306px) rotate(18deg);
-          transform: translate(150px, 306px) rotate(18deg);
-  -webkit-animation-duration: 1.36s;
-          animation-duration: 1.36s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(41) {
-  -webkit-transform: translate(-374px, 28px) rotate(141deg);
-          transform: translate(-374px, 28px) rotate(141deg);
-  -webkit-animation-duration: 1.3668s;
-          animation-duration: 1.3668s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(42) {
-  -webkit-transform: translate(25px, 595px) rotate(193deg);
-          transform: translate(25px, 595px) rotate(193deg);
-  -webkit-animation-duration: 1.3496s;
-          animation-duration: 1.3496s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(43) {
-  -webkit-transform: translate(-199px, -163px) rotate(-91deg);
-          transform: translate(-199px, -163px) rotate(-91deg);
-  -webkit-animation-duration: 1.3544s;
-          animation-duration: 1.3544s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(44) {
-  -webkit-transform: translate(-356px, -112px) rotate(-193deg);
-          transform: translate(-356px, -112px) rotate(-193deg);
-  -webkit-animation-duration: 1.304s;
-          animation-duration: 1.304s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(45) {
-  -webkit-transform: translate(146px, -411px) rotate(-257deg);
-          transform: translate(146px, -411px) rotate(-257deg);
-  -webkit-animation-duration: 1.3052s;
-          animation-duration: 1.3052s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(46) {
-  -webkit-transform: translate(320px, -19px) rotate(-302deg);
-          transform: translate(320px, -19px) rotate(-302deg);
-  -webkit-animation-duration: 1.3464s;
-          animation-duration: 1.3464s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(47) {
-  -webkit-transform: translate(-405px, 661px) rotate(237deg);
-          transform: translate(-405px, 661px) rotate(237deg);
-  -webkit-animation-duration: 1.3204s;
-          animation-duration: 1.3204s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(48) {
-  -webkit-transform: translate(-538px, 66px) rotate(315deg);
-          transform: translate(-538px, 66px) rotate(315deg);
-  -webkit-animation-duration: 1.3228s;
-          animation-duration: 1.3228s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(49) {
-  -webkit-transform: translate(395px, -585px) rotate(-11deg);
-          transform: translate(395px, -585px) rotate(-11deg);
-  -webkit-animation-duration: 1.364s;
-          animation-duration: 1.364s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(50) {
-  -webkit-transform: translate(321px, 543px) rotate(-159deg);
-          transform: translate(321px, 543px) rotate(-159deg);
-  -webkit-animation-duration: 1.3252s;
-          animation-duration: 1.3252s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(51) {
-  -webkit-transform: translate(347px, -457px) rotate(-27deg);
-          transform: translate(347px, -457px) rotate(-27deg);
-  -webkit-animation-duration: 1.3052s;
-          animation-duration: 1.3052s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(52) {
-  -webkit-transform: translate(541px, 215px) rotate(-20deg);
-          transform: translate(541px, 215px) rotate(-20deg);
-  -webkit-animation-duration: 1.3468s;
-          animation-duration: 1.3468s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(53) {
-  -webkit-transform: translate(-38px, -650px) rotate(-42deg);
-          transform: translate(-38px, -650px) rotate(-42deg);
-  -webkit-animation-duration: 1.3108s;
-          animation-duration: 1.3108s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(54) {
-  -webkit-transform: translate(-367px, 150px) rotate(337deg);
-          transform: translate(-367px, 150px) rotate(337deg);
-  -webkit-animation-duration: 1.372s;
-          animation-duration: 1.372s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(55) {
-  -webkit-transform: translate(-538px, 631px) rotate(279deg);
-          transform: translate(-538px, 631px) rotate(279deg);
-  -webkit-animation-duration: 1.368s;
-          animation-duration: 1.368s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(56) {
-  -webkit-transform: translate(-616px, 525px) rotate(19deg);
-          transform: translate(-616px, 525px) rotate(19deg);
-  -webkit-animation-duration: 1.3176s;
-          animation-duration: 1.3176s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(57) {
-  -webkit-transform: translate(-250px, -291px) rotate(-266deg);
-          transform: translate(-250px, -291px) rotate(-266deg);
-  -webkit-animation-duration: 1.344s;
-          animation-duration: 1.344s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(58) {
-  -webkit-transform: translate(150px, 674px) rotate(4deg);
-          transform: translate(150px, 674px) rotate(4deg);
-  -webkit-animation-duration: 1.3284s;
-          animation-duration: 1.3284s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(59) {
-  -webkit-transform: translate(-555px, 478px) rotate(-21deg);
-          transform: translate(-555px, 478px) rotate(-21deg);
-  -webkit-animation-duration: 1.3252s;
-          animation-duration: 1.3252s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(60) {
-  -webkit-transform: translate(546px, -202px) rotate(178deg);
-          transform: translate(546px, -202px) rotate(178deg);
-  -webkit-animation-duration: 1.3116s;
-          animation-duration: 1.3116s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(61) {
-  -webkit-transform: translate(-718px, 146px) rotate(335deg);
-          transform: translate(-718px, 146px) rotate(335deg);
-  -webkit-animation-duration: 1.3592s;
-          animation-duration: 1.3592s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(62) {
-  -webkit-transform: translate(459px, -494px) rotate(281deg);
-          transform: translate(459px, -494px) rotate(281deg);
-  -webkit-animation-duration: 1.3332s;
-          animation-duration: 1.3332s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(63) {
-  -webkit-transform: translate(324px, -117px) rotate(157deg);
-          transform: translate(324px, -117px) rotate(157deg);
-  -webkit-animation-duration: 1.3012s;
-          animation-duration: 1.3012s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(64) {
-  -webkit-transform: translate(-409px, -706px) rotate(-175deg);
-          transform: translate(-409px, -706px) rotate(-175deg);
-  -webkit-animation-duration: 1.3156s;
-          animation-duration: 1.3156s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(65) {
-  -webkit-transform: translate(559px, -264px) rotate(-339deg);
-          transform: translate(559px, -264px) rotate(-339deg);
-  -webkit-animation-duration: 1.3188s;
-          animation-duration: 1.3188s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(66) {
-  -webkit-transform: translate(707px, 587px) rotate(30deg);
-          transform: translate(707px, 587px) rotate(30deg);
-  -webkit-animation-duration: 1.302s;
-          animation-duration: 1.302s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(67) {
-  -webkit-transform: translate(556px, 457px) rotate(223deg);
-          transform: translate(556px, 457px) rotate(223deg);
-  -webkit-animation-duration: 1.3212s;
-          animation-duration: 1.3212s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(68) {
-  -webkit-transform: translate(416px, 718px) rotate(35deg);
-          transform: translate(416px, 718px) rotate(35deg);
-  -webkit-animation-duration: 1.3308s;
-          animation-duration: 1.3308s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(69) {
-  -webkit-transform: translate(190px, -173px) rotate(63deg);
-          transform: translate(190px, -173px) rotate(63deg);
-  -webkit-animation-duration: 1.3024s;
-          animation-duration: 1.3024s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(70) {
-  -webkit-transform: translate(99px, 694px) rotate(-39deg);
-          transform: translate(99px, 694px) rotate(-39deg);
-  -webkit-animation-duration: 1.346s;
-          animation-duration: 1.346s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(71) {
-  -webkit-transform: translate(8px, 238px) rotate(78deg);
-          transform: translate(8px, 238px) rotate(78deg);
-  -webkit-animation-duration: 1.3452s;
-          animation-duration: 1.3452s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(72) {
-  -webkit-transform: translate(-599px, -485px) rotate(206deg);
-          transform: translate(-599px, -485px) rotate(206deg);
-  -webkit-animation-duration: 1.3416s;
-          animation-duration: 1.3416s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(73) {
-  -webkit-transform: translate(-592px, 748px) rotate(-171deg);
-          transform: translate(-592px, 748px) rotate(-171deg);
-  -webkit-animation-duration: 1.3572s;
-          animation-duration: 1.3572s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(74) {
-  -webkit-transform: translate(-143px, -485px) rotate(326deg);
-          transform: translate(-143px, -485px) rotate(326deg);
-  -webkit-animation-duration: 1.3624s;
-          animation-duration: 1.3624s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(75) {
-  -webkit-transform: translate(299px, 723px) rotate(-55deg);
-          transform: translate(299px, 723px) rotate(-55deg);
-  -webkit-animation-duration: 1.3096s;
-          animation-duration: 1.3096s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(76) {
-  -webkit-transform: translate(-195px, -57px) rotate(-34deg);
-          transform: translate(-195px, -57px) rotate(-34deg);
-  -webkit-animation-duration: 1.3484s;
-          animation-duration: 1.3484s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(77) {
-  -webkit-transform: translate(246px, -174px) rotate(-261deg);
-          transform: translate(246px, -174px) rotate(-261deg);
-  -webkit-animation-duration: 1.3048s;
-          animation-duration: 1.3048s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(78) {
-  -webkit-transform: translate(552px, -423px) rotate(-9deg);
-          transform: translate(552px, -423px) rotate(-9deg);
-  -webkit-animation-duration: 1.3324s;
-          animation-duration: 1.3324s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(79) {
-  -webkit-transform: translate(182px, -696px) rotate(13deg);
-          transform: translate(182px, -696px) rotate(13deg);
-  -webkit-animation-duration: 1.3328s;
-          animation-duration: 1.3328s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(80) {
-  -webkit-transform: translate(-193px, 3px) rotate(156deg);
-          transform: translate(-193px, 3px) rotate(156deg);
-  -webkit-animation-duration: 1.3688s;
-          animation-duration: 1.3688s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(81) {
-  -webkit-transform: translate(-161px, 325px) rotate(349deg);
-          transform: translate(-161px, 325px) rotate(349deg);
-  -webkit-animation-duration: 1.3144s;
-          animation-duration: 1.3144s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(82) {
-  -webkit-transform: translate(45px, -318px) rotate(-253deg);
-          transform: translate(45px, -318px) rotate(-253deg);
-  -webkit-animation-duration: 1.3028s;
-          animation-duration: 1.3028s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(83) {
-  -webkit-transform: translate(-98px, -28px) rotate(296deg);
-          transform: translate(-98px, -28px) rotate(296deg);
-  -webkit-animation-duration: 1.3656s;
-          animation-duration: 1.3656s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(84) {
-  -webkit-transform: translate(-726px, 84px) rotate(260deg);
-          transform: translate(-726px, 84px) rotate(260deg);
-  -webkit-animation-duration: 1.3756s;
-          animation-duration: 1.3756s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(85) {
-  -webkit-transform: translate(-33px, -383px) rotate(-26deg);
-          transform: translate(-33px, -383px) rotate(-26deg);
-  -webkit-animation-duration: 1.372s;
-          animation-duration: 1.372s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(86) {
-  -webkit-transform: translate(457px, -335px) rotate(173deg);
-          transform: translate(457px, -335px) rotate(173deg);
-  -webkit-animation-duration: 1.3024s;
-          animation-duration: 1.3024s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(87) {
-  -webkit-transform: translate(-162px, -625px) rotate(239deg);
-          transform: translate(-162px, -625px) rotate(239deg);
-  -webkit-animation-duration: 1.348s;
-          animation-duration: 1.348s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(88) {
-  -webkit-transform: translate(-693px, 661px) rotate(21deg);
-          transform: translate(-693px, 661px) rotate(21deg);
-  -webkit-animation-duration: 1.3732s;
-          animation-duration: 1.3732s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(89) {
-  -webkit-transform: translate(450px, 7px) rotate(-247deg);
-          transform: translate(450px, 7px) rotate(-247deg);
-  -webkit-animation-duration: 1.3204s;
-          animation-duration: 1.3204s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(90) {
-  -webkit-transform: translate(671px, -68px) rotate(170deg);
-          transform: translate(671px, -68px) rotate(170deg);
-  -webkit-animation-duration: 1.32s;
-          animation-duration: 1.32s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(91) {
-  -webkit-transform: translate(470px, 386px) rotate(357deg);
-          transform: translate(470px, 386px) rotate(357deg);
-  -webkit-animation-duration: 1.3616s;
-          animation-duration: 1.3616s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(92) {
-  -webkit-transform: translate(744px, -639px) rotate(140deg);
-          transform: translate(744px, -639px) rotate(140deg);
-  -webkit-animation-duration: 1.3536s;
-          animation-duration: 1.3536s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(93) {
-  -webkit-transform: translate(183px, 18px) rotate(-332deg);
-          transform: translate(183px, 18px) rotate(-332deg);
-  -webkit-animation-duration: 1.3208s;
-          animation-duration: 1.3208s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(94) {
-  -webkit-transform: translate(-115px, -668px) rotate(-73deg);
-          transform: translate(-115px, -668px) rotate(-73deg);
-  -webkit-animation-duration: 1.3676s;
-          animation-duration: 1.3676s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(95) {
-  -webkit-transform: translate(-417px, -102px) rotate(115deg);
-          transform: translate(-417px, -102px) rotate(115deg);
-  -webkit-animation-duration: 1.362s;
-          animation-duration: 1.362s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(96) {
-  -webkit-transform: translate(-348px, -742px) rotate(-282deg);
-          transform: translate(-348px, -742px) rotate(-282deg);
-  -webkit-animation-duration: 1.3152s;
-          animation-duration: 1.3152s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(97) {
-  -webkit-transform: translate(55px, 5px) rotate(101deg);
-          transform: translate(55px, 5px) rotate(101deg);
-  -webkit-animation-duration: 1.3636s;
-          animation-duration: 1.3636s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(98) {
-  -webkit-transform: translate(378px, -252px) rotate(-63deg);
-          transform: translate(378px, -252px) rotate(-63deg);
-  -webkit-animation-duration: 1.3368s;
-          animation-duration: 1.3368s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(99) {
-  -webkit-transform: translate(-700px, -689px) rotate(-98deg);
-          transform: translate(-700px, -689px) rotate(-98deg);
-  -webkit-animation-duration: 1.3516s;
-          animation-duration: 1.3516s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(100) {
-  -webkit-transform: translate(-137px, -558px) rotate(162deg);
-          transform: translate(-137px, -558px) rotate(162deg);
-  -webkit-animation-duration: 1.3456s;
-          animation-duration: 1.3456s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(101) {
-  -webkit-transform: translate(-133px, -351px) rotate(120deg);
-          transform: translate(-133px, -351px) rotate(120deg);
-  -webkit-animation-duration: 1.3656s;
-          animation-duration: 1.3656s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(102) {
-  -webkit-transform: translate(536px, -678px) rotate(-322deg);
-          transform: translate(536px, -678px) rotate(-322deg);
-  -webkit-animation-duration: 1.3648s;
-          animation-duration: 1.3648s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(103) {
-  -webkit-transform: translate(669px, -115px) rotate(354deg);
-          transform: translate(669px, -115px) rotate(354deg);
+  -webkit-transform: translate(406px, -364px) rotate(325deg);
+          transform: translate(406px, -364px) rotate(325deg);
   -webkit-animation-duration: 1.334s;
           animation-duration: 1.334s;
 }
 
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(104) {
-  -webkit-transform: translate(-55px, 57px) rotate(-324deg);
-          transform: translate(-55px, 57px) rotate(-324deg);
-  -webkit-animation-duration: 1.3048s;
-          animation-duration: 1.3048s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(105) {
-  -webkit-transform: translate(410px, -514px) rotate(123deg);
-          transform: translate(410px, -514px) rotate(123deg);
-  -webkit-animation-duration: 1.3168s;
-          animation-duration: 1.3168s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(106) {
-  -webkit-transform: translate(-287px, -593px) rotate(318deg);
-          transform: translate(-287px, -593px) rotate(318deg);
-  -webkit-animation-duration: 1.322s;
-          animation-duration: 1.322s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(107) {
-  -webkit-transform: translate(-264px, -294px) rotate(-299deg);
-          transform: translate(-264px, -294px) rotate(-299deg);
-  -webkit-animation-duration: 1.3608s;
-          animation-duration: 1.3608s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(108) {
-  -webkit-transform: translate(129px, 262px) rotate(-76deg);
-          transform: translate(129px, 262px) rotate(-76deg);
-  -webkit-animation-duration: 1.3344s;
-          animation-duration: 1.3344s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(109) {
-  -webkit-transform: translate(-528px, -9px) rotate(100deg);
-          transform: translate(-528px, -9px) rotate(100deg);
-  -webkit-animation-duration: 1.31s;
-          animation-duration: 1.31s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(110) {
-  -webkit-transform: translate(473px, -133px) rotate(306deg);
-          transform: translate(473px, -133px) rotate(306deg);
-  -webkit-animation-duration: 1.3604s;
-          animation-duration: 1.3604s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(111) {
-  -webkit-transform: translate(599px, 287px) rotate(-115deg);
-          transform: translate(599px, 287px) rotate(-115deg);
-  -webkit-animation-duration: 1.3512s;
-          animation-duration: 1.3512s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(112) {
-  -webkit-transform: translate(-33px, 70px) rotate(58deg);
-          transform: translate(-33px, 70px) rotate(58deg);
-  -webkit-animation-duration: 1.3564s;
-          animation-duration: 1.3564s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(113) {
-  -webkit-transform: translate(54px, 512px) rotate(57deg);
-          transform: translate(54px, 512px) rotate(57deg);
-  -webkit-animation-duration: 1.3376s;
-          animation-duration: 1.3376s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(114) {
-  -webkit-transform: translate(-459px, 421px) rotate(145deg);
-          transform: translate(-459px, 421px) rotate(145deg);
-  -webkit-animation-duration: 1.318s;
-          animation-duration: 1.318s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(115) {
-  -webkit-transform: translate(239px, -748px) rotate(153deg);
-          transform: translate(239px, -748px) rotate(153deg);
-  -webkit-animation-duration: 1.3648s;
-          animation-duration: 1.3648s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(116) {
-  -webkit-transform: translate(-92px, 709px) rotate(246deg);
-          transform: translate(-92px, 709px) rotate(246deg);
-  -webkit-animation-duration: 1.3292s;
-          animation-duration: 1.3292s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(117) {
-  -webkit-transform: translate(-741px, 237px) rotate(-145deg);
-          transform: translate(-741px, 237px) rotate(-145deg);
-  -webkit-animation-duration: 1.304s;
-          animation-duration: 1.304s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(118) {
-  -webkit-transform: translate(265px, -6px) rotate(188deg);
-          transform: translate(265px, -6px) rotate(188deg);
-  -webkit-animation-duration: 1.304s;
-          animation-duration: 1.304s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(119) {
-  -webkit-transform: translate(-475px, -640px) rotate(-91deg);
-          transform: translate(-475px, -640px) rotate(-91deg);
-  -webkit-animation-duration: 1.3108s;
-          animation-duration: 1.3108s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(120) {
-  -webkit-transform: translate(-636px, -251px) rotate(137deg);
-          transform: translate(-636px, -251px) rotate(137deg);
-  -webkit-animation-duration: 1.3584s;
-          animation-duration: 1.3584s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(121) {
-  -webkit-transform: translate(-173px, -111px) rotate(119deg);
-          transform: translate(-173px, -111px) rotate(119deg);
-  -webkit-animation-duration: 1.3048s;
-          animation-duration: 1.3048s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(122) {
-  -webkit-transform: translate(553px, 719px) rotate(-60deg);
-          transform: translate(553px, 719px) rotate(-60deg);
-  -webkit-animation-duration: 1.3652s;
-          animation-duration: 1.3652s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(123) {
-  -webkit-transform: translate(514px, -104px) rotate(241deg);
-          transform: translate(514px, -104px) rotate(241deg);
-  -webkit-animation-duration: 1.3064s;
-          animation-duration: 1.3064s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(124) {
-  -webkit-transform: translate(-53px, 101px) rotate(-41deg);
-          transform: translate(-53px, 101px) rotate(-41deg);
-  -webkit-animation-duration: 1.3788s;
-          animation-duration: 1.3788s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(125) {
-  -webkit-transform: translate(-694px, -604px) rotate(-37deg);
-          transform: translate(-694px, -604px) rotate(-37deg);
-  -webkit-animation-duration: 1.3232s;
-          animation-duration: 1.3232s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(126) {
-  -webkit-transform: translate(-581px, -696px) rotate(-332deg);
-          transform: translate(-581px, -696px) rotate(-332deg);
-  -webkit-animation-duration: 1.3712s;
-          animation-duration: 1.3712s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(127) {
-  -webkit-transform: translate(-184px, 534px) rotate(-1deg);
-          transform: translate(-184px, 534px) rotate(-1deg);
-  -webkit-animation-duration: 1.3308s;
-          animation-duration: 1.3308s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(128) {
-  -webkit-transform: translate(-719px, 438px) rotate(98deg);
-          transform: translate(-719px, 438px) rotate(98deg);
-  -webkit-animation-duration: 1.3008s;
-          animation-duration: 1.3008s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(129) {
-  -webkit-transform: translate(-580px, 324px) rotate(-75deg);
-          transform: translate(-580px, 324px) rotate(-75deg);
-  -webkit-animation-duration: 1.3692s;
-          animation-duration: 1.3692s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(130) {
-  -webkit-transform: translate(732px, 538px) rotate(307deg);
-          transform: translate(732px, 538px) rotate(307deg);
-  -webkit-animation-duration: 1.3256s;
-          animation-duration: 1.3256s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(131) {
-  -webkit-transform: translate(650px, -250px) rotate(54deg);
-          transform: translate(650px, -250px) rotate(54deg);
-  -webkit-animation-duration: 1.366s;
-          animation-duration: 1.366s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(132) {
-  -webkit-transform: translate(452px, -253px) rotate(221deg);
-          transform: translate(452px, -253px) rotate(221deg);
-  -webkit-animation-duration: 1.3612s;
-          animation-duration: 1.3612s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(133) {
-  -webkit-transform: translate(10px, 343px) rotate(267deg);
-          transform: translate(10px, 343px) rotate(267deg);
-  -webkit-animation-duration: 1.354s;
-          animation-duration: 1.354s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(134) {
-  -webkit-transform: translate(-521px, 446px) rotate(-355deg);
-          transform: translate(-521px, 446px) rotate(-355deg);
-  -webkit-animation-duration: 1.3216s;
-          animation-duration: 1.3216s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(135) {
-  -webkit-transform: translate(682px, -148px) rotate(-333deg);
-          transform: translate(682px, -148px) rotate(-333deg);
-  -webkit-animation-duration: 1.3764s;
-          animation-duration: 1.3764s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(136) {
-  -webkit-transform: translate(107px, 366px) rotate(-80deg);
-          transform: translate(107px, 366px) rotate(-80deg);
-  -webkit-animation-duration: 1.3292s;
-          animation-duration: 1.3292s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(137) {
-  -webkit-transform: translate(431px, 640px) rotate(-11deg);
-          transform: translate(431px, 640px) rotate(-11deg);
-  -webkit-animation-duration: 1.3792s;
-          animation-duration: 1.3792s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(138) {
-  -webkit-transform: translate(-220px, -513px) rotate(-189deg);
-          transform: translate(-220px, -513px) rotate(-189deg);
-  -webkit-animation-duration: 1.3312s;
-          animation-duration: 1.3312s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(139) {
-  -webkit-transform: translate(-38px, 2px) rotate(-6deg);
-          transform: translate(-38px, 2px) rotate(-6deg);
-  -webkit-animation-duration: 1.3308s;
-          animation-duration: 1.3308s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(140) {
-  -webkit-transform: translate(228px, 628px) rotate(344deg);
-          transform: translate(228px, 628px) rotate(344deg);
-  -webkit-animation-duration: 1.3384s;
-          animation-duration: 1.3384s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(141) {
-  -webkit-transform: translate(-68px, -738px) rotate(-166deg);
-          transform: translate(-68px, -738px) rotate(-166deg);
-  -webkit-animation-duration: 1.3276s;
-          animation-duration: 1.3276s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(142) {
-  -webkit-transform: translate(284px, 714px) rotate(-215deg);
-          transform: translate(284px, 714px) rotate(-215deg);
-  -webkit-animation-duration: 1.3092s;
-          animation-duration: 1.3092s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(143) {
-  -webkit-transform: translate(-509px, 507px) rotate(-295deg);
-          transform: translate(-509px, 507px) rotate(-295deg);
-  -webkit-animation-duration: 1.3136s;
-          animation-duration: 1.3136s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(144) {
-  -webkit-transform: translate(-560px, 226px) rotate(263deg);
-          transform: translate(-560px, 226px) rotate(263deg);
-  -webkit-animation-duration: 1.3224s;
-          animation-duration: 1.3224s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(145) {
-  -webkit-transform: translate(-243px, -573px) rotate(-203deg);
-          transform: translate(-243px, -573px) rotate(-203deg);
-  -webkit-animation-duration: 1.3692s;
-          animation-duration: 1.3692s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(146) {
-  -webkit-transform: translate(-444px, -299px) rotate(-64deg);
-          transform: translate(-444px, -299px) rotate(-64deg);
-  -webkit-animation-duration: 1.3632s;
-          animation-duration: 1.3632s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(147) {
-  -webkit-transform: translate(-656px, 733px) rotate(8deg);
-          transform: translate(-656px, 733px) rotate(8deg);
-  -webkit-animation-duration: 1.3732s;
-          animation-duration: 1.3732s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(148) {
-  -webkit-transform: translate(434px, 401px) rotate(-225deg);
-          transform: translate(434px, 401px) rotate(-225deg);
-  -webkit-animation-duration: 1.3544s;
-          animation-duration: 1.3544s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(149) {
-  -webkit-transform: translate(677px, -527px) rotate(290deg);
-          transform: translate(677px, -527px) rotate(290deg);
-  -webkit-animation-duration: 1.3352s;
-          animation-duration: 1.3352s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(150) {
-  -webkit-transform: translate(580px, 171px) rotate(-267deg);
-          transform: translate(580px, 171px) rotate(-267deg);
-  -webkit-animation-duration: 1.3764s;
-          animation-duration: 1.3764s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(151) {
-  -webkit-transform: translate(-583px, -81px) rotate(327deg);
-          transform: translate(-583px, -81px) rotate(327deg);
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(2) {
+  -webkit-transform: translate(-334px, 416px) rotate(8deg);
+          transform: translate(-334px, 416px) rotate(8deg);
   -webkit-animation-duration: 1.3184s;
           animation-duration: 1.3184s;
 }
 
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(152) {
-  -webkit-transform: translate(112px, 157px) rotate(-284deg);
-          transform: translate(112px, 157px) rotate(-284deg);
-  -webkit-animation-duration: 1.3408s;
-          animation-duration: 1.3408s;
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(3) {
+  -webkit-transform: translate(-361px, 621px) rotate(-69deg);
+          transform: translate(-361px, 621px) rotate(-69deg);
+  -webkit-animation-duration: 1.3188s;
+          animation-duration: 1.3188s;
 }
 
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(153) {
-  -webkit-transform: translate(-450px, -10px) rotate(341deg);
-          transform: translate(-450px, -10px) rotate(341deg);
-  -webkit-animation-duration: 1.3624s;
-          animation-duration: 1.3624s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(154) {
-  -webkit-transform: translate(-51px, -134px) rotate(80deg);
-          transform: translate(-51px, -134px) rotate(80deg);
-  -webkit-animation-duration: 1.3028s;
-          animation-duration: 1.3028s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(155) {
-  -webkit-transform: translate(497px, -290px) rotate(216deg);
-          transform: translate(497px, -290px) rotate(216deg);
-  -webkit-animation-duration: 1.3688s;
-          animation-duration: 1.3688s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(156) {
-  -webkit-transform: translate(377px, -194px) rotate(-319deg);
-          transform: translate(377px, -194px) rotate(-319deg);
-  -webkit-animation-duration: 1.3696s;
-          animation-duration: 1.3696s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(157) {
-  -webkit-transform: translate(92px, -34px) rotate(-244deg);
-          transform: translate(92px, -34px) rotate(-244deg);
-  -webkit-animation-duration: 1.346s;
-          animation-duration: 1.346s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(158) {
-  -webkit-transform: translate(156px, 320px) rotate(151deg);
-          transform: translate(156px, 320px) rotate(151deg);
-  -webkit-animation-duration: 1.3092s;
-          animation-duration: 1.3092s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(159) {
-  -webkit-transform: translate(-505px, -187px) rotate(106deg);
-          transform: translate(-505px, -187px) rotate(106deg);
-  -webkit-animation-duration: 1.3308s;
-          animation-duration: 1.3308s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(160) {
-  -webkit-transform: translate(670px, 355px) rotate(-248deg);
-          transform: translate(670px, 355px) rotate(-248deg);
-  -webkit-animation-duration: 1.3372s;
-          animation-duration: 1.3372s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(161) {
-  -webkit-transform: translate(-218px, 422px) rotate(173deg);
-          transform: translate(-218px, 422px) rotate(173deg);
-  -webkit-animation-duration: 1.35s;
-          animation-duration: 1.35s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(162) {
-  -webkit-transform: translate(-562px, -303px) rotate(-20deg);
-          transform: translate(-562px, -303px) rotate(-20deg);
-  -webkit-animation-duration: 1.3004s;
-          animation-duration: 1.3004s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(163) {
-  -webkit-transform: translate(243px, 670px) rotate(228deg);
-          transform: translate(243px, 670px) rotate(228deg);
-  -webkit-animation-duration: 1.368s;
-          animation-duration: 1.368s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(164) {
-  -webkit-transform: translate(-122px, -592px) rotate(-60deg);
-          transform: translate(-122px, -592px) rotate(-60deg);
-  -webkit-animation-duration: 1.348s;
-          animation-duration: 1.348s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(165) {
-  -webkit-transform: translate(310px, 153px) rotate(109deg);
-          transform: translate(310px, 153px) rotate(109deg);
-  -webkit-animation-duration: 1.346s;
-          animation-duration: 1.346s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(166) {
-  -webkit-transform: translate(-556px, 231px) rotate(161deg);
-          transform: translate(-556px, 231px) rotate(161deg);
-  -webkit-animation-duration: 1.3312s;
-          animation-duration: 1.3312s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(167) {
-  -webkit-transform: translate(-306px, -610px) rotate(-280deg);
-          transform: translate(-306px, -610px) rotate(-280deg);
-  -webkit-animation-duration: 1.3416s;
-          animation-duration: 1.3416s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(168) {
-  -webkit-transform: translate(627px, -472px) rotate(79deg);
-          transform: translate(627px, -472px) rotate(79deg);
-  -webkit-animation-duration: 1.3016s;
-          animation-duration: 1.3016s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(169) {
-  -webkit-transform: translate(7px, 467px) rotate(-34deg);
-          transform: translate(7px, 467px) rotate(-34deg);
-  -webkit-animation-duration: 1.3492s;
-          animation-duration: 1.3492s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(170) {
-  -webkit-transform: translate(-147px, 117px) rotate(101deg);
-          transform: translate(-147px, 117px) rotate(101deg);
-  -webkit-animation-duration: 1.3716s;
-          animation-duration: 1.3716s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(171) {
-  -webkit-transform: translate(-498px, 499px) rotate(148deg);
-          transform: translate(-498px, 499px) rotate(148deg);
-  -webkit-animation-duration: 1.3276s;
-          animation-duration: 1.3276s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(172) {
-  -webkit-transform: translate(-697px, 486px) rotate(199deg);
-          transform: translate(-697px, 486px) rotate(199deg);
-  -webkit-animation-duration: 1.3636s;
-          animation-duration: 1.3636s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(173) {
-  -webkit-transform: translate(682px, -598px) rotate(126deg);
-          transform: translate(682px, -598px) rotate(126deg);
-  -webkit-animation-duration: 1.3424s;
-          animation-duration: 1.3424s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(174) {
-  -webkit-transform: translate(-177px, -173px) rotate(-247deg);
-          transform: translate(-177px, -173px) rotate(-247deg);
-  -webkit-animation-duration: 1.3748s;
-          animation-duration: 1.3748s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(175) {
-  -webkit-transform: translate(737px, 632px) rotate(-209deg);
-          transform: translate(737px, 632px) rotate(-209deg);
-  -webkit-animation-duration: 1.3016s;
-          animation-duration: 1.3016s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(176) {
-  -webkit-transform: translate(-584px, 57px) rotate(95deg);
-          transform: translate(-584px, 57px) rotate(95deg);
-  -webkit-animation-duration: 1.3648s;
-          animation-duration: 1.3648s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(177) {
-  -webkit-transform: translate(-278px, -278px) rotate(-243deg);
-          transform: translate(-278px, -278px) rotate(-243deg);
-  -webkit-animation-duration: 1.3596s;
-          animation-duration: 1.3596s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(178) {
-  -webkit-transform: translate(-182px, 500px) rotate(-8deg);
-          transform: translate(-182px, 500px) rotate(-8deg);
-  -webkit-animation-duration: 1.3512s;
-          animation-duration: 1.3512s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(179) {
-  -webkit-transform: translate(-279px, -416px) rotate(-52deg);
-          transform: translate(-279px, -416px) rotate(-52deg);
-  -webkit-animation-duration: 1.3044s;
-          animation-duration: 1.3044s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(180) {
-  -webkit-transform: translate(-743px, -643px) rotate(-102deg);
-          transform: translate(-743px, -643px) rotate(-102deg);
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(4) {
+  -webkit-transform: translate(453px, 181px) rotate(-35deg);
+          transform: translate(453px, 181px) rotate(-35deg);
   -webkit-animation-duration: 1.372s;
           animation-duration: 1.372s;
 }
 
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(181) {
-  -webkit-transform: translate(-487px, 305px) rotate(44deg);
-          transform: translate(-487px, 305px) rotate(44deg);
-  -webkit-animation-duration: 1.312s;
-          animation-duration: 1.312s;
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(5) {
+  -webkit-transform: translate(-387px, -496px) rotate(-96deg);
+          transform: translate(-387px, -496px) rotate(-96deg);
+  -webkit-animation-duration: 1.3672s;
+          animation-duration: 1.3672s;
 }
 
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(182) {
-  -webkit-transform: translate(455px, 428px) rotate(178deg);
-          transform: translate(455px, 428px) rotate(178deg);
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(6) {
+  -webkit-transform: translate(213px, -370px) rotate(321deg);
+          transform: translate(213px, -370px) rotate(321deg);
+  -webkit-animation-duration: 1.3016s;
+          animation-duration: 1.3016s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(7) {
+  -webkit-transform: translate(-692px, -394px) rotate(-321deg);
+          transform: translate(-692px, -394px) rotate(-321deg);
+  -webkit-animation-duration: 1.3512s;
+          animation-duration: 1.3512s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(8) {
+  -webkit-transform: translate(-92px, 511px) rotate(66deg);
+          transform: translate(-92px, 511px) rotate(66deg);
+  -webkit-animation-duration: 1.3304s;
+          animation-duration: 1.3304s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(9) {
+  -webkit-transform: translate(-52px, -489px) rotate(-35deg);
+          transform: translate(-52px, -489px) rotate(-35deg);
+  -webkit-animation-duration: 1.3492s;
+          animation-duration: 1.3492s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(10) {
+  -webkit-transform: translate(616px, -333px) rotate(309deg);
+          transform: translate(616px, -333px) rotate(309deg);
+  -webkit-animation-duration: 1.334s;
+          animation-duration: 1.334s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(11) {
+  -webkit-transform: translate(-604px, -6px) rotate(-173deg);
+          transform: translate(-604px, -6px) rotate(-173deg);
+  -webkit-animation-duration: 1.3308s;
+          animation-duration: 1.3308s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(12) {
+  -webkit-transform: translate(395px, -463px) rotate(209deg);
+          transform: translate(395px, -463px) rotate(209deg);
+  -webkit-animation-duration: 1.3536s;
+          animation-duration: 1.3536s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(13) {
+  -webkit-transform: translate(-52px, 619px) rotate(10deg);
+          transform: translate(-52px, 619px) rotate(10deg);
+  -webkit-animation-duration: 1.356s;
+          animation-duration: 1.356s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(14) {
+  -webkit-transform: translate(-478px, 585px) rotate(-66deg);
+          transform: translate(-478px, 585px) rotate(-66deg);
+  -webkit-animation-duration: 1.3764s;
+          animation-duration: 1.3764s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(15) {
+  -webkit-transform: translate(-141px, 585px) rotate(24deg);
+          transform: translate(-141px, 585px) rotate(24deg);
   -webkit-animation-duration: 1.3416s;
           animation-duration: 1.3416s;
 }
 
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(183) {
-  -webkit-transform: translate(296px, 640px) rotate(-319deg);
-          transform: translate(296px, 640px) rotate(-319deg);
-  -webkit-animation-duration: 1.3008s;
-          animation-duration: 1.3008s;
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(16) {
+  -webkit-transform: translate(-251px, 236px) rotate(235deg);
+          transform: translate(-251px, 236px) rotate(235deg);
+  -webkit-animation-duration: 1.3172s;
+          animation-duration: 1.3172s;
 }
 
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(184) {
-  -webkit-transform: translate(72px, 161px) rotate(297deg);
-          transform: translate(72px, 161px) rotate(297deg);
-  -webkit-animation-duration: 1.3148s;
-          animation-duration: 1.3148s;
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(17) {
+  -webkit-transform: translate(-235px, -604px) rotate(351deg);
+          transform: translate(-235px, -604px) rotate(351deg);
+  -webkit-animation-duration: 1.3588s;
+          animation-duration: 1.3588s;
 }
 
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(185) {
-  -webkit-transform: translate(-208px, 690px) rotate(-242deg);
-          transform: translate(-208px, 690px) rotate(-242deg);
-  -webkit-animation-duration: 1.3048s;
-          animation-duration: 1.3048s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(186) {
-  -webkit-transform: translate(-392px, -237px) rotate(-315deg);
-          transform: translate(-392px, -237px) rotate(-315deg);
-  -webkit-animation-duration: 1.3704s;
-          animation-duration: 1.3704s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(187) {
-  -webkit-transform: translate(-315px, 496px) rotate(90deg);
-          transform: translate(-315px, 496px) rotate(90deg);
-  -webkit-animation-duration: 1.3788s;
-          animation-duration: 1.3788s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(188) {
-  -webkit-transform: translate(-568px, 293px) rotate(264deg);
-          transform: translate(-568px, 293px) rotate(264deg);
-  -webkit-animation-duration: 1.3528s;
-          animation-duration: 1.3528s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(189) {
-  -webkit-transform: translate(-316px, -5px) rotate(116deg);
-          transform: translate(-316px, -5px) rotate(116deg);
-  -webkit-animation-duration: 1.3064s;
-          animation-duration: 1.3064s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(190) {
-  -webkit-transform: translate(619px, 74px) rotate(302deg);
-          transform: translate(619px, 74px) rotate(302deg);
-  -webkit-animation-duration: 1.3044s;
-          animation-duration: 1.3044s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(191) {
-  -webkit-transform: translate(-694px, 225px) rotate(353deg);
-          transform: translate(-694px, 225px) rotate(353deg);
-  -webkit-animation-duration: 1.3692s;
-          animation-duration: 1.3692s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(192) {
-  -webkit-transform: translate(217px, -21px) rotate(-290deg);
-          transform: translate(217px, -21px) rotate(-290deg);
-  -webkit-animation-duration: 1.3376s;
-          animation-duration: 1.3376s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(193) {
-  -webkit-transform: translate(-17px, -83px) rotate(29deg);
-          transform: translate(-17px, -83px) rotate(29deg);
-  -webkit-animation-duration: 1.3524s;
-          animation-duration: 1.3524s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(194) {
-  -webkit-transform: translate(-113px, -7px) rotate(229deg);
-          transform: translate(-113px, -7px) rotate(229deg);
-  -webkit-animation-duration: 1.3548s;
-          animation-duration: 1.3548s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(195) {
-  -webkit-transform: translate(743px, -322px) rotate(185deg);
-          transform: translate(743px, -322px) rotate(185deg);
-  -webkit-animation-duration: 1.374s;
-          animation-duration: 1.374s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(196) {
-  -webkit-transform: translate(346px, 302px) rotate(197deg);
-          transform: translate(346px, 302px) rotate(197deg);
-  -webkit-animation-duration: 1.3152s;
-          animation-duration: 1.3152s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(197) {
-  -webkit-transform: translate(-122px, -300px) rotate(-266deg);
-          transform: translate(-122px, -300px) rotate(-266deg);
-  -webkit-animation-duration: 1.3628s;
-          animation-duration: 1.3628s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(198) {
-  -webkit-transform: translate(-127px, 114px) rotate(218deg);
-          transform: translate(-127px, 114px) rotate(218deg);
-  -webkit-animation-duration: 1.342s;
-          animation-duration: 1.342s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(199) {
-  -webkit-transform: translate(537px, 664px) rotate(64deg);
-          transform: translate(537px, 664px) rotate(64deg);
-  -webkit-animation-duration: 1.312s;
-          animation-duration: 1.312s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(200) {
-  -webkit-transform: translate(9px, -544px) rotate(87deg);
-          transform: translate(9px, -544px) rotate(87deg);
-  -webkit-animation-duration: 1.3684s;
-          animation-duration: 1.3684s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(201) {
-  -webkit-transform: translate(470px, -59px) rotate(-176deg);
-          transform: translate(470px, -59px) rotate(-176deg);
-  -webkit-animation-duration: 1.344s;
-          animation-duration: 1.344s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(202) {
-  -webkit-transform: translate(-218px, 439px) rotate(-9deg);
-          transform: translate(-218px, 439px) rotate(-9deg);
-  -webkit-animation-duration: 1.366s;
-          animation-duration: 1.366s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(203) {
-  -webkit-transform: translate(221px, -240px) rotate(30deg);
-          transform: translate(221px, -240px) rotate(30deg);
-  -webkit-animation-duration: 1.3532s;
-          animation-duration: 1.3532s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(204) {
-  -webkit-transform: translate(465px, -258px) rotate(304deg);
-          transform: translate(465px, -258px) rotate(304deg);
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(18) {
+  -webkit-transform: translate(-600px, -596px) rotate(-61deg);
+          transform: translate(-600px, -596px) rotate(-61deg);
   -webkit-animation-duration: 1.3652s;
           animation-duration: 1.3652s;
 }
 
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(205) {
-  -webkit-transform: translate(742px, -577px) rotate(201deg);
-          transform: translate(742px, -577px) rotate(201deg);
-  -webkit-animation-duration: 1.3692s;
-          animation-duration: 1.3692s;
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(19) {
+  -webkit-transform: translate(-147px, -220px) rotate(70deg);
+          transform: translate(-147px, -220px) rotate(70deg);
+  -webkit-animation-duration: 1.3668s;
+          animation-duration: 1.3668s;
 }
 
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(206) {
-  -webkit-transform: translate(206px, -459px) rotate(-81deg);
-          transform: translate(206px, -459px) rotate(-81deg);
-  -webkit-animation-duration: 1.3412s;
-          animation-duration: 1.3412s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(207) {
-  -webkit-transform: translate(92px, 150px) rotate(25deg);
-          transform: translate(92px, 150px) rotate(25deg);
-  -webkit-animation-duration: 1.3556s;
-          animation-duration: 1.3556s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(208) {
-  -webkit-transform: translate(-168px, 148px) rotate(-160deg);
-          transform: translate(-168px, 148px) rotate(-160deg);
-  -webkit-animation-duration: 1.3572s;
-          animation-duration: 1.3572s;
-}
-
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(209) {
-  -webkit-transform: translate(658px, -415px) rotate(-21deg);
-          transform: translate(658px, -415px) rotate(-21deg);
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(20) {
+  -webkit-transform: translate(665px, 367px) rotate(268deg);
+          transform: translate(665px, 367px) rotate(268deg);
   -webkit-animation-duration: 1.322s;
           animation-duration: 1.322s;
 }
 
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(210) {
-  -webkit-transform: translate(-295px, 401px) rotate(-330deg);
-          transform: translate(-295px, 401px) rotate(-330deg);
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(21) {
+  -webkit-transform: translate(-311px, 108px) rotate(173deg);
+          transform: translate(-311px, 108px) rotate(173deg);
+  -webkit-animation-duration: 1.3108s;
+          animation-duration: 1.3108s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(22) {
+  -webkit-transform: translate(723px, 288px) rotate(62deg);
+          transform: translate(723px, 288px) rotate(62deg);
+  -webkit-animation-duration: 1.3648s;
+          animation-duration: 1.3648s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(23) {
+  -webkit-transform: translate(-591px, -461px) rotate(189deg);
+          transform: translate(-591px, -461px) rotate(189deg);
+  -webkit-animation-duration: 1.3316s;
+          animation-duration: 1.3316s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(24) {
+  -webkit-transform: translate(-688px, -25px) rotate(217deg);
+          transform: translate(-688px, -25px) rotate(217deg);
+  -webkit-animation-duration: 1.3604s;
+          animation-duration: 1.3604s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(25) {
+  -webkit-transform: translate(690px, -553px) rotate(221deg);
+          transform: translate(690px, -553px) rotate(221deg);
+  -webkit-animation-duration: 1.3692s;
+          animation-duration: 1.3692s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(26) {
+  -webkit-transform: translate(-285px, -128px) rotate(229deg);
+          transform: translate(-285px, -128px) rotate(229deg);
+  -webkit-animation-duration: 1.3048s;
+          animation-duration: 1.3048s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(27) {
+  -webkit-transform: translate(50px, 405px) rotate(-15deg);
+          transform: translate(50px, 405px) rotate(-15deg);
+  -webkit-animation-duration: 1.3612s;
+          animation-duration: 1.3612s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(28) {
+  -webkit-transform: translate(-219px, 335px) rotate(283deg);
+          transform: translate(-219px, 335px) rotate(283deg);
+  -webkit-animation-duration: 1.3764s;
+          animation-duration: 1.3764s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(29) {
+  -webkit-transform: translate(-66px, -648px) rotate(248deg);
+          transform: translate(-66px, -648px) rotate(248deg);
+  -webkit-animation-duration: 1.3764s;
+          animation-duration: 1.3764s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(30) {
+  -webkit-transform: translate(-225px, -617px) rotate(-48deg);
+          transform: translate(-225px, -617px) rotate(-48deg);
+  -webkit-animation-duration: 1.3124s;
+          animation-duration: 1.3124s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(31) {
+  -webkit-transform: translate(698px, 97px) rotate(135deg);
+          transform: translate(698px, 97px) rotate(135deg);
   -webkit-animation-duration: 1.32s;
           animation-duration: 1.32s;
 }
 
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(211) {
-  -webkit-transform: translate(-60px, 137px) rotate(155deg);
-          transform: translate(-60px, 137px) rotate(155deg);
-  -webkit-animation-duration: 1.3496s;
-          animation-duration: 1.3496s;
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(32) {
+  -webkit-transform: translate(290px, 340px) rotate(126deg);
+          transform: translate(290px, 340px) rotate(126deg);
+  -webkit-animation-duration: 1.3652s;
+          animation-duration: 1.3652s;
 }
 
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(212) {
-  -webkit-transform: translate(-393px, 191px) rotate(-278deg);
-          transform: translate(-393px, 191px) rotate(-278deg);
-  -webkit-animation-duration: 1.3272s;
-          animation-duration: 1.3272s;
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(33) {
+  -webkit-transform: translate(-170px, 292px) rotate(97deg);
+          transform: translate(-170px, 292px) rotate(97deg);
+  -webkit-animation-duration: 1.3432s;
+          animation-duration: 1.3432s;
 }
 
-.verse__1.TriggerOnScroll .shattering-text path:nth-child(213) {
-  -webkit-transform: translate(-629px, 41px) rotate(57deg);
-          transform: translate(-629px, 41px) rotate(57deg);
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(34) {
+  -webkit-transform: translate(136px, -178px) rotate(-214deg);
+          transform: translate(136px, -178px) rotate(-214deg);
+  -webkit-animation-duration: 1.3508s;
+          animation-duration: 1.3508s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(35) {
+  -webkit-transform: translate(245px, -234px) rotate(-89deg);
+          transform: translate(245px, -234px) rotate(-89deg);
+  -webkit-animation-duration: 1.31s;
+          animation-duration: 1.31s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(36) {
+  -webkit-transform: translate(669px, 590px) rotate(66deg);
+          transform: translate(669px, 590px) rotate(66deg);
+  -webkit-animation-duration: 1.3492s;
+          animation-duration: 1.3492s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(37) {
+  -webkit-transform: translate(-233px, -23px) rotate(-178deg);
+          transform: translate(-233px, -23px) rotate(-178deg);
+  -webkit-animation-duration: 1.3092s;
+          animation-duration: 1.3092s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(38) {
+  -webkit-transform: translate(487px, 344px) rotate(-41deg);
+          transform: translate(487px, 344px) rotate(-41deg);
+  -webkit-animation-duration: 1.3612s;
+          animation-duration: 1.3612s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(39) {
+  -webkit-transform: translate(-489px, 253px) rotate(-59deg);
+          transform: translate(-489px, 253px) rotate(-59deg);
+  -webkit-animation-duration: 1.3024s;
+          animation-duration: 1.3024s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(40) {
+  -webkit-transform: translate(399px, -450px) rotate(-219deg);
+          transform: translate(399px, -450px) rotate(-219deg);
+  -webkit-animation-duration: 1.3224s;
+          animation-duration: 1.3224s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(41) {
+  -webkit-transform: translate(678px, -580px) rotate(339deg);
+          transform: translate(678px, -580px) rotate(339deg);
+  -webkit-animation-duration: 1.3348s;
+          animation-duration: 1.3348s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(42) {
+  -webkit-transform: translate(-449px, 222px) rotate(132deg);
+          transform: translate(-449px, 222px) rotate(132deg);
+  -webkit-animation-duration: 1.3756s;
+          animation-duration: 1.3756s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(43) {
+  -webkit-transform: translate(447px, 53px) rotate(199deg);
+          transform: translate(447px, 53px) rotate(199deg);
+  -webkit-animation-duration: 1.3492s;
+          animation-duration: 1.3492s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(44) {
+  -webkit-transform: translate(-305px, 461px) rotate(-238deg);
+          transform: translate(-305px, 461px) rotate(-238deg);
+  -webkit-animation-duration: 1.306s;
+          animation-duration: 1.306s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(45) {
+  -webkit-transform: translate(743px, 208px) rotate(162deg);
+          transform: translate(743px, 208px) rotate(162deg);
+  -webkit-animation-duration: 1.3032s;
+          animation-duration: 1.3032s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(46) {
+  -webkit-transform: translate(575px, -261px) rotate(11deg);
+          transform: translate(575px, -261px) rotate(11deg);
+  -webkit-animation-duration: 1.352s;
+          animation-duration: 1.352s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(47) {
+  -webkit-transform: translate(24px, -407px) rotate(236deg);
+          transform: translate(24px, -407px) rotate(236deg);
+  -webkit-animation-duration: 1.3688s;
+          animation-duration: 1.3688s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(48) {
+  -webkit-transform: translate(471px, 171px) rotate(345deg);
+          transform: translate(471px, 171px) rotate(345deg);
+  -webkit-animation-duration: 1.3192s;
+          animation-duration: 1.3192s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(49) {
+  -webkit-transform: translate(-223px, -197px) rotate(-12deg);
+          transform: translate(-223px, -197px) rotate(-12deg);
+  -webkit-animation-duration: 1.37s;
+          animation-duration: 1.37s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(50) {
+  -webkit-transform: translate(-125px, -319px) rotate(321deg);
+          transform: translate(-125px, -319px) rotate(321deg);
+  -webkit-animation-duration: 1.3364s;
+          animation-duration: 1.3364s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(51) {
+  -webkit-transform: translate(-290px, -693px) rotate(112deg);
+          transform: translate(-290px, -693px) rotate(112deg);
+  -webkit-animation-duration: 1.3364s;
+          animation-duration: 1.3364s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(52) {
+  -webkit-transform: translate(427px, -275px) rotate(-277deg);
+          transform: translate(427px, -275px) rotate(-277deg);
+  -webkit-animation-duration: 1.34s;
+          animation-duration: 1.34s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(53) {
+  -webkit-transform: translate(415px, 103px) rotate(-183deg);
+          transform: translate(415px, 103px) rotate(-183deg);
+  -webkit-animation-duration: 1.3284s;
+          animation-duration: 1.3284s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(54) {
+  -webkit-transform: translate(-301px, -570px) rotate(273deg);
+          transform: translate(-301px, -570px) rotate(273deg);
+  -webkit-animation-duration: 1.3636s;
+          animation-duration: 1.3636s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(55) {
+  -webkit-transform: translate(238px, 319px) rotate(231deg);
+          transform: translate(238px, 319px) rotate(231deg);
+  -webkit-animation-duration: 1.3344s;
+          animation-duration: 1.3344s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(56) {
+  -webkit-transform: translate(259px, 200px) rotate(-85deg);
+          transform: translate(259px, 200px) rotate(-85deg);
+  -webkit-animation-duration: 1.3348s;
+          animation-duration: 1.3348s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(57) {
+  -webkit-transform: translate(-547px, -552px) rotate(80deg);
+          transform: translate(-547px, -552px) rotate(80deg);
+  -webkit-animation-duration: 1.3048s;
+          animation-duration: 1.3048s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(58) {
+  -webkit-transform: translate(-6px, -399px) rotate(-253deg);
+          transform: translate(-6px, -399px) rotate(-253deg);
+  -webkit-animation-duration: 1.3308s;
+          animation-duration: 1.3308s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(59) {
+  -webkit-transform: translate(-419px, -582px) rotate(-13deg);
+          transform: translate(-419px, -582px) rotate(-13deg);
+  -webkit-animation-duration: 1.3744s;
+          animation-duration: 1.3744s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(60) {
+  -webkit-transform: translate(669px, 481px) rotate(-54deg);
+          transform: translate(669px, 481px) rotate(-54deg);
+  -webkit-animation-duration: 1.38s;
+          animation-duration: 1.38s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(61) {
+  -webkit-transform: translate(-451px, 170px) rotate(-28deg);
+          transform: translate(-451px, 170px) rotate(-28deg);
+  -webkit-animation-duration: 1.3484s;
+          animation-duration: 1.3484s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(62) {
+  -webkit-transform: translate(-85px, 26px) rotate(125deg);
+          transform: translate(-85px, 26px) rotate(125deg);
+  -webkit-animation-duration: 1.3664s;
+          animation-duration: 1.3664s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(63) {
+  -webkit-transform: translate(-57px, 399px) rotate(189deg);
+          transform: translate(-57px, 399px) rotate(189deg);
+  -webkit-animation-duration: 1.326s;
+          animation-duration: 1.326s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(64) {
+  -webkit-transform: translate(-266px, 555px) rotate(-274deg);
+          transform: translate(-266px, 555px) rotate(-274deg);
+  -webkit-animation-duration: 1.3036s;
+          animation-duration: 1.3036s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(65) {
+  -webkit-transform: translate(-210px, 191px) rotate(-83deg);
+          transform: translate(-210px, 191px) rotate(-83deg);
+  -webkit-animation-duration: 1.3352s;
+          animation-duration: 1.3352s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(66) {
+  -webkit-transform: translate(367px, 5px) rotate(-164deg);
+          transform: translate(367px, 5px) rotate(-164deg);
+  -webkit-animation-duration: 1.3064s;
+          animation-duration: 1.3064s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(67) {
+  -webkit-transform: translate(-647px, 652px) rotate(334deg);
+          transform: translate(-647px, 652px) rotate(334deg);
+  -webkit-animation-duration: 1.3516s;
+          animation-duration: 1.3516s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(68) {
+  -webkit-transform: translate(283px, -135px) rotate(104deg);
+          transform: translate(283px, -135px) rotate(104deg);
+  -webkit-animation-duration: 1.3604s;
+          animation-duration: 1.3604s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(69) {
+  -webkit-transform: translate(-126px, -214px) rotate(273deg);
+          transform: translate(-126px, -214px) rotate(273deg);
+  -webkit-animation-duration: 1.364s;
+          animation-duration: 1.364s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(70) {
+  -webkit-transform: translate(-59px, -49px) rotate(34deg);
+          transform: translate(-59px, -49px) rotate(34deg);
+  -webkit-animation-duration: 1.3288s;
+          animation-duration: 1.3288s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(71) {
+  -webkit-transform: translate(683px, -593px) rotate(338deg);
+          transform: translate(683px, -593px) rotate(338deg);
+  -webkit-animation-duration: 1.3252s;
+          animation-duration: 1.3252s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(72) {
+  -webkit-transform: translate(7px, -675px) rotate(-302deg);
+          transform: translate(7px, -675px) rotate(-302deg);
+  -webkit-animation-duration: 1.3652s;
+          animation-duration: 1.3652s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(73) {
+  -webkit-transform: translate(-142px, 250px) rotate(-63deg);
+          transform: translate(-142px, 250px) rotate(-63deg);
+  -webkit-animation-duration: 1.3044s;
+          animation-duration: 1.3044s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(74) {
+  -webkit-transform: translate(-388px, -124px) rotate(-113deg);
+          transform: translate(-388px, -124px) rotate(-113deg);
+  -webkit-animation-duration: 1.3568s;
+          animation-duration: 1.3568s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(75) {
+  -webkit-transform: translate(98px, 589px) rotate(-325deg);
+          transform: translate(98px, 589px) rotate(-325deg);
+  -webkit-animation-duration: 1.3192s;
+          animation-duration: 1.3192s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(76) {
+  -webkit-transform: translate(-127px, -505px) rotate(-70deg);
+          transform: translate(-127px, -505px) rotate(-70deg);
+  -webkit-animation-duration: 1.3084s;
+          animation-duration: 1.3084s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(77) {
+  -webkit-transform: translate(364px, 681px) rotate(286deg);
+          transform: translate(364px, 681px) rotate(286deg);
+  -webkit-animation-duration: 1.3744s;
+          animation-duration: 1.3744s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(78) {
+  -webkit-transform: translate(-485px, -666px) rotate(-290deg);
+          transform: translate(-485px, -666px) rotate(-290deg);
+  -webkit-animation-duration: 1.3144s;
+          animation-duration: 1.3144s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(79) {
+  -webkit-transform: translate(-9px, 700px) rotate(-9deg);
+          transform: translate(-9px, 700px) rotate(-9deg);
+  -webkit-animation-duration: 1.3488s;
+          animation-duration: 1.3488s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(80) {
+  -webkit-transform: translate(-214px, -592px) rotate(118deg);
+          transform: translate(-214px, -592px) rotate(118deg);
+  -webkit-animation-duration: 1.3568s;
+          animation-duration: 1.3568s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(81) {
+  -webkit-transform: translate(-264px, -94px) rotate(-83deg);
+          transform: translate(-264px, -94px) rotate(-83deg);
+  -webkit-animation-duration: 1.302s;
+          animation-duration: 1.302s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(82) {
+  -webkit-transform: translate(-565px, -464px) rotate(-274deg);
+          transform: translate(-565px, -464px) rotate(-274deg);
+  -webkit-animation-duration: 1.358s;
+          animation-duration: 1.358s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(83) {
+  -webkit-transform: translate(368px, -674px) rotate(165deg);
+          transform: translate(368px, -674px) rotate(165deg);
+  -webkit-animation-duration: 1.316s;
+          animation-duration: 1.316s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(84) {
+  -webkit-transform: translate(228px, 370px) rotate(249deg);
+          transform: translate(228px, 370px) rotate(249deg);
+  -webkit-animation-duration: 1.3644s;
+          animation-duration: 1.3644s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(85) {
+  -webkit-transform: translate(167px, -55px) rotate(-340deg);
+          transform: translate(167px, -55px) rotate(-340deg);
+  -webkit-animation-duration: 1.3412s;
+          animation-duration: 1.3412s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(86) {
+  -webkit-transform: translate(500px, -521px) rotate(-264deg);
+          transform: translate(500px, -521px) rotate(-264deg);
+  -webkit-animation-duration: 1.37s;
+          animation-duration: 1.37s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(87) {
+  -webkit-transform: translate(-298px, 45px) rotate(-39deg);
+          transform: translate(-298px, 45px) rotate(-39deg);
+  -webkit-animation-duration: 1.3568s;
+          animation-duration: 1.3568s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(88) {
+  -webkit-transform: translate(-723px, -610px) rotate(238deg);
+          transform: translate(-723px, -610px) rotate(238deg);
+  -webkit-animation-duration: 1.3256s;
+          animation-duration: 1.3256s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(89) {
+  -webkit-transform: translate(-582px, -384px) rotate(-286deg);
+          transform: translate(-582px, -384px) rotate(-286deg);
+  -webkit-animation-duration: 1.3228s;
+          animation-duration: 1.3228s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(90) {
+  -webkit-transform: translate(-313px, -134px) rotate(256deg);
+          transform: translate(-313px, -134px) rotate(256deg);
+  -webkit-animation-duration: 1.342s;
+          animation-duration: 1.342s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(91) {
+  -webkit-transform: translate(569px, 639px) rotate(-93deg);
+          transform: translate(569px, 639px) rotate(-93deg);
+  -webkit-animation-duration: 1.3212s;
+          animation-duration: 1.3212s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(92) {
+  -webkit-transform: translate(-253px, 669px) rotate(270deg);
+          transform: translate(-253px, 669px) rotate(270deg);
+  -webkit-animation-duration: 1.344s;
+          animation-duration: 1.344s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(93) {
+  -webkit-transform: translate(192px, 222px) rotate(-254deg);
+          transform: translate(192px, 222px) rotate(-254deg);
+  -webkit-animation-duration: 1.3428s;
+          animation-duration: 1.3428s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(94) {
+  -webkit-transform: translate(-48px, -685px) rotate(337deg);
+          transform: translate(-48px, -685px) rotate(337deg);
+  -webkit-animation-duration: 1.3664s;
+          animation-duration: 1.3664s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(95) {
+  -webkit-transform: translate(506px, 365px) rotate(-303deg);
+          transform: translate(506px, 365px) rotate(-303deg);
+  -webkit-animation-duration: 1.3536s;
+          animation-duration: 1.3536s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(96) {
+  -webkit-transform: translate(237px, -3px) rotate(-107deg);
+          transform: translate(237px, -3px) rotate(-107deg);
+  -webkit-animation-duration: 1.3256s;
+          animation-duration: 1.3256s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(97) {
+  -webkit-transform: translate(493px, 238px) rotate(336deg);
+          transform: translate(493px, 238px) rotate(336deg);
+  -webkit-animation-duration: 1.3756s;
+          animation-duration: 1.3756s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(98) {
+  -webkit-transform: translate(301px, -63px) rotate(233deg);
+          transform: translate(301px, -63px) rotate(233deg);
+  -webkit-animation-duration: 1.3484s;
+          animation-duration: 1.3484s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(99) {
+  -webkit-transform: translate(-58px, 493px) rotate(286deg);
+          transform: translate(-58px, 493px) rotate(286deg);
+  -webkit-animation-duration: 1.3648s;
+          animation-duration: 1.3648s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(100) {
+  -webkit-transform: translate(-353px, 194px) rotate(-40deg);
+          transform: translate(-353px, 194px) rotate(-40deg);
+  -webkit-animation-duration: 1.3624s;
+          animation-duration: 1.3624s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(101) {
+  -webkit-transform: translate(210px, 681px) rotate(202deg);
+          transform: translate(210px, 681px) rotate(202deg);
+  -webkit-animation-duration: 1.3464s;
+          animation-duration: 1.3464s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(102) {
+  -webkit-transform: translate(-705px, 706px) rotate(-332deg);
+          transform: translate(-705px, 706px) rotate(-332deg);
   -webkit-animation-duration: 1.3768s;
           animation-duration: 1.3768s;
 }
 
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(103) {
+  -webkit-transform: translate(-351px, -530px) rotate(240deg);
+          transform: translate(-351px, -530px) rotate(240deg);
+  -webkit-animation-duration: 1.3316s;
+          animation-duration: 1.3316s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(104) {
+  -webkit-transform: translate(499px, -228px) rotate(-20deg);
+          transform: translate(499px, -228px) rotate(-20deg);
+  -webkit-animation-duration: 1.3164s;
+          animation-duration: 1.3164s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(105) {
+  -webkit-transform: translate(-748px, -55px) rotate(-316deg);
+          transform: translate(-748px, -55px) rotate(-316deg);
+  -webkit-animation-duration: 1.3428s;
+          animation-duration: 1.3428s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(106) {
+  -webkit-transform: translate(628px, 153px) rotate(143deg);
+          transform: translate(628px, 153px) rotate(143deg);
+  -webkit-animation-duration: 1.3468s;
+          animation-duration: 1.3468s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(107) {
+  -webkit-transform: translate(319px, 76px) rotate(-33deg);
+          transform: translate(319px, 76px) rotate(-33deg);
+  -webkit-animation-duration: 1.3204s;
+          animation-duration: 1.3204s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(108) {
+  -webkit-transform: translate(-329px, -570px) rotate(-307deg);
+          transform: translate(-329px, -570px) rotate(-307deg);
+  -webkit-animation-duration: 1.3772s;
+          animation-duration: 1.3772s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(109) {
+  -webkit-transform: translate(439px, 425px) rotate(-25deg);
+          transform: translate(439px, 425px) rotate(-25deg);
+  -webkit-animation-duration: 1.3788s;
+          animation-duration: 1.3788s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(110) {
+  -webkit-transform: translate(590px, -151px) rotate(19deg);
+          transform: translate(590px, -151px) rotate(19deg);
+  -webkit-animation-duration: 1.374s;
+          animation-duration: 1.374s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(111) {
+  -webkit-transform: translate(-47px, -426px) rotate(-215deg);
+          transform: translate(-47px, -426px) rotate(-215deg);
+  -webkit-animation-duration: 1.3488s;
+          animation-duration: 1.3488s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(112) {
+  -webkit-transform: translate(-68px, -527px) rotate(332deg);
+          transform: translate(-68px, -527px) rotate(332deg);
+  -webkit-animation-duration: 1.3548s;
+          animation-duration: 1.3548s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(113) {
+  -webkit-transform: translate(-512px, -728px) rotate(317deg);
+          transform: translate(-512px, -728px) rotate(317deg);
+  -webkit-animation-duration: 1.3516s;
+          animation-duration: 1.3516s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(114) {
+  -webkit-transform: translate(-638px, 675px) rotate(-173deg);
+          transform: translate(-638px, 675px) rotate(-173deg);
+  -webkit-animation-duration: 1.3036s;
+          animation-duration: 1.3036s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(115) {
+  -webkit-transform: translate(395px, 22px) rotate(-128deg);
+          transform: translate(395px, 22px) rotate(-128deg);
+  -webkit-animation-duration: 1.3344s;
+          animation-duration: 1.3344s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(116) {
+  -webkit-transform: translate(158px, -161px) rotate(302deg);
+          transform: translate(158px, -161px) rotate(302deg);
+  -webkit-animation-duration: 1.3176s;
+          animation-duration: 1.3176s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(117) {
+  -webkit-transform: translate(714px, 547px) rotate(17deg);
+          transform: translate(714px, 547px) rotate(17deg);
+  -webkit-animation-duration: 1.318s;
+          animation-duration: 1.318s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(118) {
+  -webkit-transform: translate(-55px, 283px) rotate(-57deg);
+          transform: translate(-55px, 283px) rotate(-57deg);
+  -webkit-animation-duration: 1.3404s;
+          animation-duration: 1.3404s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(119) {
+  -webkit-transform: translate(-666px, -326px) rotate(-120deg);
+          transform: translate(-666px, -326px) rotate(-120deg);
+  -webkit-animation-duration: 1.3768s;
+          animation-duration: 1.3768s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(120) {
+  -webkit-transform: translate(-679px, -428px) rotate(-115deg);
+          transform: translate(-679px, -428px) rotate(-115deg);
+  -webkit-animation-duration: 1.3004s;
+          animation-duration: 1.3004s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(121) {
+  -webkit-transform: translate(-17px, -650px) rotate(332deg);
+          transform: translate(-17px, -650px) rotate(332deg);
+  -webkit-animation-duration: 1.3196s;
+          animation-duration: 1.3196s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(122) {
+  -webkit-transform: translate(454px, 435px) rotate(-15deg);
+          transform: translate(454px, 435px) rotate(-15deg);
+  -webkit-animation-duration: 1.3088s;
+          animation-duration: 1.3088s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(123) {
+  -webkit-transform: translate(46px, -232px) rotate(70deg);
+          transform: translate(46px, -232px) rotate(70deg);
+  -webkit-animation-duration: 1.3308s;
+          animation-duration: 1.3308s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(124) {
+  -webkit-transform: translate(-42px, -311px) rotate(-145deg);
+          transform: translate(-42px, -311px) rotate(-145deg);
+  -webkit-animation-duration: 1.3144s;
+          animation-duration: 1.3144s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(125) {
+  -webkit-transform: translate(-444px, 382px) rotate(-22deg);
+          transform: translate(-444px, 382px) rotate(-22deg);
+  -webkit-animation-duration: 1.3596s;
+          animation-duration: 1.3596s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(126) {
+  -webkit-transform: translate(160px, -259px) rotate(-6deg);
+          transform: translate(160px, -259px) rotate(-6deg);
+  -webkit-animation-duration: 1.3636s;
+          animation-duration: 1.3636s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(127) {
+  -webkit-transform: translate(-304px, -119px) rotate(277deg);
+          transform: translate(-304px, -119px) rotate(277deg);
+  -webkit-animation-duration: 1.3376s;
+          animation-duration: 1.3376s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(128) {
+  -webkit-transform: translate(-358px, 488px) rotate(46deg);
+          transform: translate(-358px, 488px) rotate(46deg);
+  -webkit-animation-duration: 1.3588s;
+          animation-duration: 1.3588s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(129) {
+  -webkit-transform: translate(678px, -413px) rotate(-349deg);
+          transform: translate(678px, -413px) rotate(-349deg);
+  -webkit-animation-duration: 1.3548s;
+          animation-duration: 1.3548s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(130) {
+  -webkit-transform: translate(168px, 330px) rotate(270deg);
+          transform: translate(168px, 330px) rotate(270deg);
+  -webkit-animation-duration: 1.3276s;
+          animation-duration: 1.3276s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(131) {
+  -webkit-transform: translate(-245px, -64px) rotate(-195deg);
+          transform: translate(-245px, -64px) rotate(-195deg);
+  -webkit-animation-duration: 1.3316s;
+          animation-duration: 1.3316s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(132) {
+  -webkit-transform: translate(33px, -623px) rotate(-323deg);
+          transform: translate(33px, -623px) rotate(-323deg);
+  -webkit-animation-duration: 1.344s;
+          animation-duration: 1.344s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(133) {
+  -webkit-transform: translate(560px, -138px) rotate(-134deg);
+          transform: translate(560px, -138px) rotate(-134deg);
+  -webkit-animation-duration: 1.3524s;
+          animation-duration: 1.3524s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(134) {
+  -webkit-transform: translate(373px, -281px) rotate(351deg);
+          transform: translate(373px, -281px) rotate(351deg);
+  -webkit-animation-duration: 1.3744s;
+          animation-duration: 1.3744s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(135) {
+  -webkit-transform: translate(712px, -685px) rotate(307deg);
+          transform: translate(712px, -685px) rotate(307deg);
+  -webkit-animation-duration: 1.3048s;
+          animation-duration: 1.3048s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(136) {
+  -webkit-transform: translate(57px, -110px) rotate(-151deg);
+          transform: translate(57px, -110px) rotate(-151deg);
+  -webkit-animation-duration: 1.332s;
+          animation-duration: 1.332s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(137) {
+  -webkit-transform: translate(-227px, -99px) rotate(247deg);
+          transform: translate(-227px, -99px) rotate(247deg);
+  -webkit-animation-duration: 1.3244s;
+          animation-duration: 1.3244s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(138) {
+  -webkit-transform: translate(-526px, -346px) rotate(6deg);
+          transform: translate(-526px, -346px) rotate(6deg);
+  -webkit-animation-duration: 1.3072s;
+          animation-duration: 1.3072s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(139) {
+  -webkit-transform: translate(-120px, -104px) rotate(-159deg);
+          transform: translate(-120px, -104px) rotate(-159deg);
+  -webkit-animation-duration: 1.3604s;
+          animation-duration: 1.3604s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(140) {
+  -webkit-transform: translate(459px, -134px) rotate(-75deg);
+          transform: translate(459px, -134px) rotate(-75deg);
+  -webkit-animation-duration: 1.3184s;
+          animation-duration: 1.3184s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(141) {
+  -webkit-transform: translate(272px, -507px) rotate(-70deg);
+          transform: translate(272px, -507px) rotate(-70deg);
+  -webkit-animation-duration: 1.3056s;
+          animation-duration: 1.3056s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(142) {
+  -webkit-transform: translate(-530px, -377px) rotate(-141deg);
+          transform: translate(-530px, -377px) rotate(-141deg);
+  -webkit-animation-duration: 1.328s;
+          animation-duration: 1.328s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(143) {
+  -webkit-transform: translate(-84px, 84px) rotate(-89deg);
+          transform: translate(-84px, 84px) rotate(-89deg);
+  -webkit-animation-duration: 1.3556s;
+          animation-duration: 1.3556s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(144) {
+  -webkit-transform: translate(-347px, 170px) rotate(335deg);
+          transform: translate(-347px, 170px) rotate(335deg);
+  -webkit-animation-duration: 1.3616s;
+          animation-duration: 1.3616s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(145) {
+  -webkit-transform: translate(-240px, 136px) rotate(251deg);
+          transform: translate(-240px, 136px) rotate(251deg);
+  -webkit-animation-duration: 1.3696s;
+          animation-duration: 1.3696s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(146) {
+  -webkit-transform: translate(660px, -605px) rotate(-88deg);
+          transform: translate(660px, -605px) rotate(-88deg);
+  -webkit-animation-duration: 1.3152s;
+          animation-duration: 1.3152s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(147) {
+  -webkit-transform: translate(-265px, -260px) rotate(15deg);
+          transform: translate(-265px, -260px) rotate(15deg);
+  -webkit-animation-duration: 1.356s;
+          animation-duration: 1.356s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(148) {
+  -webkit-transform: translate(684px, -380px) rotate(58deg);
+          transform: translate(684px, -380px) rotate(58deg);
+  -webkit-animation-duration: 1.318s;
+          animation-duration: 1.318s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(149) {
+  -webkit-transform: translate(-707px, 574px) rotate(92deg);
+          transform: translate(-707px, 574px) rotate(92deg);
+  -webkit-animation-duration: 1.3464s;
+          animation-duration: 1.3464s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(150) {
+  -webkit-transform: translate(734px, 160px) rotate(-191deg);
+          transform: translate(734px, 160px) rotate(-191deg);
+  -webkit-animation-duration: 1.3672s;
+          animation-duration: 1.3672s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(151) {
+  -webkit-transform: translate(-350px, -480px) rotate(331deg);
+          transform: translate(-350px, -480px) rotate(331deg);
+  -webkit-animation-duration: 1.3124s;
+          animation-duration: 1.3124s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(152) {
+  -webkit-transform: translate(12px, -606px) rotate(202deg);
+          transform: translate(12px, -606px) rotate(202deg);
+  -webkit-animation-duration: 1.342s;
+          animation-duration: 1.342s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(153) {
+  -webkit-transform: translate(530px, 511px) rotate(159deg);
+          transform: translate(530px, 511px) rotate(159deg);
+  -webkit-animation-duration: 1.3604s;
+          animation-duration: 1.3604s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(154) {
+  -webkit-transform: translate(-251px, 372px) rotate(238deg);
+          transform: translate(-251px, 372px) rotate(238deg);
+  -webkit-animation-duration: 1.3368s;
+          animation-duration: 1.3368s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(155) {
+  -webkit-transform: translate(-265px, 32px) rotate(141deg);
+          transform: translate(-265px, 32px) rotate(141deg);
+  -webkit-animation-duration: 1.3236s;
+          animation-duration: 1.3236s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(156) {
+  -webkit-transform: translate(-614px, 541px) rotate(184deg);
+          transform: translate(-614px, 541px) rotate(184deg);
+  -webkit-animation-duration: 1.3268s;
+          animation-duration: 1.3268s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(157) {
+  -webkit-transform: translate(-543px, 424px) rotate(67deg);
+          transform: translate(-543px, 424px) rotate(67deg);
+  -webkit-animation-duration: 1.3312s;
+          animation-duration: 1.3312s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(158) {
+  -webkit-transform: translate(287px, -498px) rotate(-301deg);
+          transform: translate(287px, -498px) rotate(-301deg);
+  -webkit-animation-duration: 1.346s;
+          animation-duration: 1.346s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(159) {
+  -webkit-transform: translate(674px, 178px) rotate(326deg);
+          transform: translate(674px, 178px) rotate(326deg);
+  -webkit-animation-duration: 1.3272s;
+          animation-duration: 1.3272s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(160) {
+  -webkit-transform: translate(-503px, 338px) rotate(-226deg);
+          transform: translate(-503px, 338px) rotate(-226deg);
+  -webkit-animation-duration: 1.3544s;
+          animation-duration: 1.3544s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(161) {
+  -webkit-transform: translate(612px, -545px) rotate(351deg);
+          transform: translate(612px, -545px) rotate(351deg);
+  -webkit-animation-duration: 1.3188s;
+          animation-duration: 1.3188s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(162) {
+  -webkit-transform: translate(-39px, -558px) rotate(313deg);
+          transform: translate(-39px, -558px) rotate(313deg);
+  -webkit-animation-duration: 1.3452s;
+          animation-duration: 1.3452s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(163) {
+  -webkit-transform: translate(-530px, -136px) rotate(18deg);
+          transform: translate(-530px, -136px) rotate(18deg);
+  -webkit-animation-duration: 1.3164s;
+          animation-duration: 1.3164s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(164) {
+  -webkit-transform: translate(441px, 383px) rotate(-300deg);
+          transform: translate(441px, 383px) rotate(-300deg);
+  -webkit-animation-duration: 1.3224s;
+          animation-duration: 1.3224s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(165) {
+  -webkit-transform: translate(-477px, 419px) rotate(-335deg);
+          transform: translate(-477px, 419px) rotate(-335deg);
+  -webkit-animation-duration: 1.3264s;
+          animation-duration: 1.3264s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(166) {
+  -webkit-transform: translate(-204px, -648px) rotate(351deg);
+          transform: translate(-204px, -648px) rotate(351deg);
+  -webkit-animation-duration: 1.306s;
+          animation-duration: 1.306s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(167) {
+  -webkit-transform: translate(572px, -7px) rotate(-45deg);
+          transform: translate(572px, -7px) rotate(-45deg);
+  -webkit-animation-duration: 1.3544s;
+          animation-duration: 1.3544s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(168) {
+  -webkit-transform: translate(-311px, 583px) rotate(-228deg);
+          transform: translate(-311px, 583px) rotate(-228deg);
+  -webkit-animation-duration: 1.3124s;
+          animation-duration: 1.3124s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(169) {
+  -webkit-transform: translate(-699px, 624px) rotate(183deg);
+          transform: translate(-699px, 624px) rotate(183deg);
+  -webkit-animation-duration: 1.308s;
+          animation-duration: 1.308s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(170) {
+  -webkit-transform: translate(505px, 135px) rotate(-237deg);
+          transform: translate(505px, 135px) rotate(-237deg);
+  -webkit-animation-duration: 1.3532s;
+          animation-duration: 1.3532s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(171) {
+  -webkit-transform: translate(568px, -217px) rotate(184deg);
+          transform: translate(568px, -217px) rotate(184deg);
+  -webkit-animation-duration: 1.3672s;
+          animation-duration: 1.3672s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(172) {
+  -webkit-transform: translate(-66px, 10px) rotate(1deg);
+          transform: translate(-66px, 10px) rotate(1deg);
+  -webkit-animation-duration: 1.3312s;
+          animation-duration: 1.3312s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(173) {
+  -webkit-transform: translate(-299px, 468px) rotate(39deg);
+          transform: translate(-299px, 468px) rotate(39deg);
+  -webkit-animation-duration: 1.342s;
+          animation-duration: 1.342s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(174) {
+  -webkit-transform: translate(-731px, -348px) rotate(208deg);
+          transform: translate(-731px, -348px) rotate(208deg);
+  -webkit-animation-duration: 1.3048s;
+          animation-duration: 1.3048s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(175) {
+  -webkit-transform: translate(-97px, 694px) rotate(-275deg);
+          transform: translate(-97px, 694px) rotate(-275deg);
+  -webkit-animation-duration: 1.3656s;
+          animation-duration: 1.3656s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(176) {
+  -webkit-transform: translate(215px, 238px) rotate(-201deg);
+          transform: translate(215px, 238px) rotate(-201deg);
+  -webkit-animation-duration: 1.3512s;
+          animation-duration: 1.3512s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(177) {
+  -webkit-transform: translate(-200px, -188px) rotate(164deg);
+          transform: translate(-200px, -188px) rotate(164deg);
+  -webkit-animation-duration: 1.33s;
+          animation-duration: 1.33s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(178) {
+  -webkit-transform: translate(-569px, -38px) rotate(-75deg);
+          transform: translate(-569px, -38px) rotate(-75deg);
+  -webkit-animation-duration: 1.31s;
+          animation-duration: 1.31s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(179) {
+  -webkit-transform: translate(-419px, 170px) rotate(-131deg);
+          transform: translate(-419px, 170px) rotate(-131deg);
+  -webkit-animation-duration: 1.3008s;
+          animation-duration: 1.3008s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(180) {
+  -webkit-transform: translate(-508px, 5px) rotate(-287deg);
+          transform: translate(-508px, 5px) rotate(-287deg);
+  -webkit-animation-duration: 1.3792s;
+          animation-duration: 1.3792s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(181) {
+  -webkit-transform: translate(428px, 485px) rotate(137deg);
+          transform: translate(428px, 485px) rotate(137deg);
+  -webkit-animation-duration: 1.3272s;
+          animation-duration: 1.3272s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(182) {
+  -webkit-transform: translate(-641px, -617px) rotate(-321deg);
+          transform: translate(-641px, -617px) rotate(-321deg);
+  -webkit-animation-duration: 1.3352s;
+          animation-duration: 1.3352s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(183) {
+  -webkit-transform: translate(-519px, 280px) rotate(-35deg);
+          transform: translate(-519px, 280px) rotate(-35deg);
+  -webkit-animation-duration: 1.3268s;
+          animation-duration: 1.3268s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(184) {
+  -webkit-transform: translate(-389px, -208px) rotate(-212deg);
+          transform: translate(-389px, -208px) rotate(-212deg);
+  -webkit-animation-duration: 1.3412s;
+          animation-duration: 1.3412s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(185) {
+  -webkit-transform: translate(-150px, 719px) rotate(-102deg);
+          transform: translate(-150px, 719px) rotate(-102deg);
+  -webkit-animation-duration: 1.362s;
+          animation-duration: 1.362s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(186) {
+  -webkit-transform: translate(280px, -141px) rotate(37deg);
+          transform: translate(280px, -141px) rotate(37deg);
+  -webkit-animation-duration: 1.3508s;
+          animation-duration: 1.3508s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(187) {
+  -webkit-transform: translate(133px, 41px) rotate(-174deg);
+          transform: translate(133px, 41px) rotate(-174deg);
+  -webkit-animation-duration: 1.3492s;
+          animation-duration: 1.3492s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(188) {
+  -webkit-transform: translate(-167px, -448px) rotate(-72deg);
+          transform: translate(-167px, -448px) rotate(-72deg);
+  -webkit-animation-duration: 1.3428s;
+          animation-duration: 1.3428s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(189) {
+  -webkit-transform: translate(596px, 457px) rotate(291deg);
+          transform: translate(596px, 457px) rotate(291deg);
+  -webkit-animation-duration: 1.3308s;
+          animation-duration: 1.3308s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(190) {
+  -webkit-transform: translate(367px, 445px) rotate(-56deg);
+          transform: translate(367px, 445px) rotate(-56deg);
+  -webkit-animation-duration: 1.3012s;
+          animation-duration: 1.3012s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(191) {
+  -webkit-transform: translate(-187px, 101px) rotate(-168deg);
+          transform: translate(-187px, 101px) rotate(-168deg);
+  -webkit-animation-duration: 1.3492s;
+          animation-duration: 1.3492s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(192) {
+  -webkit-transform: translate(-228px, 327px) rotate(338deg);
+          transform: translate(-228px, 327px) rotate(338deg);
+  -webkit-animation-duration: 1.3244s;
+          animation-duration: 1.3244s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(193) {
+  -webkit-transform: translate(366px, -316px) rotate(-62deg);
+          transform: translate(366px, -316px) rotate(-62deg);
+  -webkit-animation-duration: 1.3444s;
+          animation-duration: 1.3444s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(194) {
+  -webkit-transform: translate(516px, -27px) rotate(113deg);
+          transform: translate(516px, -27px) rotate(113deg);
+  -webkit-animation-duration: 1.3628s;
+          animation-duration: 1.3628s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(195) {
+  -webkit-transform: translate(717px, -147px) rotate(-101deg);
+          transform: translate(717px, -147px) rotate(-101deg);
+  -webkit-animation-duration: 1.334s;
+          animation-duration: 1.334s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(196) {
+  -webkit-transform: translate(-465px, 47px) rotate(-88deg);
+          transform: translate(-465px, 47px) rotate(-88deg);
+  -webkit-animation-duration: 1.3704s;
+          animation-duration: 1.3704s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(197) {
+  -webkit-transform: translate(492px, 517px) rotate(-107deg);
+          transform: translate(492px, 517px) rotate(-107deg);
+  -webkit-animation-duration: 1.3388s;
+          animation-duration: 1.3388s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(198) {
+  -webkit-transform: translate(570px, -439px) rotate(151deg);
+          transform: translate(570px, -439px) rotate(151deg);
+  -webkit-animation-duration: 1.3596s;
+          animation-duration: 1.3596s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(199) {
+  -webkit-transform: translate(624px, -355px) rotate(-247deg);
+          transform: translate(624px, -355px) rotate(-247deg);
+  -webkit-animation-duration: 1.3684s;
+          animation-duration: 1.3684s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(200) {
+  -webkit-transform: translate(-140px, -346px) rotate(55deg);
+          transform: translate(-140px, -346px) rotate(55deg);
+  -webkit-animation-duration: 1.3168s;
+          animation-duration: 1.3168s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(201) {
+  -webkit-transform: translate(473px, -747px) rotate(-93deg);
+          transform: translate(473px, -747px) rotate(-93deg);
+  -webkit-animation-duration: 1.3648s;
+          animation-duration: 1.3648s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(202) {
+  -webkit-transform: translate(649px, 519px) rotate(95deg);
+          transform: translate(649px, 519px) rotate(95deg);
+  -webkit-animation-duration: 1.3444s;
+          animation-duration: 1.3444s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(203) {
+  -webkit-transform: translate(238px, 317px) rotate(-262deg);
+          transform: translate(238px, 317px) rotate(-262deg);
+  -webkit-animation-duration: 1.3792s;
+          animation-duration: 1.3792s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(204) {
+  -webkit-transform: translate(-225px, 20px) rotate(-51deg);
+          transform: translate(-225px, 20px) rotate(-51deg);
+  -webkit-animation-duration: 1.3132s;
+          animation-duration: 1.3132s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(205) {
+  -webkit-transform: translate(109px, 475px) rotate(229deg);
+          transform: translate(109px, 475px) rotate(229deg);
+  -webkit-animation-duration: 1.368s;
+          animation-duration: 1.368s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(206) {
+  -webkit-transform: translate(-100px, -642px) rotate(-105deg);
+          transform: translate(-100px, -642px) rotate(-105deg);
+  -webkit-animation-duration: 1.3336s;
+          animation-duration: 1.3336s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(207) {
+  -webkit-transform: translate(582px, -100px) rotate(-332deg);
+          transform: translate(582px, -100px) rotate(-332deg);
+  -webkit-animation-duration: 1.3716s;
+          animation-duration: 1.3716s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(208) {
+  -webkit-transform: translate(-284px, -10px) rotate(-42deg);
+          transform: translate(-284px, -10px) rotate(-42deg);
+  -webkit-animation-duration: 1.3372s;
+          animation-duration: 1.3372s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(209) {
+  -webkit-transform: translate(-275px, 639px) rotate(-299deg);
+          transform: translate(-275px, 639px) rotate(-299deg);
+  -webkit-animation-duration: 1.346s;
+          animation-duration: 1.346s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(210) {
+  -webkit-transform: translate(-442px, 559px) rotate(-346deg);
+          transform: translate(-442px, 559px) rotate(-346deg);
+  -webkit-animation-duration: 1.3156s;
+          animation-duration: 1.3156s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(211) {
+  -webkit-transform: translate(-502px, 157px) rotate(82deg);
+          transform: translate(-502px, 157px) rotate(82deg);
+  -webkit-animation-duration: 1.3356s;
+          animation-duration: 1.3356s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(212) {
+  -webkit-transform: translate(316px, 591px) rotate(221deg);
+          transform: translate(316px, 591px) rotate(221deg);
+  -webkit-animation-duration: 1.3472s;
+          animation-duration: 1.3472s;
+}
+
+.verse__1.TriggerOnScroll .shattering-text path:nth-child(213) {
+  -webkit-transform: translate(745px, 609px) rotate(18deg);
+          transform: translate(745px, 609px) rotate(18deg);
+  -webkit-animation-duration: 1.3508s;
+          animation-duration: 1.3508s;
+}
+
 .verse__2.TriggerOnScroll .verse2__line1--push {
-  -webkit-animation: V2L1 4s;
-          animation: V2L1 4s;
+  -webkit-animation: push 2s ease-out forwards;
+          animation: push 2s ease-out forwards;
 }
 
 .verse__2.TriggerOnScroll .verse2__word--time {
-  -webkit-animation-name: animateTime;
-          animation-name: animateTime;
-  -webkit-animation-duration: 0.8s;
-          animation-duration: 0.8s;
+  -webkit-animation: animateTime 0.8s infinite linear;
+          animation: animateTime 0.8s infinite linear;
   -webkit-transform-origin: 50% 50%;
           transform-origin: 50% 50%;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  position: absolute;
 }
 
 .verse__2.TriggerOnScroll .verse2__creature--hidden {
@@ -1585,150 +1585,156 @@ third line entering animation {
 }
 
 .verse__3.TriggerOnScroll .verse__3--snakehead {
-  -webkit-animation: shake 0.5s;
-          animation: shake 0.5s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  -webkit-animation: shake1 0.7s infinite 0.5s;
+          animation: shake1 0.7s infinite 0.5s;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.verse__3.TriggerOnScroll .verse__3--snakebody {
+  -webkit-animation: snakemoving 3s linear infinite;
+          animation: snakemoving 3s linear infinite;
+  -webkit-transform-origin: left;
+          transform-origin: left;
 }
 
 .verse__3.TriggerOnScroll .verse__3--snake {
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-name: enter-from-side;
-          animation-name: enter-from-side;
-  -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
+  -webkit-animation: enter-from-side 1.5s;
+          animation: enter-from-side 1.5s;
 }
 
 .verse__3.TriggerOnScroll .verse__3--line1 {
   position: absolute;
-  -webkit-animation: move-up 1.6s linear 0.4s forwards;
-          animation: move-up 1.6s linear 0.4s forwards;
+  -webkit-animation: move-up 1.7s linear 0.4s both;
+          animation: move-up 1.7s linear 0.4s both;
 }
 
 .verse__3.TriggerOnScroll .verse__3--line3 {
   position: absolute;
-  -webkit-animation: move-down 1.4s linear 0.6s forwards;
-          animation: move-down 1.4s linear 0.6s forwards;
+  -webkit-animation: move-down 1.4s linear 0.6s both;
+          animation: move-down 1.4s linear 0.6s both;
 }
 
 .verse__3.TriggerOnScroll .fangs-top {
-  position: relative;
-  top: 145px;
-  left: 100px;
+  visibility: initial;
   -webkit-animation: slide-down 2s linear both;
           animation: slide-down 2s linear both;
-  z-index: -1;
 }
 
 .verse__3.TriggerOnScroll .fangs-bottom {
-  position: relative;
-  top: -70px;
-  left: 100px;
+  visibility: initial;
   -webkit-animation: slide-up 2s linear both;
           animation: slide-up 2s linear both;
-  z-index: -1;
 }
 
 .verse__3.TriggerOnScroll .verse__letter--o1 {
-  -webkit-animation: o-entering 2s step-end forwards;
-          animation: o-entering 2s step-end forwards;
+  -webkit-animation: o-entering 2s step-end both;
+          animation: o-entering 2s step-end both;
 }
 
 .verse__3.TriggerOnScroll .verse__letter--o2 {
-  -webkit-animation: o-entering 2.4s step-end forwards;
-          animation: o-entering 2.4s step-end forwards;
+  -webkit-animation: o-entering 2.4s step-end both;
+          animation: o-entering 2.4s step-end both;
 }
 
 .verse__3.TriggerOnScroll .verse__letter--o3 {
-  -webkit-animation: o-entering 2.8s step-end forwards;
-          animation: o-entering 2.8s step-end forwards;
+  -webkit-animation: o-entering 2.8s step-end both;
+          animation: o-entering 2.8s step-end both;
 }
 
 .verse__3.TriggerOnScroll .verse__letter--o4 {
-  -webkit-animation: o-entering 3.2s step-end forwards;
-          animation: o-entering 3.2s step-end forwards;
+  -webkit-animation: o-entering 3.2s step-end both;
+          animation: o-entering 3.2s step-end both;
 }
 
 .verse__3.TriggerOnScroll .verse__letter--o5 {
-  -webkit-animation: o-entering 3.6s step-end forwards;
-          animation: o-entering 3.6s step-end forwards;
+  -webkit-animation: o-entering 3.6s step-end both;
+          animation: o-entering 3.6s step-end both;
 }
 
 .verse__3.TriggerOnScroll .verse__letter--o6 {
-  -webkit-animation: o-entering 4s step-end forwards;
-          animation: o-entering 4s step-end forwards;
+  -webkit-animation: o-entering 4s step-end both;
+          animation: o-entering 4s step-end both;
 }
 
 .verse__3.TriggerOnScroll .verse__letter--o7 {
-  -webkit-animation: o-entering 4.4s step-end forwards;
-          animation: o-entering 4.4s step-end forwards;
+  -webkit-animation: o-entering 4.4s step-end both;
+          animation: o-entering 4.4s step-end both;
 }
 
 .verse__3.TriggerOnScroll .verse__letter--o8 {
-  -webkit-animation: o-entering 4.8s step-end forwards;
-          animation: o-entering 4.8s step-end forwards;
+  -webkit-animation: o-entering 4.8s step-end both;
+          animation: o-entering 4.8s step-end both;
 }
 
 .verse__3.TriggerOnScroll .verse__letter--o9 {
-  -webkit-animation: o-entering 5.2s step-end forwards;
-          animation: o-entering 5.2s step-end forwards;
+  -webkit-animation: o-entering 5.2s step-end both;
+          animation: o-entering 5.2s step-end both;
 }
 
 .verse__3.TriggerOnScroll .verse__letter--o10 {
-  -webkit-animation: o-entering 5.6s step-end forwards;
-          animation: o-entering 5.6s step-end forwards;
+  -webkit-animation: o-entering 5.6s step-end both;
+          animation: o-entering 5.6s step-end both;
 }
 
 .verse__3.TriggerOnScroll .verse__letter--o11 {
-  -webkit-animation: o-entering 6s step-end forwards;
-          animation: o-entering 6s step-end forwards;
+  -webkit-animation: o-entering 6s step-end both;
+          animation: o-entering 6s step-end both;
 }
 
 .verse__3.TriggerOnScroll .verse__letter--o12 {
-  -webkit-animation: o-entering 6.4s step-end forwards;
-          animation: o-entering 6.4s step-end forwards;
+  -webkit-animation: o-entering 6.4s step-end both;
+          animation: o-entering 6.4s step-end both;
 }
 
 .verse__3.TriggerOnScroll .verse__letter--o13 {
-  -webkit-animation: o-entering 6.8s step-end forwards;
-          animation: o-entering 6.8s step-end forwards;
+  -webkit-animation: o-entering 6.8s step-end both;
+          animation: o-entering 6.8s step-end both;
 }
 
 .verse__3.TriggerOnScroll .verse__letter--o14 {
-  -webkit-animation: o-entering 7.2s step-end forwards;
-          animation: o-entering 7.2s step-end forwards;
+  -webkit-animation: o-entering 7.2s step-end both;
+          animation: o-entering 7.2s step-end both;
 }
 
 .verse__3.TriggerOnScroll .verse__letter--o15 {
-  -webkit-animation: o-entering 7.6s step-end forwards;
-          animation: o-entering 7.6s step-end forwards;
+  -webkit-animation: o-entering 7.6s step-end both;
+          animation: o-entering 7.6s step-end both;
 }
 
 .verse__3.TriggerOnScroll .verse__letter--o16 {
-  -webkit-animation: o-entering 8.0s step-end forwards;
-          animation: o-entering 8.0s step-end forwards;
+  -webkit-animation: o-entering 8.0s step-end both;
+          animation: o-entering 8.0s step-end both;
 }
 
 .verse__3.TriggerOnScroll .verse_letter--oright {
-  position: relative;
-  -webkit-animation: words-right-of-o 6.5s linear 1.6s forwards;
-          animation: words-right-of-o 6.5s linear 1.6s forwards;
-  left: -515px;
+  -webkit-animation: words-right-of-o 6.5s linear 1.6s both;
+          animation: words-right-of-o 6.5s linear 1.6s both;
+}
+
+.verse__4.TriggerOnScroll .verse__word--eyes1 {
+  color: #ffffe4;
+  text-shadow: 0 0 3px #98ff23, 0 0 7px #98ff23, 0 0 13px #85e419,  0 0 16px #85e419, 0 0 22px #85e419, 0 0 27px #85e419, 0 0 35px #85e419;
 }
 
 .verse__4.TriggerOnScroll .verse__word--eyes2 {
+  visibility: visible;
   -webkit-animation: eyes-entering 1s step-end;
           animation: eyes-entering 1s step-end;
+  color: #ffffe4;
+  text-shadow: 0 0 3px #98ff23, 0 0 7px #98ff23, 0 0 13px #85e419,  0 0 16px #85e419, 0 0 22px #85e419, 0 0 27px #85e419, 0 0 35px #85e419;
 }
 
 .verse__4.TriggerOnScroll .verse__word--eyes3 {
+  visibility: visible;
   -webkit-animation: eyes-entering 2s step-end;
           animation: eyes-entering 2s step-end;
+  color: #ffffe4;
+  text-shadow: 0 0 3px #98ff23, 0 0 7px #98ff23, 0 0 13px #85e419,  0 0 16px #85e419, 0 0 22px #85e419, 0 0 27px #85e419, 0 0 35px #85e419;
 }
 
 .verse__4.TriggerOnScroll .verse__line--bending {
-  position: relative;
+  position: absolute;
   -webkit-animation: bending 4s linear 3s forwards;
           animation: bending 4s linear 3s forwards;
 }
@@ -1752,16 +1758,55 @@ third line entering animation {
 }
 
 .verse__5.TriggerOnScroll .verse__5--upside-down {
-  -webkit-animation: rotation 15s linear infinite;
-          animation: rotation 15s linear infinite;
+  -webkit-animation: rotation 2s linear forwards;
+          animation: rotation 2s linear forwards;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
 }
 
 .verse__5.TriggerOnScroll .verse__5--drop {
-  -webkit-animation: drop 1.5s linear infinite;
-          animation: drop 1.5s linear infinite;
   position: absolute;
-  -webkit-transform: translate(100%, 800%);
-          transform: translate(100%, 800%);
+}
+
+.verse__5.TriggerOnScroll .drop1 {
+  -webkit-animation: drop 1.9s linear 1.8s both;
+          animation: drop 1.9s linear 1.8s both;
+  position: relative;
+  left: 300px;
+  top: -345px;
+  height: 60px;
+  overflow: visible;
+}
+
+.verse__5.TriggerOnScroll .drop2 {
+  -webkit-animation: drop 1.4s linear 2.4s both;
+          animation: drop 1.4s linear 2.4s both;
+  position: relative;
+  left: 70px;
+  top: -355px;
+  height: 60px;
+  overflow: visible;
+}
+
+.verse__5.TriggerOnScroll .drop3 {
+  -webkit-animation: drop 1.7s linear 2s both;
+          animation: drop 1.7s linear 2s both;
+  position: relative;
+  left: 565px;
+  top: -565px;
+  height: 60px;
+  overflow: visible;
+}
+
+.verse__5.TriggerOnScroll .drop4 {
+  -webkit-animation: drop 1.5s linear 2.1s both;
+          animation: drop 1.5s linear 2.1s both;
+  position: relative;
+  left: -40px;
+  top: -655px;
+  height: 60px;
+  overflow: visible;
 }
 
 .verse__6.TriggerOnScroll .verse__6--p {
@@ -1816,6 +1861,26 @@ third line entering animation {
   100% {
     -webkit-transform: translate(0px, 0px);
             transform: translate(0px, 0px);
+  }
+}
+
+@-webkit-keyframes egg {
+  0% {
+    left: 0%;
+    padding: 0 25% 0 25%;
+    width: 30%;
+  }
+  100% {
+  }
+}
+
+@keyframes egg {
+  0% {
+    left: 0%;
+    padding: 0 25% 0 25%;
+    width: 30%;
+  }
+  100% {
   }
 }
 
@@ -1953,25 +2018,25 @@ third line entering animation {
   }
 }
 
-@-webkit-keyframes V2L1 {
+@-webkit-keyframes push {
   0% {
-    -webkit-transform: translate(0px, 0px);
-            transform: translate(0px, 0px);
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
   }
   100% {
-    -webkit-transform: translate(2000px, 0px);
-            transform: translate(2000px, 0px);
+    -webkit-transform: translate(800px, 0);
+            transform: translate(800px, 0);
   }
 }
 
-@keyframes V2L1 {
+@keyframes push {
   0% {
-    -webkit-transform: translate(0px, 0px);
-            transform: translate(0px, 0px);
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
   }
   100% {
-    -webkit-transform: translate(2000px, 0px);
-            transform: translate(2000px, 0px);
+    -webkit-transform: translate(800px, 0);
+            transform: translate(800px, 0);
   }
 }
 
@@ -2107,8 +2172,8 @@ third line entering animation {
 
 @-webkit-keyframes enter-from-side {
   0% {
-    -webkit-transform: translate(100px, 0px);
-            transform: translate(100px, 0px);
+    -webkit-transform: translate(200px, 0px);
+            transform: translate(200px, 0px);
   }
   100% {
     -webkit-transform: translate(0px, 0px);
@@ -2118,8 +2183,8 @@ third line entering animation {
 
 @keyframes enter-from-side {
   0% {
-    -webkit-transform: translate(100px, 0px);
-            transform: translate(100px, 0px);
+    -webkit-transform: translate(200px, 0px);
+            transform: translate(200px, 0px);
   }
   100% {
     -webkit-transform: translate(0px, 0px);
@@ -2221,14 +2286,130 @@ third line entering animation {
   }
 }
 
+@-webkit-keyframes shake1 {
+  10% {
+    -webkit-transform: translate(-1px, 0);
+            transform: translate(-1px, 0);
+  }
+  20% {
+    -webkit-transform: translate(2px, 0) rotate(-1deg);
+            transform: translate(2px, 0) rotate(-1deg);
+  }
+  30% {
+    -webkit-transform: translate(-4px, 0);
+            transform: translate(-4px, 0);
+  }
+  40% {
+    -webkit-transform: translate(4px, 0) rotate(1deg);
+            transform: translate(4px, 0) rotate(1deg);
+  }
+  50% {
+    -webkit-transform: translate(-4px, 0);
+            transform: translate(-4px, 0);
+  }
+  60% {
+    -webkit-transform: translate(4px, 0) rotate(-1deg);
+            transform: translate(4px, 0) rotate(-1deg);
+  }
+  70% {
+    -webkit-transform: translate(-4px, 0);
+            transform: translate(-4px, 0);
+  }
+  80% {
+    -webkit-transform: translate(2px, 0) rotate(1deg);
+            transform: translate(2px, 0) rotate(1deg);
+  }
+  90% {
+    -webkit-transform: translate(-1px, 0);
+            transform: translate(-1px, 0);
+  }
+}
+
+@keyframes shake1 {
+  10% {
+    -webkit-transform: translate(-1px, 0);
+            transform: translate(-1px, 0);
+  }
+  20% {
+    -webkit-transform: translate(2px, 0) rotate(-1deg);
+            transform: translate(2px, 0) rotate(-1deg);
+  }
+  30% {
+    -webkit-transform: translate(-4px, 0);
+            transform: translate(-4px, 0);
+  }
+  40% {
+    -webkit-transform: translate(4px, 0) rotate(1deg);
+            transform: translate(4px, 0) rotate(1deg);
+  }
+  50% {
+    -webkit-transform: translate(-4px, 0);
+            transform: translate(-4px, 0);
+  }
+  60% {
+    -webkit-transform: translate(4px, 0) rotate(-1deg);
+            transform: translate(4px, 0) rotate(-1deg);
+  }
+  70% {
+    -webkit-transform: translate(-4px, 0);
+            transform: translate(-4px, 0);
+  }
+  80% {
+    -webkit-transform: translate(2px, 0) rotate(1deg);
+            transform: translate(2px, 0) rotate(1deg);
+  }
+  90% {
+    -webkit-transform: translate(-1px, 0);
+            transform: translate(-1px, 0);
+  }
+}
+
+@-webkit-keyframes snakemoving {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  50% {
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
+  }
+  75% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+}
+
+@keyframes snakemoving {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  50% {
+    -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
+  }
+  75% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+}
+
 @-webkit-keyframes move-up {
   0% {
     -webkit-transform: translatey(0);
             transform: translatey(0);
   }
   100% {
-    -webkit-transform: translatey(-90px);
-            transform: translatey(-90px);
+    -webkit-transform: translatey(-85px);
+            transform: translatey(-85px);
   }
 }
 
@@ -2238,8 +2419,8 @@ third line entering animation {
             transform: translatey(0);
   }
   100% {
-    -webkit-transform: translatey(-90px);
-            transform: translatey(-90px);
+    -webkit-transform: translatey(-85px);
+            transform: translatey(-85px);
   }
 }
 
@@ -2249,8 +2430,8 @@ third line entering animation {
             transform: translatey(0);
   }
   100% {
-    -webkit-transform: translatey(90px);
-            transform: translatey(90px);
+    -webkit-transform: translatey(100px);
+            transform: translatey(100px);
   }
 }
 
@@ -2260,8 +2441,8 @@ third line entering animation {
             transform: translatey(0);
   }
   100% {
-    -webkit-transform: translatey(90px);
-            transform: translatey(90px);
+    -webkit-transform: translatey(100px);
+            transform: translatey(100px);
   }
 }
 
@@ -2329,7 +2510,7 @@ third line entering animation {
 
 @-webkit-keyframes words-right-of-o {
   0% {
-    left: -515px;
+    left: -415px;
   }
   100% {
     left: 0px;
@@ -2338,7 +2519,7 @@ third line entering animation {
 
 @keyframes words-right-of-o {
   0% {
-    left: -515px;
+    left: -415px;
   }
   100% {
     left: 0px;
@@ -2455,101 +2636,69 @@ third line entering animation {
 
 @-webkit-keyframes rotation {
   0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  20% {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
-  }
-  40% {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
-  }
-  60% {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
-  }
-  80% {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
+    -webkit-transform: rotatex(0deg);
+            transform: rotatex(0deg);
   }
   100% {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
+    -webkit-transform: rotatex(180deg);
+            transform: rotatex(180deg);
   }
 }
 
 @keyframes rotation {
   0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  20% {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
-  }
-  40% {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
-  }
-  60% {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
-  }
-  80% {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
+    -webkit-transform: rotatex(0deg);
+            transform: rotatex(0deg);
   }
   100% {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
+    -webkit-transform: rotatex(180deg);
+            transform: rotatex(180deg);
   }
 }
 
 @-webkit-keyframes drop {
   0% {
-    -webkit-transform: translate(100%, -200%) scaleX(1);
-            transform: translate(100%, -200%) scaleX(1);
-    height: 60px;
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
   }
-  30% {
-    -webkit-transform: translate(100%, -200%);
-            transform: translate(100%, -200%);
-    height: 30px;
+  1% {
+    visibility: visible;
+  }
+  38% {
+    -webkit-transform: translatey(10px) scalex(0.8);
+            transform: translatey(10px) scalex(0.8);
   }
   70% {
-    -webkit-transform: translate(100%, 100%);
-            transform: translate(100%, 100%);
-    height: 30px;
+    -webkit-transform: translatey(300px) scalex(1);
+            transform: translatey(300px) scalex(1);
   }
   100% {
-    -webkit-transform: translate(100%, 800%) scaleX(1);
-            transform: translate(100%, 800%) scaleX(1);
-    height: 60px;
+    -webkit-transform: translateY(800px) scalex(1);
+            transform: translateY(800px) scalex(1);
+    visibility: hidden;
   }
 }
 
 @keyframes drop {
   0% {
-    -webkit-transform: translate(100%, -200%) scaleX(1);
-            transform: translate(100%, -200%) scaleX(1);
-    height: 60px;
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
   }
-  30% {
-    -webkit-transform: translate(100%, -200%);
-            transform: translate(100%, -200%);
-    height: 30px;
+  1% {
+    visibility: visible;
+  }
+  38% {
+    -webkit-transform: translatey(10px) scalex(0.8);
+            transform: translatey(10px) scalex(0.8);
   }
   70% {
-    -webkit-transform: translate(100%, 100%);
-            transform: translate(100%, 100%);
-    height: 30px;
+    -webkit-transform: translatey(300px) scalex(1);
+            transform: translatey(300px) scalex(1);
   }
   100% {
-    -webkit-transform: translate(100%, 800%) scaleX(1);
-            transform: translate(100%, 800%) scaleX(1);
-    height: 60px;
+    -webkit-transform: translateY(800px) scalex(1);
+            transform: translateY(800px) scalex(1);
+    visibility: hidden;
   }
 }
 
@@ -2598,7 +2747,7 @@ third line entering animation {
     background-color: white;
   }
   20.1% {
-    background-color: black;
+    background-color: #000000;
   }
   20.6% {
     background-color: white;
@@ -2607,10 +2756,10 @@ third line entering animation {
     background-color: white;
   }
   30.1% {
-    background-color: black;
+    background-color: #000000;
   }
   30.5% {
-    background-color: black;
+    background-color: #000000;
   }
   30.6% {
     background-color: white;
@@ -2619,10 +2768,10 @@ third line entering animation {
     background-color: white;
   }
   45.1% {
-    background-color: black;
+    background-color: #000000;
   }
   55% {
-    background-color: black;
+    background-color: #000000;
   }
   55.1% {
     background-color: white;
@@ -2631,10 +2780,10 @@ third line entering animation {
     background-color: white;
   }
   57.1% {
-    background-color: black;
+    background-color: #000000;
   }
   60% {
-    background-color: black;
+    background-color: #000000;
   }
   60.1% {
     background-color: white;
@@ -2643,10 +2792,10 @@ third line entering animation {
     background-color: white;
   }
   65.1% {
-    background-color: black;
+    background-color: #000000;
   }
   75% {
-    background-color: black;
+    background-color: #000000;
   }
   75.1% {
     background-color: white;
@@ -2655,10 +2804,10 @@ third line entering animation {
     background-color: white;
   }
   77.1% {
-    background-color: black;
+    background-color: #000000;
   }
   85% {
-    background-color: black;
+    background-color: #000000;
   }
   85.1% {
     background-color: white;
@@ -2667,10 +2816,10 @@ third line entering animation {
     background-color: white;
   }
   86.1% {
-    background-color: black;
+    background-color: #000000;
   }
   100% {
-    background-color: black;
+    background-color: #000000;
   }
 }
 
@@ -2679,7 +2828,7 @@ third line entering animation {
     background-color: white;
   }
   20.1% {
-    background-color: black;
+    background-color: #000000;
   }
   20.6% {
     background-color: white;
@@ -2688,10 +2837,10 @@ third line entering animation {
     background-color: white;
   }
   30.1% {
-    background-color: black;
+    background-color: #000000;
   }
   30.5% {
-    background-color: black;
+    background-color: #000000;
   }
   30.6% {
     background-color: white;
@@ -2700,10 +2849,10 @@ third line entering animation {
     background-color: white;
   }
   45.1% {
-    background-color: black;
+    background-color: #000000;
   }
   55% {
-    background-color: black;
+    background-color: #000000;
   }
   55.1% {
     background-color: white;
@@ -2712,10 +2861,10 @@ third line entering animation {
     background-color: white;
   }
   57.1% {
-    background-color: black;
+    background-color: #000000;
   }
   60% {
-    background-color: black;
+    background-color: #000000;
   }
   60.1% {
     background-color: white;
@@ -2724,10 +2873,10 @@ third line entering animation {
     background-color: white;
   }
   65.1% {
-    background-color: black;
+    background-color: #000000;
   }
   75% {
-    background-color: black;
+    background-color: #000000;
   }
   75.1% {
     background-color: white;
@@ -2736,10 +2885,10 @@ third line entering animation {
     background-color: white;
   }
   77.1% {
-    background-color: black;
+    background-color: #000000;
   }
   85% {
-    background-color: black;
+    background-color: #000000;
   }
   85.1% {
     background-color: white;
@@ -2748,23 +2897,33 @@ third line entering animation {
     background-color: white;
   }
   86.1% {
-    background-color: black;
+    background-color: #000000;
   }
   100% {
-    background-color: black;
+    background-color: #000000;
   }
+}
+
+html {
+  overflow-x: hidden;
+}
+
+p {
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .egg-poem {
   display: -ms-grid;
   display: grid;
-  gap: 2em 2em;
+  gap: 1% 1%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
       grid-template-areas: "intro-egg intro-egg" "egg-cracking verse__1" "egg-cracking verse__2" "egg-cracking verse__3" "egg-cracking verse__4" "egg-cracking verse__5" "egg-cracking verse__6" "credits credits";
-  -ms-grid-rows: 20vh 100vh 100vh 100vh 100vh 100vh 100vh 20vh;
-      grid-template-rows: 20vh 100vh 100vh 100vh 100vh 100vh 100vh 20vh;
+  -ms-grid-rows: 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh;
+      grid-template-rows: 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh;
+  grid-column: 50% 50%;
 }
 
 .intro-egg {
@@ -2779,6 +2938,41 @@ third line entering animation {
   -ms-grid-row-span: 6;
   -ms-grid-column: 1;
   grid-area: egg-cracking;
+  margin: 0 5% 0 5%;
+  min-width: 400px;
+}
+
+.egg.TriggerOnScroll {
+  margin: 1%;
+  position: fixed;
+  top: 50px;
+  padding: 0 25% 0 25%;
+  width: 30%;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.egg.TriggerOnScroll .egg-cracks {
+  fill: none;
+  stroke: #1d1d1b00;
+  stroke-miterlimit: 0;
+}
+
+.egg {
+  margin: 1%;
+  position: fixed;
+  top: 50px;
+  left: 5%;
+  width: 22%;
+}
+
+.egg-cracks {
+  position: absolute;
+  top: 0;
+  width: 96%;
+  fill: none;
+  stroke: #1d1d1b;
+  stroke-miterlimit: 10;
 }
 
 .verse__1 {
@@ -2805,6 +2999,11 @@ third line entering animation {
 .verse2__line1--push {
   display: inline-block;
   overflow: hidden;
+  vertical-align: top;
+}
+
+.verse2__word--time {
+  position: absolute;
 }
 
 .verse2__creature--svg {
@@ -2825,20 +3024,43 @@ third line entering animation {
   grid-area: verse__3;
 }
 
+.verse__word--long {
+  overflow: hidden;
+}
+
 .verse__3--snake {
-  height: 150px;
-  width: 150px;
-  position: absolute;
+  height: 250px;
+  width: 250px;
+  top: -250px;
+  right: -68%;
+  position: relative;
   margin: 0 0 100px 100px;
 }
 
 .fangs-top, .fangs-bottom {
-  width: 300px;
+  position: relative;
+  width: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-item-align: center;
       align-self: center;
+  z-index: -1;
+  left: 50px;
+  visibility: hidden;
+}
+
+.fangs-top {
+  top: 145px;
+}
+
+.fangs-bottom {
+  top: -70px;
+}
+
+.verse_letter--oright {
+  position: relative;
+  left: -415px;
 }
 
 .verse__4 {
@@ -2847,10 +3069,30 @@ third line entering animation {
   grid-area: verse__4;
 }
 
+.verse__word--eyes2 {
+  visibility: hidden;
+}
+
+.verse__word--eyes3 {
+  visibility: hidden;
+}
+
 .verse__5 {
   -ms-grid-row: 6;
   -ms-grid-column: 2;
   grid-area: verse__5;
+}
+
+.verse__5--drop {
+  position: absolute;
+  width: 5%;
+  -webkit-transform: translate(100%, 800%);
+          transform: translate(100%, 800%);
+  height: 60px;
+}
+
+.drop1, .drop2, .drop3, .drop4 {
+  visibility: hidden;
 }
 
 .verse__6 {
@@ -2866,46 +3108,12 @@ third line entering animation {
   grid-area: credits;
 }
 
-@media screen and (max-width: 720px) {
-  /* For mobile phones: */
-  .egg-cracking .egg {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 3;
-    grid-area: egg-cracking;
-    position: fixed;
-    background-color: beige;
-    top: 0;
-  }
-  .egg-cracks {
-    margin: 10px auto 10px auto;
-    padding-top: 10px;
-  }
-  .egg-poem {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 10% 80% 10%;
-        grid-template-columns: 10% 80% 10%;
-    gap: 0 0;
-        grid-template-areas: "egg-cracking egg-cracking egg-cracking" "intro-egg intro-egg intro-egg" ". verse__1 ." ". verse__2 ." ". verse__3 ." ". verse__4 ." ". verse__5 ." ". verse__6 ." "credits credits credits";
-  }
-  .credits {
-    min-height: 500px;
-    /*height: 200px; dosent work so i "forced" it with min-height*/
-  }
-  .fangs-top {
-    margin-bottom: 85px;
-  }
-  .fangs-bottom {
-    margin-top: 45px;
-  }
-}
-
 body {
   margin: 0;
   font-size: 3em;
   background: #8091a8;
   font-family: source-sans-pro;
+  font-weight: 600;
 }
 
 .verse__1, .verse__2, .verse__3, .verse__4, .verse__5, .verse__6 {
@@ -2913,23 +3121,8 @@ body {
 }
 
 .intro-egg, .credits {
-  width: 100%;
-  height: 100%;
   background: #304e5a;
   text-align: center;
-}
-
-.egg-cracking {
-  min-width: 400px;
-}
-
-.egg-cracks {
-  display: block;
-  position: absolute;
-  width: 30%;
-  fill: none;
-  stroke: #1d1d1b;
-  stroke-miterlimit: 10;
 }
 
 .cracking--1, .cracking--2, .cracking--3,
@@ -2942,31 +3135,7 @@ body {
 .verse__4--p {
   color: #fffaae;
   text-shadow: 0 0 3px #fff023, 0 0 7px #fff238, 0 0 13px #ffbb00, 0 0 16px #ffbb00, 0 0 22px #ffbb00, 0 0 27px #ffbb00, 0 0 35px #ffbb00;
-}
-
-@media screen and (max-width: 720px) {
-  /* For mobile phones: */
-  body {
-    font-size: 2em;
-    margin: 0;
-  }
-  .egg-cracking {
-    min-width: 100%;
-    /*100% wil only set the width to 10% of the screen*/
-  }
-  .egg-cracks {
-    position: -webkit-sticky;
-    position: sticky;
-  }
-  .egg {
-    padding: 10px 0 10px 0;
-    width: 100%;
-  }
-  .verse__1, .verse__2, .verse__3, .verse__4, .verse__5, .verse__6 {
-    padding: 0 0 0 0;
-  }
-  .shattering-text {
-    height: 200px;
-  }
+  display: inline-block;
+  overflow: visible;
 }
 /*# sourceMappingURL=main.css.map */

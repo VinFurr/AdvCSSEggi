@@ -1,6 +1,10 @@
+html {overflow-x:hidden;}
+
+p {overflow: hidden;
+  white-space: nowrap;}
 .egg-poem {
     display: grid;
-    gap: 2em 2em;
+    gap: 1% 1%;
     align-items: center;
     grid-template-areas:
       "intro-egg intro-egg"
@@ -11,12 +15,54 @@
       "egg-cracking verse__5"
       "egg-cracking verse__6"
       "credits credits";
-      grid-template-rows: 20vh 100vh 100vh 100vh 100vh 100vh 100vh 20vh;
+      grid-template-rows: 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh;
+      grid-column: 50% 50%;
+     
   }
 
 .intro-egg { grid-area: intro-egg;}
 
-.egg-cracking { grid-area: egg-cracking; }
+
+
+.egg-cracking { grid-area: egg-cracking;
+margin: 0 5% 0 5%;
+min-width: 400px;
+}
+
+.egg.TriggerOnScroll {
+  
+    margin: 1% ;
+    position: fixed;
+    top: 50px; 
+    padding: 0 25% 0 25%;
+    width: 30%;
+    animation-play-state: paused;
+
+
+  .egg-cracks {
+  fill:none;
+  stroke:#1d1d1b00;
+  stroke-miterlimit:0
+  }
+}
+
+
+.egg {margin: 1% ;
+  position: fixed;
+  top: 50px; 
+  left: 5% ;
+  width: 22%;
+  
+}
+
+.egg-cracks {
+  position: absolute;
+  top: 0;
+width: 96%;
+  fill:none;
+  stroke:#1d1d1b;
+  stroke-miterlimit:10
+  }
 
 .verse__1 { grid-area: verse__1;
 }
@@ -36,8 +82,12 @@
   .verse2__line1--push{
     display: inline-block;
     overflow: hidden;
+    vertical-align: top;
    }
 
+   .verse2__word--time {
+    position: absolute;
+   }
   .verse2__creature--svg{
     display: block;
     position: absolute;
@@ -52,64 +102,64 @@
 
   .verse__3 { grid-area: verse__3; }
 
+  .verse__word--long {overflow: hidden;}
+
   .verse__3--snake {
-    height: 150px;
-    width: 150px;
-    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: -250px;
+    right: -68%;
+    position: relative;
     margin: 0 0 100px 100px;}
 
 .fangs-top, .fangs-bottom {
-        width:300px;
+  position: relative;
+        width:350px;
         display: flex;
         align-self: center;
+        z-index: -1;
+        left: 50px;
+        visibility: hidden;
         }
+
+.fangs-top {
+          
+          top: 145px;}
+      
+.fangs-bottom {
+       
+          top: -70px;
+        }
+
+.verse_letter--oright {
+  position: relative;
+  
+  left: -415px;
+
+}
 
 .verse__4 { grid-area: verse__4; }
 
+.verse__word--eyes2 { 
+  visibility: hidden;}
+
+.verse__word--eyes3 {
+  visibility: hidden;
+  }
+
 .verse__5 { grid-area: verse__5; }
+
+.verse__5--drop {
+  position: absolute;
+  width: 5%;
+  transform: translate(100%, 800%);
+  height: 60px;
+}
+.drop1, .drop2, .drop3, .drop4  {visibility: hidden;}
 
 
 .verse__6 { grid-area: verse__6; }
 
 .credits { grid-area: credits; }
 
-@media screen and (max-width:720px) {
-  /* For mobile phones: */
-  .egg-cracking .egg{ 
-    grid-area: egg-cracking;
-    position: fixed;
-    background-color: beige;
-    top: 0;
-  }
-  .egg-cracks {
-    margin: 10px auto 10px auto;
-    padding-top: 10px;
-  }
-
-  .egg-poem {
-      display: grid;
-      grid-template-columns: 10% 80% 10%;
-      gap: 0 0;
-      grid-template-areas:
-        "egg-cracking egg-cracking egg-cracking"
-        "intro-egg intro-egg intro-egg"
-        ". verse__1 ."
-        ". verse__2 ."
-        ". verse__3 ."
-        ". verse__4 ."
-        ". verse__5 ."
-        ". verse__6 ."
-        "credits credits credits";
-    }
-
-  .credits {
-    min-height: 500px; /*height: 200px; dosent work so i "forced" it with min-height*/
-   }
-
-   .fangs-top{
-    margin-bottom: 85px;
-   } 
-   .fangs-bottom {
-    margin-top: 45px;
-    }
-}
+  

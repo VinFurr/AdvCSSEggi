@@ -1,0 +1,69 @@
+
+    @media screen and (max-width:720px) {
+        /* For mobile phones: */
+        body {
+            font-size: 2em;
+            margin: 0;
+        }
+        .egg-cracking {
+            min-width:100%; /*100% wil only set the width to 10% of the screen*/
+        }
+        .egg-cracks {
+            position: sticky;
+            }
+  
+        .egg{
+            margin: 10%;
+            width: 100px;
+        }
+  
+        .verse__1, .verse__2, .verse__3, .verse__4, .verse__5, .verse__6{
+            padding: 0 0 0 0;
+            }
+        .shattering-text{
+            height: 200px;
+            }
+  
+      }
+
+      @media screen and (max-width:720px) {
+        /* For mobile phones: */
+        .egg-cracking .egg{ 
+          grid-area: egg-cracking;
+          position: fixed;
+          background-color: beige;
+          top: 0;
+        }
+        .egg-cracks {
+          margin: 10px auto 10px auto;
+          padding-top: 10px;
+        }
+    
+        .egg-poem {
+            display: grid;
+            grid-template-columns: 10% 80% 10%;
+            gap: 0 0;
+            grid-template-areas:
+              "egg-cracking egg-cracking egg-cracking"
+              "intro-egg intro-egg intro-egg"
+              ". verse__1 ."
+              ". verse__2 ."
+              ". verse__3 ."
+              ". verse__4 ."
+              ". verse__5 ."
+              ". verse__6 ."
+              "credits credits credits";
+          }
+    
+        .credits {
+          min-height: 500px; /*height: 200px; dosent work so i "forced" it with min-height*/
+         }
+    
+         .fangs-top{
+          margin-bottom: 85px;
+         } 
+         .fangs-bottom {
+          margin-top: 45px;
+          }
+     }
+    
