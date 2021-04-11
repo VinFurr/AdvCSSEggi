@@ -6,12 +6,17 @@ Text chosen: Egg Poem
 Separation of Concerns: 
 - Maintain best practices with DRY and YAGNI
 - Seperate it based on concern
+  - style
+  - media-query
   - layout
-  - theme
-  - typography
-  - interaction
-  - colors
-  - spacing
+  - keyframes
+  - animation
+ 
+Vincent: @VinFurr
+Grete: @greteege
+Per Håvard: @phhustve
+Marthe: @Marthcal
+
 
 
 Implementing BEM in our project
