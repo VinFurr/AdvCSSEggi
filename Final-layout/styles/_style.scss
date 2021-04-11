@@ -1,6 +1,6 @@
-// farge, font, 
+// farge, font,
 $bck-color: #8091a8;
-$introAndcredits-color:#304e5a;
+$credit-txt: #ffffff;
 
 // Source Sans Pro
 @import url("https://use.typekit.net/qrj2cyn.css");
@@ -16,7 +16,7 @@ body {
 
 .verse__1, .verse__2, .verse__3, .verse__4, .verse__5, .verse__6{
      padding: 10% 0 10% 0;
-     
+
      }
 
 .credits{
@@ -37,12 +37,9 @@ body {
         stroke-dasharray: 320;
         stroke-dashoffset: 320;
        }
-    
-.verse__4--p { 
+
+.verse__4--p {
     color: #fffaae;
     text-shadow: 0 0 3px #fff023, 0 0 7px #fff238, 0 0 13px #ffbb00, 0 0 16px #ffbb00, 0 0 22px #ffbb00, 0 0 27px #ffbb00, 0 0 35px #ffbb00;
     display: inline-block;
     overflow: visible;}
-
-
-  
