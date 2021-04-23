@@ -1,5 +1,7 @@
 
 
+
+
 //egg  
 
  .egg {
@@ -157,26 +159,22 @@
 
 .verse__4.TriggerOnScroll {
 .verse__word--eyes1 {
-    color: #ffffe4;
-    text-shadow: 0 0 3px #98ff23, 0 0 7px #98ff23, 0 0 13px #85e419, 
-    0 0 16px #85e419, 0 0 22px #85e419, 0 0 27px #85e419, 0 0 35px #85e419;
-     
+    color: $colorEyes;
+    @include shadowEyes();
 
 }
 .verse__word--eyes2 { 
     visibility: visible;
     animation: eyes-entering 1s step-end;
-    color: #ffffe4;
-    text-shadow: 0 0 3px #98ff23, 0 0 7px #98ff23, 0 0 13px #85e419, 
-    0 0 16px #85e419, 0 0 22px #85e419, 0 0 27px #85e419, 0 0 35px #85e419;
+    color: $colorEyes;
+   @include shadowEyes();
      }
   
   .verse__word--eyes3 {
     visibility: visible;
     animation: eyes-entering 2s step-end ;
-    color: #ffffe4;
-    text-shadow: 0 0 3px #98ff23, 0 0 7px #98ff23, 0 0 13px #85e419, 
-    0 0 16px #85e419, 0 0 22px #85e419, 0 0 27px #85e419, 0 0 35px #85e419;
+    color: $colorEyes;
+    @include shadowEyes();
      }
 
 .verse__line--bending {
@@ -186,17 +184,21 @@
 
 .verse__word--growing {
         position: relative;
-        animation: growing 5s ease-in 2s forwards;
+        animation-name: growing;
+        @include growingAnimation()
       }
     
-.left-growing { 
+.left-growing {
           position: relative;
-          animation: left-growing 5s ease-in 2s forwards;
+          animation-name: left-growing;
+          @include growingAnimation()
       }
     
 .right-growing { 
           position: relative;
-          animation: right-growing 5s ease-in 2s forwards;
+          animation-name: right-growing;
+          @include growingAnimation()
+         
       }
     
 }
