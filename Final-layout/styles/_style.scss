@@ -4,31 +4,48 @@
 
 body {
     margin: 0;
-    font-size: 3em;
-    background: $bck-color;
-    font-family:source-sans-pro;
+    font-size: 1.5em;
+    background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(149,222,130,1) 16%, rgba(253,187,45,1) 36%, rgba(252,102,220,1) 57%, rgba(107,96,245,1) 79%, rgba(0,73,184,1) 98%);
+    font-family: source-sans-pro;
     font-weight: 600;
+    line-height: 2.3em;
 }
 
-.verse__1, .verse__2, .verse__3, .verse__4, .verse__5, .verse__6{
-     padding: 10% 0 10% 0;
 
-     }
 
-.credits{
-    font-size: 0.5em;
+.verse__1,
+.verse__2,
+.verse__3,
+.verse__4,
+.verse__5,
+.verse__6 {
+    padding: 10% 0 10% 0;
+
+}
+
+.credits {
+    font-size: 0.7em;
+    line-height: 2em;
     color: white;
-    text-align: center;
+    text-align: right;
+    
 }
-    .cracking--1, .cracking--2, .cracking--3,
-    .cracking--4, .cracking--5, .cracking--5-2,
-    .cracking--6, .cracking--6-2 {
-        stroke-dasharray: 320;
-        stroke-dashoffset: 320;
-       }
+
+.cracking--1,
+.cracking--2,
+.cracking--3,
+.cracking--4,
+.cracking--5,
+.cracking--5-2,
+.cracking--6,
+.cracking--6-2 {
+    stroke-dasharray: 320;
+    stroke-dashoffset: 320;
+}
 
 .verse__4--p {
-    color: $verse4-txt;
-    @include shadowVerse4-p(); 
+    color: #fffaae;
+    text-shadow: 0 0 3px #fff023, 0 0 7px #fff238, 0 0 13px #ffbb00, 0 0 16px #ffbb00, 0 0 22px #ffbb00, 0 0 27px #ffbb00, 0 0 35px #ffbb00;
     display: inline-block;
-    overflow: visible;}
+    overflow: visible;
+}
