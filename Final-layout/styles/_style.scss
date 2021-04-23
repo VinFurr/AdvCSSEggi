@@ -28,7 +28,7 @@ body {
        }
 
 .verse__4--p {
-    color: #fffaae;
-    text-shadow: 0 0 3px #fff023, 0 0 7px #fff238, 0 0 13px #ffbb00, 0 0 16px #ffbb00, 0 0 22px #ffbb00, 0 0 27px #ffbb00, 0 0 35px #ffbb00;
+    color: $verse4-txt;
+    @include shadowVerse4-p(); 
     display: inline-block;
     overflow: visible;}
