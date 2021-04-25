@@ -2,7 +2,7 @@
     @media screen and (max-width:720px) {
       
         body {
-            font-size: 1.8em;
+            font-size: 1.6em;
             margin: 0;
            
         }
@@ -64,11 +64,11 @@
         @keyframes bending {
             0%   { 
                 transform: rotate(0deg); 
-                left:0; 
+                left:20%; 
                 }
             100% { 
                 transform: rotate(-5deg);
-                left:20px; 
+                left:21%; 
                 }
           }
   
@@ -97,8 +97,9 @@
     
         .credits {
             
-        padding: 10%;
-          min-height: 500px; 
+            padding: 10%;
+            min-height: 500px;
+            text-align: center; 
          }
          .verse2__word--right {
             left: 60px;}
@@ -173,7 +174,7 @@
                 }
               }
               @keyframes words-right-of-o { 
-                0%  { left: -253px; }
+                0%  { left: -224px; }
                 100% { left: 0px }
             }
         }
