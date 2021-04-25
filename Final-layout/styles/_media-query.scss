@@ -14,7 +14,7 @@
             margin: auto ;
             position: fixed;
             top: 0; 
-            padding: 5% 0 0 0 ;
+            padding: 4% 0 0 0 ;
             width: 30.5%;
             transform: translate(2px)
             }
@@ -24,14 +24,14 @@
             margin: auto;
             position: fixed;
             top: 50px; 
-            padding: 5% 25% 0 25%;
+            padding: 4% 25% 0 25%;
             width: 32%;
         }
 
         .egg.TriggerOnScroll {
             position: fixed;
             top: 50px; 
-            padding: 0 25% 0 25%;
+            padding: 4% 25% 0 25%;
             width: 32%;
             animation-play-state: paused;
             margin: 0;
@@ -43,11 +43,34 @@
           }
   
         .verse__1, .verse__2, .verse__3, .verse__4, .verse__5, .verse__6{
-            padding: 0 0 0 0;
+            padding: 250px 0;
+            margin: 0 auto;
             }
         .shattering-text{
             height: 200px;
             }
+        .verse_letter--oright{
+                left:-252px;
+            }
+        .verse__3--snake{
+            height: 200px;
+            width: 200px;
+            top: -50px;
+            right: -500px;
+            position: relative;
+            margin: 0 0 100px 100px;
+        }
+        
+        @keyframes bending {
+            0%   { 
+                transform: rotate(0deg); 
+                left:0; 
+                }
+            100% { 
+                transform: rotate(-5deg);
+                left:20px; 
+                }
+          }
   
         .egg-cracking .egg{ 
           grid-area: egg-cracking;
@@ -108,6 +131,7 @@
                 position: absolute;
                 animation: move-down 1.4s linear 0.6s both;
             }
+
             .fangs-top {
                 visibility:initial;
                 animation: slide-down 2s linear both;
@@ -118,7 +142,7 @@
             }
             @keyframes enter-from-side {
                 0% {
-                    transform: translate(100px,0px);
+                    transform: translate(200px,0px);
                 }
                 100% {
                     transform: translate(0px,0px);
@@ -136,7 +160,7 @@
                   transform: translatey(0);    
                 }
                 100% {
-                  transform: translatey(-103px);
+                  transform: translatey(-123px);
                 }
               }
             
