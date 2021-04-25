@@ -1,0 +1,92 @@
+
+    @media screen and (min-device-width: 601px) and (max-device-width: 1024px) {
+        
+        html, body {
+            overflow-x: hidden;
+          }
+        body {
+            font-size: 1.4em;
+            margin: 0;
+            position: relative;
+        }
+  
+        .verse__1, .verse__2, .verse__3, .verse__4, .verse__5, .verse__6{
+            padding: 250px 0;
+            margin: 0 auto 0 0;;
+            width: 400px;
+            }
+        .shattering-text{
+            height: 200px;
+            margin: 0 auto 0 0;
+            }
+        }
+        .verse__3.TriggerOnScroll {
+            .verse__3--snakehead {
+                animation: shake1 0.7s infinite 0.5s;
+                transform-origin: center;
+            }
+            .verse__3--snakebody {
+                animation: snakemoving 3s linear infinite;
+                transform-origin: left;
+            }
+            .verse__3--snake {
+                animation: enter-from-side 1.5s, ;
+            }
+            .verse__3--line1 {
+                position: absolute;
+                animation: move-up 1.7s linear 0.4s both;
+            }
+            .verse__3--line3 { 
+                position: absolute;
+                animation: move-down 1.4s linear 0.6s both;
+            }
+
+            .fangs-top {
+                visibility:initial;
+                animation: slide-down 2s linear both;
+                width: 280px;
+                left:0;
+            }
+            .fangs-bottom {
+                visibility:initial;
+                animation: slide-up 2s linear both;
+                width: 280px;
+                left:0;
+            }
+            @keyframes enter-from-side {
+                0% {
+                    transform: translate(200px,0px);
+                }
+                100% {
+                    transform: translate(0px,0px);
+                }
+            }
+            .verse__3--snake {
+                height: 200px;
+                width: 200px;
+                top: -50px;
+                right: -30%;
+                position: relative;
+                margin: 0 0 100px 100px;}
+            @keyframes move-up {
+                0% {
+                  transform: translatey(0);    
+                }
+                100% {
+                  transform: translatey(-80px);
+                }
+              }
+            
+            @keyframes move-down {
+                0% {
+                  transform: translatey(0);    
+                }
+                100% {
+                  transform: translatey(85px);
+                }
+              }
+              @keyframes words-right-of-o { 
+                0%  { left: -140px; }
+                100% { left: 0px }
+            }
+        }
