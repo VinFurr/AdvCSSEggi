@@ -57,3 +57,17 @@ a:hover{
     display: inline-block;
     overflow: visible;
 }
+.bio{
+    display: flex;
+    width: 80%;
+    padding: 1em;
+}
+.bioPic{
+    display: flex;
+    width: 20%;
+}
+
+.bio>p{
+    overflow: visible;
+    white-space: unset;
+}
