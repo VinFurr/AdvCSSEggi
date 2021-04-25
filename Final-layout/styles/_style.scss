@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    font-size: 1.5em;
+    font-size: $fontSizeMain;
     background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(149,222,130,1) 16%, rgba(253,187,45,1) 36%, rgba(252,102,220,1) 57%, rgba(107,96,245,1) 79%, rgba(0,73,184,1) 98%);
     font-family: source-sans-pro;
     font-weight: 600;
@@ -24,11 +24,19 @@ body {
 }
 
 .credits {
-    font-size: 0.7em;
+    font-size: $sizeCredits;
     line-height: 2em;
     color: white;
     text-align: right;
     
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: black;
 }
 
 .cracking--1,
@@ -44,8 +52,8 @@ body {
 }
 
 .verse__4--p {
-    color: #fffaae;
-    text-shadow: 0 0 3px #fff023, 0 0 7px #fff238, 0 0 13px #ffbb00, 0 0 16px #ffbb00, 0 0 22px #ffbb00, 0 0 27px #ffbb00, 0 0 35px #ffbb00;
+     @include shadowVerse4-p;
+    color: $verse4-txt;
     display: inline-block;
     overflow: visible;
 }
