@@ -1,11 +1,11 @@
 
-    @media screen and (max-width:900px) {
+    @media screen and (max-width:600px) {
         
         html, body {
             overflow-x: hidden;
           }
         body {
-            font-size: 1.6em;
+            font-size: 1.25em;
             margin: 0;
             position: relative;
         }
@@ -50,7 +50,8 @@
             margin: 0 auto;
             }
         .shattering-text{
-            height: 200px;
+            height: 150px;;
+            margin: 0 auto;
             }
         .verse_letter--oright{
                 left:-252px;
@@ -67,11 +68,11 @@
         @keyframes bending {
             0%   { 
                 transform: rotate(0deg); 
-                left:20%; 
+                left:15%; 
                 }
             100% { 
                 transform: rotate(-5deg);
-                left:21%; 
+                left:16%; 
                 }
           }
   
@@ -105,7 +106,7 @@
             text-align: center; 
          }
          .verse2__word--right {
-            left: 60px;}
+            left: 45px;}
 
          .fangs-top{
           margin-bottom: 85px;
@@ -139,10 +140,12 @@
             .fangs-top {
                 visibility:initial;
                 animation: slide-down 2s linear both;
+                width: 280px;
             }
             .fangs-bottom {
                 visibility:initial;
                 animation: slide-up 2s linear both;
+                width: 280px;
             }
             @keyframes enter-from-side {
                 0% {
@@ -156,7 +159,7 @@
                 height: 200px;
                 width: 200px;
                 top: -50px;
-                right: -60%;
+                right: -30%;
                 position: relative;
                 margin: 0 0 100px 100px;}
             @keyframes move-up {
@@ -164,7 +167,7 @@
                   transform: translatey(0);    
                 }
                 100% {
-                  transform: translatey(-123px);
+                  transform: translatey(-90px);
                 }
               }
             
@@ -173,11 +176,11 @@
                   transform: translatey(0);    
                 }
                 100% {
-                  transform: translatey(115px);
+                  transform: translatey(85px);
                 }
               }
               @keyframes words-right-of-o { 
-                0%  { left: -224px; }
+                0%  { left: -175px; }
                 100% { left: 0px }
             }
         }
@@ -185,23 +188,23 @@
 
           .verse__5.TriggerOnScroll {
             .drop1 {
-                left: 250px;
-                top: -405px; 
+                left: 150px;
+                top: -400px; 
             }
                 
             .drop2 {
-                left: 70px;
-                top: -425px;
+                left: 60px;
+                top: -465px;
             }
             
             .drop3 { 
-                left: 365px;
-                top: -580px;
+                left: 245px;
+                top: -600px;
             }
             
             .drop4 { 
-                left: -30px;
-                top: -645px;
+                left: -20px;
+                top: -675px;
             }
           }
      }
