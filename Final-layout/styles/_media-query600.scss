@@ -11,6 +11,7 @@
         }
         .egg-cracking {
             min-width:100%; 
+            height: 150px;
         }
         .egg-cracks {
             z-index: 2;
@@ -45,11 +46,16 @@
             100% {}
           }
   
-        .verse__1, .verse__2, .verse__3, .verse__4, .verse__5, .verse__6{
-            padding: 250px 0;
+        .verse__1{
+            padding: 0 0 150px 0;
             margin: 0 auto;
             width: 290px;
             }
+        .verse__2, .verse__3, .verse__4, .verse__5, .verse__6{
+                padding: 150px 0;
+                margin: 0 auto;
+                width: 290px;
+                }
         .shattering-text{
             height: 120px;;
             margin: 0 auto;
