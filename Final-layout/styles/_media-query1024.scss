@@ -5,7 +5,7 @@
             overflow-x: hidden;
           }
         body {
-            font-size: 1.4em;
+            font-size: 1.6em;
             margin: 0;
             position: relative;
         }
@@ -19,7 +19,27 @@
             height: 200px;
             margin: 0 auto 0 0;
             }
-        }
+        
+        .verse2__word--right {
+            left: 55px;}
+            .verse_letter--oright{
+                left:-225px;
+            }
+            .fangs-top{
+                margin-bottom: 85px;
+               } 
+               .fangs-bottom {
+                margin-top: 45px;
+                }
+                .verse__3--snake{
+                    height: 300px;
+                    width: 300px;
+                    top: -50px;
+                    right: -500px;
+                    position: relative;
+                    margin: 0 0 100px 100px;
+                }
+               
         .verse__3.TriggerOnScroll {
             .verse__3--snakehead {
                 animation: shake1 0.7s infinite 0.5s;
@@ -53,6 +73,7 @@
                 width: 280px;
                 left:0;
             }
+            
             @keyframes enter-from-side {
                 0% {
                     transform: translate(200px,0px);
@@ -62,10 +83,10 @@
                 }
             }
             .verse__3--snake {
-                height: 200px;
-                width: 200px;
+                height: 300px;
+                width: 300px;
                 top: -50px;
-                right: -30%;
+                right: -55%;
                 position: relative;
                 margin: 0 0 100px 100px;}
             @keyframes move-up {
@@ -73,7 +94,7 @@
                   transform: translatey(0);    
                 }
                 100% {
-                  transform: translatey(-80px);
+                  transform: translatey(-85px);
                 }
               }
             
@@ -82,11 +103,49 @@
                   transform: translatey(0);    
                 }
                 100% {
-                  transform: translatey(85px);
+                  transform: translatey(80px);
                 }
               }
               @keyframes words-right-of-o { 
-                0%  { left: -140px; }
+                0%  { left: -225px; }
                 100% { left: 0px }
             }
+        }
+        .egg-poem {
+            display: grid;
+            grid-template-columns: 40% 60% ;
+            grid-template-rows: 20vh 70vh 70vh 90vh 70vh 70vh 70vh 40vh;
+            gap: 0 0;
+            grid-template-areas:
+            "intro-egg intro-egg"
+            "egg-cracking verse__1"
+            "egg-cracking verse__2"
+            "egg-cracking verse__3"
+            "egg-cracking verse__4"
+            "egg-cracking verse__5"
+            "egg-cracking verse__6"
+            "credits credits";
+          }
+
+          .verse__5.TriggerOnScroll {
+            .drop1 {
+                left: 120px;
+                top: -320px; 
+            }
+                
+            .drop2 {
+                left: 30px;
+                top: -450px;
+            }
+            
+            .drop3 { 
+                left: 250px;
+                top: -590px;
+            }
+            
+            .drop4 { 
+                left: -50px;
+                top: -675px;
+            }
+          }
         }
