@@ -1,11 +1,11 @@
 
-    @media screen and (min-device-width: 801px) and (max-device-width: 1024px) {
+    @media screen and (min-device-width: 601px) and (max-device-width: 800px) {
         
         html, body {
             overflow-x: hidden;
           }
         body {
-            font-size: 1.6em;
+            font-size: 1em;
             margin: 0;
             position: relative;
         }
@@ -13,17 +13,17 @@
         .verse__1, .verse__2, .verse__3, .verse__4, .verse__5, .verse__6{
             padding: 250px 0;
             margin: 0 auto 0 0;;
-            width: 400px;
+            width: 300px;
             }
         .shattering-text{
-            height: 200px;
+            height: 150px;
             margin: 0 auto 0 0;
             }
         
         .verse2__word--right {
-            left: 55px;}
+            left: 35px;}
             .verse_letter--oright{
-                left:-225px;
+                left:-140px;
             }
             .fangs-top{
                 margin-bottom: 85px;
@@ -32,8 +32,8 @@
                 margin-top: 45px;
                 }
                 .verse__3--snake{
-                    height: 300px;
-                    width: 300px;
+                    height: 200px;
+                    width: 200px;
                     top: -50px;
                     right: -500px;
                     position: relative;
@@ -64,13 +64,13 @@
             .fangs-top {
                 visibility:initial;
                 animation: slide-down 2s linear both;
-                width: 280px;
+                width: 240px;
                 left:0;
             }
             .fangs-bottom {
                 visibility:initial;
                 animation: slide-up 2s linear both;
-                width: 280px;
+                width: 240px;
                 left:0;
             }
             
@@ -83,8 +83,8 @@
                 }
             }
             .verse__3--snake {
-                height: 300px;
-                width: 300px;
+                height: 200px;
+                width: 200px;
                 top: -50px;
                 right: -55%;
                 position: relative;
@@ -94,7 +94,7 @@
                   transform: translatey(0);    
                 }
                 100% {
-                  transform: translatey(-85px);
+                  transform: translatey(-60px);
                 }
               }
             
@@ -103,18 +103,18 @@
                   transform: translatey(0);    
                 }
                 100% {
-                  transform: translatey(80px);
+                  transform: translatey(65px);
                 }
               }
               @keyframes words-right-of-o { 
-                0%  { left: -225px; }
+                0%  { left: -140px; }
                 100% { left: 0px }
             }
         }
         .egg-poem {
             display: grid;
             grid-template-columns: 40% 60% ;
-            grid-template-rows: 20vh 70vh 70vh 90vh 70vh 70vh 70vh 40vh;
+            grid-template-rows: 90vh 80vh 80vh 1000px 1000px 1000px 1000px 1000px;
             gap: 0 0;
             grid-template-areas:
             "intro-egg intro-egg"
@@ -129,23 +129,27 @@
 
           .verse__5.TriggerOnScroll {
             .drop1 {
-                left: 120px;
-                top: -320px; 
+                left: 100px;
+                top: -380px; 
+                height: 30px;
             }
                 
             .drop2 {
-                left: 30px;
+                left: 40px;
                 top: -450px;
+                height: 30px;
             }
             
             .drop3 { 
-                left: 250px;
-                top: -590px;
+                left: 205px;
+                top: -540px;
+                height: 30px;
             }
             
             .drop4 { 
-                left: -50px;
-                top: -675px;
+                left: -30px;
+                top: -575px;
+                height: 30px;
             }
           }
         }
