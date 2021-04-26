@@ -1,6 +1,6 @@
 
     @media screen and (min-device-width: 601px) and (max-device-width: 800px) {
-        
+
         html, body {
             overflow-x: hidden;
           }
@@ -113,8 +113,8 @@
         }
         .egg-poem {
             display: grid;
-            grid-template-columns: 40% 60% ;
-            grid-template-rows: 90vh 80vh 80vh 1000px 1000px 1000px 1000px 1000px;
+            grid-template-columns: 35% 65% ;
+            grid-template-rows: 90vh 80vh 80vh 800px 800px 800px 800px 800px;
             gap: 0 0;
             grid-template-areas:
             "intro-egg intro-egg"
