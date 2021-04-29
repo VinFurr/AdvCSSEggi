@@ -26,7 +26,7 @@ To animate the text we have used CSS animations, transformations and transitions
   * animation
 
 
-
+## Github usernames 
 **Vincent:** @VinFurr
 
 **Grete:** @greteege
