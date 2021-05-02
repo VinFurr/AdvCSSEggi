@@ -1,0 +1,157 @@
+
+    @media screen and (min-device-width: 801px) and (max-device-width: 1024px) {
+        
+        html, body {
+            overflow-x: hidden;
+          }
+        body {
+            font-size: 1.6em;
+            margin: 0;
+            position: relative;
+        }
+  
+        .verse__1, .verse__2, .verse__3, .verse__4, .verse__5, .verse__6{
+            padding: 250px 0;
+            margin: 0 auto 0 0;;
+            width: 400px;
+            }
+        .shattering-text{
+            height: 200px;
+            margin: 0 auto 0 0;
+            }
+        
+        .verse2__word--right {
+            left: 55px;}
+            .verse_letter--oright{
+                left:-225px;
+            }
+            .fangs-top{
+                margin-bottom: 85px;
+               } 
+               .fangs-bottom {
+                margin-top: 45px;
+                }
+                .verse__3--snake{
+                    height: 300px;
+                    width: 300px;
+                    top: -50px;
+                    right: -500px;
+                    position: relative;
+                    margin: 0 0 100px 100px;
+                }
+               
+        .verse__3.TriggerOnScroll {
+            .verse__3--snakehead {
+                animation: shake1 0.7s infinite 0.5s;
+                transform-origin: center;
+            }
+            .verse__3--snakebody {
+                animation: snakemoving 3s linear infinite;
+                transform-origin: left;
+            }
+            .verse__3--snake {
+                animation: enter-from-side 1.5s, ;
+            }
+            .verse__3--line1 {
+                position: absolute;
+                animation: move-up 1.7s linear 0.4s both;
+            }
+            .verse__3--line3 { 
+                position: absolute;
+                animation: move-down 1.4s linear 0.6s both;
+            }
+
+            .fangs-top {
+                visibility:initial;
+                animation: slide-down 2s linear both;
+                width: 280px;
+                left:0;
+            }
+            .fangs-bottom {
+                visibility:initial;
+                animation: slide-up 2s linear both;
+                width: 280px;
+                left:0;
+            }
+            
+            @keyframes enter-from-side {
+                0% {
+                    transform: translate(200px,0px);
+                }
+                100% {
+                    transform: translate(0px,0px);
+                }
+            }
+            .verse__3--snake {
+                height: 300px;
+                width: 300px;
+                top: -50px;
+                right: -55%;
+                position: relative;
+                margin: 0 0 100px 100px;}
+            @keyframes move-up {
+                0% {
+                  transform: translatey(0);    
+                }
+                100% {
+                  transform: translatey(-85px);
+                }
+              }
+            
+            @keyframes move-down {
+                0% {
+                  transform: translatey(0);    
+                }
+                100% {
+                  transform: translatey(80px);
+                }
+              }
+              @keyframes words-right-of-o { 
+                0%  { left: -225px; }
+                100% { left: 0px }
+            }
+        }
+        .egg-poem {
+            display: grid;
+            grid-template-columns: 40% 60% ;
+            grid-template-rows: 20vh 70vh 70vh 90vh 70vh 70vh 70vh 40vh;
+            gap: 0 0;
+            grid-template-areas:
+            "intro-egg intro-egg"
+            "egg-cracking verse__1"
+            "egg-cracking verse__2"
+            "egg-cracking verse__3"
+            "egg-cracking verse__4"
+            "egg-cracking verse__5"
+            "egg-cracking verse__6"
+            "credits credits";
+          }
+
+          .verse__5.TriggerOnScroll {
+            .drop1 {
+                left: 120px;
+                top: -320px; 
+            }
+                
+            .drop2 {
+                left: 30px;
+                top: -450px;
+            }
+            
+            .drop3 { 
+                left: 250px;
+                top: -590px;
+            }
+            
+            .drop4 { 
+                left: -50px;
+                top: -675px;
+            }
+          }
+
+          .bio-container{
+            flex-direction: column;
+            font-size: .8em;
+          }
+          
+    }

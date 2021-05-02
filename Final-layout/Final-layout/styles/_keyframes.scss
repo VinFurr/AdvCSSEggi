@@ -1,0 +1,350 @@
+$bck-color: #8091a8;
+
+//general
+@keyframes crack {
+    from {
+       stroke-dashoffset: 320;
+     }
+    to {
+       stroke-dashoffset: 0;
+     }
+   }
+
+
+
+
+//egg
+
+@keyframes egg {
+  0% {
+    }
+  100% { margin: 0 0 0 7%;
+    top: 150px;
+    left: -20px;
+    width: 22%;
+    padding: 0 5% 0 0;
+  }
+
+}
+
+@keyframes shaking-egg {
+  0% { transform:rotate(0deg)}
+  10% { transform:rotate(1deg)}
+  20% { transform:rotate(0deg)}
+  30% { transform:rotate(-1deg)}
+  40% { transform:rotate(0deg)}
+  50% { transform:rotate(-1deg)}
+  60% { transform:rotate(0deg)}
+  70% { transform:rotate(1deg)}
+  80% { transform:rotate(0deg)}
+  90% { transform:rotate(-1deg)}
+  100% { transform:rotate(0deg)}
+
+}
+@keyframes big-shake {
+  0% { transform:rotate(0deg)}
+  10% { transform:rotate(2deg)}
+  20% { transform:rotate(0deg)}
+  30% { transform:rotate(-2deg)}
+  40% { transform:rotate(0deg)}
+  50% { transform:rotate(-2deg)}
+  60% { transform:rotate(0deg)}
+  70% { transform:rotate(2deg)}
+  80% { transform:rotate(0deg)}
+  90% { transform:rotate(-2deg)}
+  100% { transform:rotate(0deg)}
+
+}
+
+// verse 1
+
+ @keyframes shaking {
+ 0% { transform: translate(0, 0), }
+ 2% { transform:translate(1px,0) }
+ 6% { transform:translate(0,0) }
+ 10% { transform:translate(1px,1px) }
+ 14% { transform:translate(0,0) }
+ 16% { transform:translate(1px,1px) }
+ 20% { transform:translate(0,0) }
+ 22% { transform:translate(1px,1px) }
+ 26% { transform:translate(0px,0px) }
+ 28% { transform:translate(1px,1px) }
+ 32% { transform:translate(0px,0px) }
+ 36% { transform:translate(1px,1px) }
+ 38% { transform:translate(0px,0px) }
+
+    }
+
+
+
+ @keyframes fade { 
+ 0% {opacity: 1;}
+ 50% {opacity: 1;}
+ 100% {opacity: 0;}
+ }
+
+// verse 2
+
+@keyframes push {
+	0% {
+		transform: translate(0,0);
+	}
+	100% {
+		transform: translate(800px,0);
+	}
+}
+
+
+@keyframes animateTime {
+    0%   {transform: translate(3px, 2px)   rotate(0deg);}
+    10%  {transform: translate(-2px, -3px) rotate(-2deg);}
+    20%  {transform: translate(-4px, 0px)  rotate(2deg);}
+    30%  {transform: translate(0px, 3px)   rotate(0deg);}
+    40%  {transform: translate(2px, -2px)  rotate(2deg);}
+    50%  {transform: translate(-2px, -3px) rotate(-2deg);}
+    60%  {transform: translate(-4px, 2px)  rotate(0deg);}
+    70%  {transform: translate(3px, 2px)   rotate(-2deg);}
+    80%  {transform: translate(-2px, -2px) rotate(2deg);}
+    90%  {transform: translate(3px, 3px)   rotate(0deg);}
+    100% {transform: translate(2px, -3px)  rotate(0deg);}
+  }
+
+
+
+//verse 3
+@keyframes enter-from-side {
+	0% {
+		transform: translate(300px,0px);
+	}
+	100% {
+		transform: translate(0px,0px);
+	}
+}
+@keyframes shake {
+	0% {
+		transform: translate(25px, 0px) rotate(1deg);
+	}
+	10% {
+		transform: translate(0px, 0px) rotate(-1deg);
+	}
+	20% {
+		transform: translate(25px, 0px) rotate(1deg);
+	}
+	30% {
+		transform: translate(0px, 0px) rotate(-1deg);
+	}
+	40% {
+		transform: translate(25px, 0px) rotate(1deg);
+	}
+	50% {
+		transform: translate(0px, 0px) rotate(-1deg);
+	}
+	60% {
+		transform: translate(25px, 0px) rotate(1deg);
+	}
+	70% {
+		transform: translate(0px, 0px) rotate(-1deg);
+	}
+	80% {
+		transform: translate(25px, 0px) rotate(1deg);
+	}
+	90% {
+		transform: translate(0px, 0px) rotate(-1deg);
+	}
+	100% {
+		transform: translate(25px, 0px) rotate(1deg);
+	}
+}
+
+@keyframes shake1{
+
+  10% {
+    transform: translate(-1px, 0) ; 
+  }
+
+  20% {
+    transform: translate(2px, 0) rotate(-1deg);
+  }
+   
+  30% {
+    transform: translate(-4px, 0);
+  }
+
+  40%  {
+    transform: translate(4px, 0)rotate(1deg);
+  }
+  50% {
+    transform: translate(-4px, 0);
+  }
+
+  60% {
+    transform: translate(4px, 0) rotate(-1deg);
+  }
+
+  70% {
+    transform: translate(-4px, 0);
+  }
+  80% {
+    transform: translate(2px, 0)rotate(1deg);
+  }
+  90% {
+    transform: translate(-1px, 0);
+  }
+}
+
+@keyframes shake2 {
+  0% {transform: rotate(0deg);}
+  25% {transform: rotate(-2deg);}
+  50% {transform: rotate(0deg);}
+  75% {transform: rotate(2deg);}
+  100% {transform: rotate(0deg);}
+}
+
+
+
+@keyframes move-up {
+    0% {
+      transform: translatey(0);    
+    }
+    100% {
+      transform: translatey(-80px);
+    }
+  }
+
+@keyframes move-down {
+    0% {
+      transform: translatey(0);    
+    }
+    100% {
+      transform: translatey(100px);
+    }
+  }
+
+
+
+@keyframes slide-down {
+    0% { clip-path: inset(100% 0 0 0); }
+    100% { clip-path: inset(22% 0 0 0 ); }
+}
+@keyframes slide-up {
+    0% { clip-path: inset(0 0 100% 0); }
+    100% { clip-path: inset(0 0 18% 0 ); }
+}
+
+@keyframes o-entering {
+    0%  { visibility: hidden; }
+    100% { visibility: visible; }
+}
+
+@keyframes words-right-of-o { 
+    0%  { left: -130px; }
+    100% { left: 0px }
+}
+ 
+
+//verse 4
+@keyframes growing {
+    0%   { left:0; top:0; }
+    100% { left:-20px; top:0; font-size: 200%;}
+  }
+
+  @keyframes left-growing {
+    0%   { left:0px; top:0px; }
+    100% { left:-20px; top:0px; }
+  }
+
+  @keyframes right-growing {
+    0%   { left:0; top:0px; }
+    100% { left:-20px; top:0px;  }
+  }
+
+  @keyframes bending {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(-5deg);}
+  }
+
+  @keyframes eyes-entering {
+    0%  { visibility: hidden; }
+    100% { visibility: visible;
+     }
+}
+
+
+
+
+//verse 5
+
+@keyframes rotation{
+  0%{
+  transform: rotatex(0deg);
+   }
+
+ 
+  100%{
+      transform: rotatex(180deg)
+  }
+}
+
+
+
+@keyframes drop {
+  0% {transform: scale(0.4);}
+  1% {visibility: visible;}
+  38% {transform: translatey(10px)scalex(0.8);}
+  70% {transform: translatey(300px)scalex(1);}
+  100% {transform: translateY(800px)scalex(1); visibility: hidden;}
+  
+}
+//verse 6
+@keyframes scary {
+    0% {visibility: visible; color: black; }
+    100% {visibility: visible; color: red; 
+    }
+  }
+  
+  @keyframes hidden {
+    0% { visibility: inherit;}
+    100% {visibility: hidden;}
+  }
+  
+   @keyframes flickering {
+    0% {background: rgba(107,96,245,1) ;}
+    20.1% {background: #000000;}
+    20.6% {background: rgba(107,96,245,1) ;}
+    30% {background:  rgba(107,96,245,1);}
+    30.1% {background: #000000;}
+    30.5% {background: #000000;}
+    30.6% {background:  rgba(107,96,245,1);}
+    45% {background: rgba(107,96,245,1) ;}
+    45.1% {background: #000000;}
+    55% {background: #000000;}
+    55.1% {background:  rgba(107,96,245,1);}
+    57% {background: rgba(107,96,245,1) ;} 
+    57.1% { background: #000000;}
+    60% {background: #000000;}
+    60.1% { background:  rgba(107,96,245,1);}
+    65% {background:  rgba(107,96,245,1);}
+    65.1% {background: #000000;}
+    75% {background: #000000;}
+    75.1% {background: rgba(107,96,245,1) ;}
+    77% {background:  rgba(107,96,245,1) ;}
+    77.1% {background: #000000;}
+    85% {background: #000000;}
+    85.1% { background:  rgba(107,96,245,1);}
+    86% {background:  rgba(107,96,245,1);}
+    86.1% {background: #000000;}
+    100% {background: #000000;}
+  }
+
+  @keyframes egg-drop {
+    0% {transform: translate(0, 0);}
+    20% { transform: rotate(90deg);}
+    100% {transform: translate(0,700px) rotate(180deg);}
+  }
+
+//credits
+
+@keyframes entering {
+  0% {transform: translate(0, 100px);}
+  100% {transform: translate(0,0)}
+}
