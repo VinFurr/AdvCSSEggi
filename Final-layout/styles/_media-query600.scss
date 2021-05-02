@@ -90,7 +90,7 @@
                 }
 
   .verse__1 {
-            margin: 0 30%;
+            margin: 0 15%;
         }
 
         .shattering-text{
@@ -115,11 +115,11 @@
         @keyframes bending {
             0%   { 
                 transform: rotate(0deg); 
-                left:11.5%; 
+                left:23.5%; 
                 }
             100% { 
                 transform: rotate(-5deg);
-                left:12%; 
+                left:24%; 
                 }
           }
   
@@ -130,7 +130,7 @@
             left: 35px;}
 
          .fangs-top{
-          margin-bottom: 15px;
+          margin-bottom: 35px;
          } 
          .fangs-bottom {
           margin-top: 15px;
@@ -179,11 +179,11 @@
                 }
             }
             .verse__3--snake {
-                z-index: 1;
+                z-index: 0;
                 height: 200px;
                 width: 200px;
                 top: -50px;
-                right: -60%;
+                right: -35%;
                 position: relative;
                overflow: visible;}
             @keyframes move-up {
@@ -191,7 +191,7 @@
                   transform: translatey(0);    
                 }
                 100% {
-                  transform: translatey(-50px);
+                  transform: translatey(-70px);
                 }
               }
             
@@ -200,7 +200,7 @@
                   transform: translatey(0);    
                 }
                 100% {
-                  transform: translatey(90px);
+                  transform: translatey(95px);
                 }
               }
               @keyframes words-right-of-o { 
