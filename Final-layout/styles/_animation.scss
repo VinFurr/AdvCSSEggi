@@ -3,11 +3,20 @@
 
 
 //egg  
+.egg.ShakeOnScroll {
+    transform-origin: bottom;
+     animation: shaking-egg 0.8s linear 2 alternate forwards;
+ }
+ .egg.TriggerOnScroll.finalStage {
+    transform-origin: bottom;
+    animation: shaking-egg 0.8s linear 6 0.5s alternate, egg-drop 1.7s 4.1s linear forwards;
+    
+  }
 
- .egg {
-     animation: egg 1s ease-in forwards;
-     animation-play-state: running;
-}
+.egg {
+    animation:big-shake 0.9s linear 4 alternate, egg 1s ease-in 2s forwards ;
+   
+  }
 
 .cracking--1.TriggerOnScroll {
    animation: crack 3s ease-in both;
@@ -36,38 +45,38 @@
 
 //vers 1
 
-.verse__1.TriggerOnScroll {
+ .verse__1.TriggerOnScroll {
 
- .shattering-text path {
-     animation: shaking linear both, fade 1.4s ease-out forwards ;
-    animation-delay: 2s;
-     transform-origin:center;
-     transform-box:fill-box;
+  .shattering-text path {
+      animation: shaking linear both, fade 1.4s ease-out forwards ;
+    
+      transform-origin:center;
+      transform-box:fill-box;
   
-     @for $i from 0 to 213 {
-       $t: (1.3 + .0004*random(200))*1s;
+      @for $i from 0 to 213 {
+        $t: (1.3 + .0004*random(200))*1s;
    
-           &:nth-child(#{$i + 1}) {
-              transform: translate(random(1500) - 750 + px, random(1500) - 750 + px) 
-                         rotate(random(720)-360 +deg);
-                 animation-duration: $t;
-              	}
-     }
-   }
+            &:nth-child(#{$i + 1}) {
+               transform: translate(random(1500) - 750 + px, random(1500) - 750 + px) 
+                          rotate(random(720)-360 +deg);
+                  animation-duration: $t;
+               	}
+      }
+    }
 
-}
+ }
 //vers 2
 
 .verse__2.TriggerOnScroll {
     
     .verse2__line1--push{
       
-    animation: push 2s ease-out 2s forwards;
+    animation: push 2s ease-out 0.3s forwards;
   
    }
    
     .verse2__word--time {
-    animation: animateTime 0.8s infinite 2s linear ;
+    animation: animateTime 0.8s infinite 0.5s linear ;
     transform-origin: 50% 50%;
     }
 
@@ -77,15 +86,14 @@
 
 .verse__3.TriggerOnScroll {
     .verse__3--snakehead {
-        animation: shake1 0.7s infinite 1s both;
-        transform-origin: center;
+        animation: shake2 0.5s infinite 1s both;
+        transform-origin: bottom center;
+        transform-box: fill-box;
     }
-    .verse__3--snakebody {
-        animation: snakemoving 3s linear 1s infinite both;
-        transform-origin: left;
-    }
+    
     .verse__3--snake {
-        animation: enter-from-side 1.5s 1s both ;
+        visibility:visible;
+        animation: enter-from-side 1.5s 0.5s both ;
     }
     .verse__3--line1 {
         position: absolute;
@@ -104,60 +112,61 @@
         animation: slide-up 2s linear 1s both;
     }
     .verse__letter--o1 { 
-        animation: o-entering 2s step-end both;
+        animation: o-entering 0.3s step-end both;
     }
     .verse__letter--o2 { 
-        animation: o-entering 2.4s step-end both;
+        animation: o-entering 0.6s step-end both;
     }
     .verse__letter--o3 { 
-        animation: o-entering 2.8s step-end both;
+        animation: o-entering 0.8s step-end both;
     }
     .verse__letter--o4 { 
-        animation: o-entering 3.2s step-end both;
+        animation: o-entering 1.2s step-end both;
     }
     .verse__letter--o5 { 
-        animation: o-entering 3.6s step-end both;
+        animation: o-entering 1.6s step-end both;
     }
     .verse__letter--o6 { 
-        animation: o-entering 4s step-end both;
+        animation: o-entering 2s step-end both;
     }
     .verse__letter--o7 { 
-        animation: o-entering 4.4s step-end both;
+        animation: o-entering 2.4s step-end both;
     }
     .verse__letter--o8 { 
-        animation: o-entering 4.8s step-end both;
+        animation: o-entering 2.8s step-end both;
     }
     .verse__letter--o9 { 
-        animation: o-entering 5.2s step-end both;
+        animation: o-entering 3.2s step-end both;
     }
     .verse__letter--o10 { 
-        animation: o-entering 5.6s step-end both;
+        animation: o-entering 3.6s step-end both;
     }
     .verse__letter--o11 { 
-        animation: o-entering 6s step-end both;
+        animation: o-entering 4s step-end both;
     }
     .verse__letter--o12 { 
-        animation: o-entering 6.4s step-end both;
+        animation: o-entering 4.4s step-end both;
     }
     .verse__letter--o13 { 
-        animation: o-entering 6.8s step-end both;
+        animation: o-entering 4.8s step-end both;
     }
     .verse__letter--o14 { 
-        animation: o-entering 7.2s step-end both;
+        animation: o-entering 5.2s step-end both;
     }
     .verse__letter--o15 { 
-        animation: o-entering 7.6s step-end both;
+        animation: o-entering 5.6s step-end both;
     }
     .verse__letter--o16 { 
-        animation: o-entering 8.0s step-end both;
+        animation: o-entering 6.0s step-end both;
     }
     .verse_letter--oright {  
-        animation: words-right-of-o 6.5s linear 1.6s both;
+        animation: words-right-of-o 3.8s linear  both;
     }
 }
 //vers 4
 
 .verse__4.TriggerOnScroll {
+
 .verse__word--eyes1 {
     color: $colorEyes;
     @include shadowEyes();
@@ -179,7 +188,7 @@
 
 .verse__line--bending {
         position: absolute;
-        animation: bending 4s linear 3s forwards;
+        animation: bending 4s linear 1s forwards;
       }
 
 .verse__word--growing {
@@ -191,7 +200,7 @@
 .left-growing {
           position: relative;
           animation-name: left-growing;
-          @include growingAnimation()
+          @include growingAnimation();
       }
     
 .right-growing { 
@@ -202,6 +211,8 @@
       }
     
 }
+
+
 //Vers 5
 
 .verse__5.TriggerOnScroll {
@@ -219,8 +230,8 @@
     .drop1 {
         animation: drop 1.9s linear 1.8s both;
         position: relative;
-        left: 300px;
-        top: -345px;
+        left: 150px;
+        top: -385px;
         height: 60px;
         overflow: visible;
     }
@@ -229,7 +240,7 @@
         animation: drop 1.4s linear 2.4s both;
         position: relative;
         left: 70px;
-        top: -355px;
+        top: -400px;
         height: 60px;
         overflow: visible;
     }
@@ -237,8 +248,8 @@
     .drop3 { 
         animation: drop 1.7s linear 2s both;
         position: relative;
-        left: 565px;
-        top: -565px;
+        left: 265px;
+        top: -605px;
         height: 60px;
         overflow: visible;
         }
@@ -247,7 +258,7 @@
         animation: drop 1.5s linear 2.1s both;
         position: relative;
         left: -40px;
-        top: -655px;
+        top: -675px;
         height: 60px;
         overflow: visible;
     }
@@ -262,10 +273,17 @@
   }
   
   .verse__word--scary {
-    animation: scary 2s linear forwards 3s;
+    animation: scary 1.4s linear forwards 3s;
   }
 }
 
-.body.TriggerOnScroll {
-    animation: flickering 1s linear 5 alternate 2s forwards;
+ .body.TriggerOnScroll {
+  animation: flickering 0.8s linear 3 alternate 1s forwards;
+  }
+
+//credits
+
+
+.animal__img.TriggerOnScroll{
+    animation: entering 1s linear both;
 }

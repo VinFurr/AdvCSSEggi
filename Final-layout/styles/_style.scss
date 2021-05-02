@@ -5,7 +5,7 @@
 body {
     margin: 0;
     font-size: $fontSizeMain;
-    background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(149,222,130,1) 16%, rgba(253,187,45,1) 36%, rgba(252,102,220,1) 57%, rgba(107,96,245,1) 79%, rgba(0,73,184,1) 98%);
+    background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(149,222,130,1) 16%, rgba(253,187,45,1) 36%, rgba(252,102,220,1) 57%, rgba(107,96,245,1) 79%, rgb(0, 73, 184) 98%);
     font-family: source-sans-pro;
     font-weight: 600;
     line-height: 2.3em;
@@ -14,20 +14,20 @@ body {
 
 
 .verse__1,
-.verse__2,
+ .verse__2,
 .verse__3,
 .verse__4,
 .verse__5,
 .verse__6 {
-    padding: 10% 0 10% 0;
+  padding: 10% 0 10% 0;
 
-}
+ }
 
 .credits {
     font-size: $sizeCredits;
     line-height: 2em;
     color: white;
-    text-align: right;
+   
     
 }
 
@@ -36,8 +36,9 @@ a{
 }
 
 a:hover{
-    color: black;
+    color: rgb(161, 0, 0);
 }
+.main-egg {filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(59, 59, 59, 0.151));}
 
 .cracking--1,
 .cracking--2,
@@ -56,6 +57,15 @@ a:hover{
     color: $verse4-txt;
     display: inline-block;
     overflow: visible;
+}
+
+.animal__img {
+    width: 80%;
+    position: relative;
+    transform: translate(0,400px);
+    filter: drop-shadow(10px 20px 30px #46464698);
+    position: relative;
+ 
 }
 .bio{
     display: flex;

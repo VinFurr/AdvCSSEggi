@@ -17,14 +17,44 @@ $bck-color: #8091a8;
 
 @keyframes egg {
   0% {
-    left: 0%;
-    padding: 0 25% 0 25%;
-    width: 30%;}
-  100% {
+    }
+  100% { margin: 0 0 0 7%;
+    top: 150px;
+    left: -20px;
+    width: 22%;
+    padding: 0 5% 0 0;
   }
 
 }
 
+@keyframes shaking-egg {
+  0% { transform:rotate(0deg)}
+  10% { transform:rotate(1deg)}
+  20% { transform:rotate(0deg)}
+  30% { transform:rotate(-1deg)}
+  40% { transform:rotate(0deg)}
+  50% { transform:rotate(-1deg)}
+  60% { transform:rotate(0deg)}
+  70% { transform:rotate(1deg)}
+  80% { transform:rotate(0deg)}
+  90% { transform:rotate(-1deg)}
+  100% { transform:rotate(0deg)}
+
+}
+@keyframes big-shake {
+  0% { transform:rotate(0deg)}
+  10% { transform:rotate(2deg)}
+  20% { transform:rotate(0deg)}
+  30% { transform:rotate(-2deg)}
+  40% { transform:rotate(0deg)}
+  50% { transform:rotate(-2deg)}
+  60% { transform:rotate(0deg)}
+  70% { transform:rotate(2deg)}
+  80% { transform:rotate(0deg)}
+  90% { transform:rotate(-2deg)}
+  100% { transform:rotate(0deg)}
+
+}
 
 // verse 1
 
@@ -66,17 +96,17 @@ $bck-color: #8091a8;
 
 
 @keyframes animateTime {
-    0%   {transform: translate(2px, 1px)   rotate(0deg);}
-    10%  {transform: translate(-1px, -2px) rotate(-1deg);}
-    20%  {transform: translate(-3px, 0px)  rotate(1deg);}
-    30%  {transform: translate(0px, 2px)   rotate(0deg);}
-    40%  {transform: translate(1px, -1px)  rotate(1deg);}
-    50%  {transform: translate(-1px, -2px) rotate(-1deg);}
-    60%  {transform: translate(-3px, 1px)  rotate(0deg);}
-    70%  {transform: translate(2px, 1px)   rotate(-1deg);}
-    80%  {transform: translate(-1px, -1px) rotate(1deg);}
-    90%  {transform: translate(2px, 2px)   rotate(0deg);}
-    100% {transform: translate(1px, -2px)  rotate(0deg);}
+    0%   {transform: translate(3px, 2px)   rotate(0deg);}
+    10%  {transform: translate(-2px, -3px) rotate(-2deg);}
+    20%  {transform: translate(-4px, 0px)  rotate(2deg);}
+    30%  {transform: translate(0px, 3px)   rotate(0deg);}
+    40%  {transform: translate(2px, -2px)  rotate(2deg);}
+    50%  {transform: translate(-2px, -3px) rotate(-2deg);}
+    60%  {transform: translate(-4px, 2px)  rotate(0deg);}
+    70%  {transform: translate(3px, 2px)   rotate(-2deg);}
+    80%  {transform: translate(-2px, -2px) rotate(2deg);}
+    90%  {transform: translate(3px, 3px)   rotate(0deg);}
+    100% {transform: translate(2px, -3px)  rotate(0deg);}
   }
 
 
@@ -84,7 +114,7 @@ $bck-color: #8091a8;
 //verse 3
 @keyframes enter-from-side {
 	0% {
-		transform: translate(200px,0px);
+		transform: translate(300px,0px);
 	}
 	100% {
 		transform: translate(0px,0px);
@@ -162,19 +192,22 @@ $bck-color: #8091a8;
   }
 }
 
-@keyframes snakemoving {
+@keyframes shake2 {
   0% {transform: rotate(0deg);}
   25% {transform: rotate(-2deg);}
-  50% {transform: rotate(-3deg);}
-  75% {transform: rotate(-2deg);}
+  50% {transform: rotate(0deg);}
+  75% {transform: rotate(2deg);}
+  100% {transform: rotate(0deg);}
 }
+
+
 
 @keyframes move-up {
     0% {
       transform: translatey(0);    
     }
     100% {
-      transform: translatey(-85px);
+      transform: translatey(-80px);
     }
   }
 
@@ -204,15 +237,15 @@ $bck-color: #8091a8;
 }
 
 @keyframes words-right-of-o { 
-    0%  { left: -415px; }
+    0%  { left: -130px; }
     100% { left: 0px }
 }
  
 
 //verse 4
 @keyframes growing {
-    0%   { left:0px; top:0px; }
-    100% { left:-20px; top:0px; font-size: 250%;}
+    0%   { left:0; top:0; }
+    100% { left:-20px; top:0; font-size: 200%;}
   }
 
   @keyframes left-growing {
@@ -227,7 +260,6 @@ $bck-color: #8091a8;
 
   @keyframes bending {
     0%   { transform: rotate(0deg); }
-    
     100% { transform: rotate(-5deg);}
   }
 
@@ -266,7 +298,7 @@ $bck-color: #8091a8;
 //verse 6
 @keyframes scary {
     0% {visibility: visible; color: black; }
-    100% {visibility: visible; color: red;
+    100% {visibility: visible; color: red; 
     }
   }
   
@@ -276,32 +308,43 @@ $bck-color: #8091a8;
   }
   
    @keyframes flickering {
-    0% {background-color:$bck-color;}
-    20.1% {background-color: #000000;}
-    20.6% {background-color:$bck-color;}
-    30% {background-color: $bck-color;}
-    30.1% {background-color: #000000;}
-    30.5% {background-color: #000000;}
-    30.6% {background-color: $bck-color;}
-    45% {background-color: $bck-color;}
-    45.1% {background-color: #000000;}
-    55% {background-color: #000000;}
-    55.1% {background-color: $bck-color;}
-    57% {background-color: $bck-color;} 
-    57.1% { background-color: #000000;}
-    60% {background-color: #000000;}
-    60.1% { background-color: $bck-color;}
-    65% {background-color: $bck-color;}
-    65.1% {background-color: #000000;}
-    75% {background-color: #000000;}
-    75.1% {background-color: $bck-color;}
-    77% {background-color:$bck-color;}
-    77.1% {background-color: #000000;}
-    85% {background-color: #000000;}
-    85.1% { background-color: $bck-color;}
-    86% {background-color: $bck-color;}
-    86.1% {background-color: #000000;}
-    100% {background-color: #000000;}
+    0% {background: rgba(107,96,245,1) ;}
+    20.1% {background: #000000;}
+    20.6% {background: rgba(107,96,245,1) ;}
+    30% {background:  rgba(107,96,245,1);}
+    30.1% {background: #000000;}
+    30.5% {background: #000000;}
+    30.6% {background:  rgba(107,96,245,1);}
+    45% {background: rgba(107,96,245,1) ;}
+    45.1% {background: #000000;}
+    55% {background: #000000;}
+    55.1% {background:  rgba(107,96,245,1);}
+    57% {background: rgba(107,96,245,1) ;} 
+    57.1% { background: #000000;}
+    60% {background: #000000;}
+    60.1% { background:  rgba(107,96,245,1);}
+    65% {background:  rgba(107,96,245,1);}
+    65.1% {background: #000000;}
+    75% {background: #000000;}
+    75.1% {background: rgba(107,96,245,1) ;}
+    77% {background:  rgba(107,96,245,1) ;}
+    77.1% {background: #000000;}
+    85% {background: #000000;}
+    85.1% { background:  rgba(107,96,245,1);}
+    86% {background:  rgba(107,96,245,1);}
+    86.1% {background: #000000;}
+    100% {background: #000000;}
+  }
+
+  @keyframes egg-drop {
+    0% {transform: translate(0, 0);}
+    20% { transform: rotate(90deg);}
+    100% {transform: translate(0,700px) rotate(180deg);}
   }
 
 //credits
+
+@keyframes entering {
+  0% {transform: translate(0, 100px);}
+  100% {transform: translate(0,0)}
+}
