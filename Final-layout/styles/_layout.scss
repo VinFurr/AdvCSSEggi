@@ -10,7 +10,7 @@ p {
 
 .egg-poem {
   display: grid;
-  gap: 1% 1%;
+  
   align-items: center;
   grid-template-areas:
     "intro-egg intro-egg"
@@ -20,8 +20,8 @@ p {
     "egg-cracking verse__4"
     "egg-cracking verse__5"
     "egg-cracking verse__6"
-    "credits credits";
-  grid-template-rows: 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh;
+    "animal credits";
+  grid-template-rows: 100vh 100vh 120vh 100vh 100vh 100vh 100vh 100vh;
   grid-template-columns: 50% 50%;
 
 }
@@ -30,50 +30,45 @@ p {
   grid-area: intro-egg;
 }
 
-
-
 .egg-cracking {
   grid-area: egg-cracking;
   margin: 0 5% 0 5%;
   min-width: 400px;
 }
 
-.egg.TriggerOnScroll {
-  
+.egg {
   margin: 1%;
   position: fixed;
   top: 50px;
-  padding: 0 25% 0 25%;
+  padding: 0 25% 0 31%;
   width: 30%;
-  animation-play-state: paused;
+}
+.egg-cracks {
+ visibility: hidden;
+}
 
+.egg.TriggerOnScroll {
+  margin: 0 0 0 7%;
+  position: fixed;
+  top: 150px;
+  left: -20px;
+  width: 22%;
+  padding: 0 5% 0 0;
 
   .egg-cracks {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    width: 78%;
     fill: none;
-    stroke: #1d1d1b00;
-    stroke-miterlimit: 0
+    stroke: #1d1d1b;
+    stroke-miterlimit: 10;
+    stroke-width: 0.6;
+    stroke-linecap: round;
   }
 }
 
 
-.egg {
-  margin: 1%;
-  position: fixed;
-  top: 150px;
-  left: auto;
-  right: auto;
-  width: 22%;
-
-}
-
-.egg-cracks {
-  position: absolute;
-  top: 0;
-  width: 96%;
-  fill: none;
-  stroke: #1d1d1b;
-  stroke-miterlimit: 10
-}
 
 .verse__1 {
   grid-area: verse__1;
@@ -112,11 +107,12 @@ p {
 
 .verse2__word--right {
   position: relative;
-  left: 100px;
+  left: 53px;
 }
 
 .verse__3 {
   grid-area: verse__3;
+  overflow: hidden;
 }
 
 .verse__word--long {
@@ -124,33 +120,33 @@ p {
 }
 
 .verse__3--snake {
-  height: 250px;
-  width: 250px;
-  top: -250px;
-  right: -68%;
+  visibility: hidden;
+  height: 300px;
+  width: 300px;
+  top: -200px;
+  right: -65%;
   position: relative;
-  margin: 0 0 100px 100px;
+  
 }
 
 .fangs-top,
 .fangs-bottom {
   position: relative;
-  width: 350px;
+  width: 40%;
   display: flex;
   align-self: center;
   z-index: -1;
-  left: 50px;
   visibility: hidden;
 }
 
 .fangs-top {
 
-  top: 145px;
+  top: 95px;
 }
 
 .fangs-bottom {
 
-  top: -70px;
+  top: -25px;
 }
 
 .verse__letter--o1,
@@ -174,8 +170,7 @@ p {
 
 .verse_letter--oright {
   position: relative;
-
-  left: -415px;
+  left: -130px;
 
 }
 
@@ -216,7 +211,7 @@ p {
 
 .credits {
   grid-area: credits;
-  padding: 5% 5% 5% 50%;
+  
   overflow: visible;
 }
 
@@ -225,6 +220,12 @@ p {
   white-space: normal;
 }
 
+.animal {
+  grid-area: animal;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
 .bio-container{
   display: flex;
   flex-direction: row;

@@ -16,9 +16,9 @@ $sizeCredits:0.7em;
 }
 
 @mixin growingAnimation {
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-timing-function: ease-in;
-    animation-delay: 2s;
-    animation-direction: forwards;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 

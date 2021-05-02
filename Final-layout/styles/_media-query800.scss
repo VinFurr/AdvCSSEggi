@@ -113,18 +113,10 @@
         }
         .egg-poem {
             display: grid;
-            grid-template-columns: 30% 70% ;
+            grid-template-columns: 50% 50% ;
             grid-template-rows: 90vh 80vh 80vh 500px 500px 500px 500px 500px;
-            gap: 0 0;
-            grid-template-areas:
-            "intro-egg intro-egg"
-            "egg-cracking verse__1"
-            "egg-cracking verse__2"
-            "egg-cracking verse__3"
-            "egg-cracking verse__4"
-            "egg-cracking verse__5"
-            "egg-cracking verse__6"
-            "credits credits";
+           
+           
           }
 
           .verse__5.TriggerOnScroll { 
